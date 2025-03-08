@@ -10,7 +10,7 @@ const ProgressBars = ({ label, id, value, color }) => {
 	const clampedValue = Math.min(value, 1.0);
 
 	return (
-		<div className='rpgui-container framed rpgui-draggable'>
+		<div className='rpgui-container framed rpgui-draggable w-[350px] max-w-[350px]'>
 			<label>{label}:</label>
 			<div
 				id={`${id}-bar`}

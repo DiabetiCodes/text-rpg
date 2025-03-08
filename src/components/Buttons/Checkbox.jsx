@@ -8,7 +8,7 @@ const Checkbox = ({ label }) => {
 	};
   
   return (
-		<div className='rpgui-container framed rpgui-draggable'>
+		<div className='rpgui-container framed rpgui-draggable w-[350px] max-w-[350px]'>
 			<input className='rpgui-checkbox' type='checkbox' onClick={checkBoxHandler} checked={checked} />
 			<label>{label}</label>
 		</div>

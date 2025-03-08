@@ -8,7 +8,7 @@ const RadioBtn = ({ label, values }) => {
 	};
 
 	return (
-		<div className='rpgui-container framed rpgui-draggable'>
+		<div className='rpgui-container framed rpgui-draggable w-[350px] max-w-[350px]'>
 			<form action=''>
 				<label>{label}</label>
 				<br />

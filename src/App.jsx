@@ -17,22 +17,22 @@ import './index.css';
 function App() {
   return (
 		<div className='rpgui-content'>
-			{/* <Button text='Button' variant='golden' /> */}
-			{/* <Checkbox label='Checkbox' /> */}
-			{/* <Dropdown 
+			<Button text='Button' variant='golden' />
+			<Checkbox label='Checkbox' />
+			<Dropdown 
 				label='Select class' 
 				options={[
 					'Archer', 'Assassin', 'Elementalist', 'Fighter', 
 					'Knight', 'Lancer', 'Mage', 'Thief', 'Warrior'
 				]} 
-			/> */}
-			<Equipment weaponSlot='weapon-slot' shieldSlot='shield-slot' armorSlot='armor-slot' helmetSlot='helmet-slot' ringSlot='ring-slot' magicSlot='magic-slot' shoesSlot='shoes-slot' />
-			{/* <Icon type='excalibur' /> */}
-			{/* <Inventory
+			/>
+			<Equipment weaponSlot='wood-spear' shieldSlot='defender-shield' armorSlot='chain-mail' helmetSlot='executioner-helmet' ringSlot1='ring-slot' ringSlot2='ring-slot' ringSlot3='ring-slot' shoesSlot='leather-boots' />
+			<Icon />
+			<Inventory
 				itemSlot1='empty-slot' itemSlot2='empty-slot' itemSlot3='empty-slot' itemSlot4='empty-slot'
 				itemSlot5='empty-slot' itemSlot6="empty-slot" itemSlot7='empty-slot' itemSlot8='empty-slot'
 				itemSlot9='empty-slot' itemSlot10='empty-slot' itemSlot11='empty-slot' itemSlot12='empty-slot'
-			/> */}
+			/>
 
 			{/* <Frames color='grey' /> */}
 			{/* <Inputs /> */}

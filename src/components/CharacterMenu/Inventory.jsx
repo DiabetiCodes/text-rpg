@@ -8,8 +8,8 @@ const Inventory = ({
 	itemSlot9, itemSlot10, itemSlot11, itemSlot12
 }) => {
 	return (
-		<div className='rpgui-container rpgui-draggable framed'>
-			<div className='w-[400px] max-w-[400px] text-center m-auto'>
+		<div className='rpgui-container rpgui-draggable framed w-[350px] max-w-[350px]'>
+			<div className=' text-center m-auto'>
 				<h1>Inventory</h1>
 				<hr />
 				<div class={`rpgui-icon ${itemSlot1}`}></div>

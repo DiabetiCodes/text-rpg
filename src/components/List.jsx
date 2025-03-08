@@ -2,8 +2,8 @@ import React from 'react';
 
 const List = () => {
 	return (
-		<div className='rpgui-container rpgui-draggable framed'>
-			<div className='w-[400px] max-w-[400px] text-center m-auto'>
+		<div className='rpgui-container rpgui-draggable framed w-[350px] max-w-[350px]'>
+			<div className='text-center m-auto'>
 				<h1>List</h1>
 				<hr />
 				<p>RPGUI list:</p>

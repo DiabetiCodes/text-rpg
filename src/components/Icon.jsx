@@ -1,11 +1,10 @@
 import React from 'react';
 	
-const Icon = ({ type }) => {
-
+const Icon = () => {
 
 	return (
-		<div className='rpgui-container rpgui-draggable framed'>
-			<div className='w-[400px] max-w-[400px] text-center m-auto'>
+		<div className='rpgui-container rpgui-draggable framed w-[350px] max-w-[350px]'>
+			<div className='text-center m-auto'>
 				<h1>Icon</h1>
 				<hr />
 				<div className={`rpgui-icon apocalypse`}></div>

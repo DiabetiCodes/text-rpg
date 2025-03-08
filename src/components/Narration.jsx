@@ -2,8 +2,8 @@ import React from 'react';
 
 function Narration() {
   return (
-		<div className='rpgui-container rpgui-draggable framed'>
-			<div className='w-[400px] max-w-[400px] text-center m-auto'>
+		<div className='rpgui-container rpgui-draggable framed w-[350px] max-w-[350px]'>
+			<div className='text-center m-auto'>
 				<h2>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
 					necessitatibus quia consequatur est, deleniti aliquid. Alias ab quos,

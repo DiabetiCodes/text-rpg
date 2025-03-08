@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sliders = ({ label, min, max, value, variant }) => {
 	return (
-		<div className='max-w-[400px] w-[200px]'>
+		<div className='max-w-[350px] w-[200px]'>
 			<label>{label}</label>
 			<input
 				className={`rpgui-slider ${variant === 'golden' ? 'golden' : ''}`}
