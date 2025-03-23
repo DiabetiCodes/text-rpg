@@ -30,1032 +30,1108 @@ Weapons
 	Swords
 **/
 
+/* Allows for displaying an item slot as a background image over another bg image */
+.rpgui-icon.empty-slot.has-item::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 40px;
+	height: 40px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
 /**** ACCESSORIES ****/
 /** Amulets **/
-.rpgui-icon.amethyst-amulet {
+
+.rpgui-icon.empty-slot[data-item='amethyst-amulet']::after {
 	background-image: url('img/icons/accessories/amulets/amethyst-amulet.png');
 }
-.rpgui-icon.emerald-amulet {
+/* Amulets */
+.rpgui-icon.empty-slot[data-item='emerald-amulet']::after {
 	background-image: url('img/icons/accessories/amulets/emerald-amulet.png');
 }
-.rpgui-icon.garnet-amulet {
+
+.rpgui-icon.empty-slot[data-item='garnet-amulet']::after {
 	background-image: url('img/icons/accessories/amulets/garnet-amulet.png');
 }
-.rpgui-icon.jet-amulet {
+
+.rpgui-icon.empty-slot[data-item='jet-amulet']::after {
 	background-image: url('img/icons/accessories/amulets/jet-amulet.png');
 }
-.rpgui-icon.opal-amulet {
+
+.rpgui-icon.empty-slot[data-item='opal-amulet']::after {
 	background-image: url('img/icons/accessories/amulets/opal-amulet.png');
 }
-.rpgui-icon.rotal-amethyst-amulet {
+
+.rpgui-icon.empty-slot[data-item='royal-amethyst-amulet']::after {
 	background-image: url('img/icons/accessories/amulets/royal-amethyst-amulet.png');
 }
-.rpgui-icon.royal-emerald-amulet {
+
+.rpgui-icon.empty-slot[data-item='royal-emerald-amulet']::after {
 	background-image: url('img/icons/accessories/amulets/royal-emerald-amulet.png');
 }
-.rpgui-icon.royal-garnet-amulet {
+
+.rpgui-icon.empty-slot[data-item='royal-garnet-amulet']::after {
 	background-image: url('img/icons/accessories/amulets/royal-garnet-amulet.png');
 }
-.rpgui-icon.royal-jet-amulet {
+
+.rpgui-icon.empty-slot[data-item='royal-jet-amulet']::after {
 	background-image: url('img/icons/accessories/amulets/royal-jet-amulet.png');
 }
-.rpgui-icon.royal-opal-amulet {
+
+.rpgui-icon.empty-slot[data-item='royal-opal-amulet']::after {
 	background-image: url('img/icons/accessories/amulets/royal-opal-amulet.png');
 }
-.rpgui-icon.royal-ruby-amulet {
+
+.rpgui-icon.empty-slot[data-item='royal-ruby-amulet']::after {
 	background-image: url('img/icons/accessories/amulets/royal-ruby-amulet.png');
 }
-.rpgui-icon.ruby-amulet {
+
+.rpgui-icon.empty-slot[data-item='ruby-amulet']::after {
 	background-image: url('img/icons/accessories/amulets/ruby-amulet.png');
 }
 
-/** Charms **/
-.rpgui-icon.amber-desire-charm {
+/* Charms */
+.rpgui-icon.empty-slot[data-item='amber-desire-charm']::after {
 	background-image: url('img/icons/accessories/charms/amber-desire-charm.png');
 }
-.rpgui-icon.blood-heart-charm {
+
+.rpgui-icon.empty-slot[data-item='blood-heart-charm']::after {
 	background-image: url('img/icons/accessories/charms/blood-heart-charm.png');
 }
-.rpgui-icon.breyte-charm {
+
+.rpgui-icon.empty-slot[data-item='bryteroot-charm']::after {
 	background-image: url('img/icons/accessories/charms/bryteroot-charm.png');
 }
-.rpgui-icon.chaos-charm {
+
+.rpgui-icon.empty-slot[data-item='chaos-charm']::after {
 	background-image: url('img/icons/accessories/charms/chaos-charm.png');
 }
-.rpgui-icon.crimson-spade-charm {
+
+.rpgui-icon.empty-slot[data-item='crimson-spade-charm']::after {
 	background-image: url('img/icons/accessories/charms/crimson-spade-charm.png');
 }
-.rpgui-icon.dark-essence-charm {
+
+.rpgui-icon.empty-slot[data-item='dark-essence-charm']::after {
 	background-image: url('img/icons/accessories/charms/dark-essence-charm.png');
 }
-.rpgui-icon.echo-screen-charm {
+
+.rpgui-icon.empty-slot[data-item='echo-screen-charm']::after {
 	background-image: url('img/icons/accessories/charms/echo-screen-charm.png');
 }
-.rpgui-icon.hypnotist-charm {
+
+.rpgui-icon.empty-slot[data-item='hypnotist-charm']::after {
 	background-image: url('img/icons/accessories/charms/hypnotist-charm.png');
 }
-.rpgui-icon.savior-charm {
+
+.rpgui-icon.empty-slot[data-item='savior-charm']::after {
 	background-image: url('img/icons/accessories/charms/savior-charm.png');
 }
-.rpgui-icon.spiderfly-charm {
+
+.rpgui-icon.empty-slot[data-item='spiderfly-charm']::after {
 	background-image: url('img/icons/accessories/charms/spiderfly-charm.png');
 }
-.rpgui-icon.terrestrial-charm {
+
+.rpgui-icon.empty-slot[data-item='terrestrial-charm']::after {
 	background-image: url('img/icons/accessories/charms/terrestrial-charm.png');
 }
-.rpgui-icon.throwing-dice-charm {
+
+.rpgui-icon.empty-slot[data-item='throwing-dice-charm']::after {
 	background-image: url('img/icons/accessories/charms/throwing-dice-charm.png');
 }
-.rpgui-icon.trinity-charm {
+
+.rpgui-icon.empty-slot[data-item='trinity-charm']::after {
 	background-image: url('img/icons/accessories/charms/trinity-charm.png');
 }
 
-/** Rings **/
-.rpgui-icon.ashen-bone-ring {
+/* Rings */
+.rpgui-icon.empty-slot[data-item='ashen-bone-ring']::after {
 	background-image: url('img/icons/accessories/rings/ashen-bone-ring.png');
 }
 
-.rpgui-icon.carbon-ring {
+.rpgui-icon.empty-slot[data-item='carbon-ring']::after {
 	background-image: url('img/icons/accessories/rings/carbon-ring.png');
 }
 
-.rpgui-icon.coal-ring {
+.rpgui-icon.empty-slot[data-item='coal-ring']::after {
 	background-image: url('img/icons/accessories/rings/coal-ring.png');
 }
 
-.rpgui-icon.cracked-platinum-ring {
+.rpgui-icon.empty-slot[data-item='cracked-platinum-ring']::after {
 	background-image: url('img/icons/accessories/rings/cracked-platinum-ring.png');
 }
 
-.rpgui-icon.gold-ring {
+.rpgui-icon.empty-slot[data-item='gold-ring']::after {
 	background-image: url('img/icons/accessories/rings/gold-ring.png');
 }
 
-.rpgui-icon.hp-ring {
+.rpgui-icon.empty-slot[data-item='hp-ring']::after {
 	background-image: url('img/icons/accessories/rings/hp-ring.png');
 }
 
-.rpgui-icon.jet-ring {
+.rpgui-icon.empty-slot[data-item='jet-ring']::after {
 	background-image: url('img/icons/accessories/rings/jet-ring.png');
 }
 
-.rpgui-icon.mahogany-ring {
+.rpgui-icon.empty-slot[data-item='mahogany-ring']::after {
 	background-image: url('img/icons/accessories/rings/mahogany-ring.png');
 }
 
-.rpgui-icon.mp-ring {
+.rpgui-icon.empty-slot[data-item='mp-ring']::after {
 	background-image: url('img/icons/accessories/rings/mp-ring.png');
 }
 
-.rpgui-icon.royal-emerald-ring {
+.rpgui-icon.empty-slot[data-item='royal-emerald-ring']::after {
 	background-image: url('img/icons/accessories/rings/royal-emerald-ring.png');
 }
 
-.rpgui-icon.royal-hp-ring {
+.rpgui-icon.empty-slot[data-item='royal-hp-ring']::after {
 	background-image: url('img/icons/accessories/rings/royal-hp-ring.png');
 }
 
-.rpgui-icon.royal-jet-ring {
+.rpgui-icon.empty-slot[data-item='royal-jet-ring']::after {
 	background-image: url('img/icons/accessories/rings/royal-jet-ring.png');
 }
 
-.rpgui-icon.royal-mp-ring {
+.rpgui-icon.empty-slot[data-item='royal-mp-ring']::after {
 	background-image: url('img/icons/accessories/rings/royal-mp-ring.png');
 }
 
-.rpgui-icon.royal-ruby-ring {
+.rpgui-icon.empty-slot[data-item='royal-ruby-ring']::after {
 	background-image: url('img/icons/accessories/rings/royal-ruby-ring.png');
 }
 
-.rpgui-icon.royal-xp-ring {
+.rpgui-icon.empty-slot[data-item='royal-xp-ring']::after {
 	background-image: url('img/icons/accessories/rings/royal-xp-ring.png');
 }
 
-.rpgui-icon.ruby-ring {
+.rpgui-icon.empty-slot[data-item='ruby-ring']::after {
 	background-image: url('img/icons/accessories/rings/ruby-ring.png');
 }
 
-.rpgui-icon.silver-ring {
+.rpgui-icon.empty-slot[data-item='silver-ring']::after {
 	background-image: url('img/icons/accessories/rings/silver-ring.png');
 }
 
-.rpgui-icon.stamina-ring {
+.rpgui-icon.empty-slot[data-item='stamina-ring']::after {
 	background-image: url('img/icons/accessories/rings/stamina-ring.png');
 }
 
-.rpgui-icon.stone-protection-ring {
+.rpgui-icon.empty-slot[data-item='stone-protection-ring']::after {
 	background-image: url('img/icons/accessories/rings/stone-protection-ring.png');
 }
 
-.rpgui-icon.venom-ring {
+.rpgui-icon.empty-slot[data-item='venom-ring']::after {
 	background-image: url('img/icons/accessories/rings/venom-ring.png');
 }
 
-.rpgui-icon.xp-ring {
+.rpgui-icon.empty-slot[data-item='xp-ring']::after {
 	background-image: url('img/icons/accessories/rings/xp-ring.png');
 }
 
-/**** ARMOR ****/
-/** Body **/
-.rpgui-icon.archers-gambeson {
+/* Armor - Body */
+.rpgui-icon.empty-slot[data-item='archers-gambeson']::after {
 	background-image: url('img/icons/armor/body/archers-gambeson.png');
 }
 
-.rpgui-icon.berserker-cuirass {
+.rpgui-icon.empty-slot[data-item='berserker-cuirass']::after {
 	background-image: url('img/icons/armor/body/berserker-cuirass.png');
 }
 
-.rpgui-icon.brigadier-cuirass {
+.rpgui-icon.empty-slot[data-item='brigadier-cuirass']::after {
 	background-image: url('img/icons/armor/body/brigadier-cuirass.png');
 }
 
-.rpgui-icon.captains-chestplate {
+.rpgui-icon.empty-slot[data-item='captains-chestplate']::after {
 	background-image: url('img/icons/armor/body/captains-chestplate.png');
 }
 
-.rpgui-icon.cavalier-suit {
+.rpgui-icon.empty-slot[data-item='cavalier-suit']::after {
 	background-image: url('img/icons/armor/body/cavalier-suit.png');
 }
 
-.rpgui-icon.colonels-mail {
+.rpgui-icon.empty-slot[data-item='colonels-mail']::after {
 	background-image: url('img/icons/armor/body/colonels-mail.png');
 }
 
-.rpgui-icon.combat-suit {
+.rpgui-icon.empty-slot[data-item='combat-suit']::after {
 	background-image: url('img/icons/armor/body/combat-suit.png');
 }
 
-.rpgui-icon.gladiator-cuirass {
+.rpgui-icon.empty-slot[data-item='gladiator-cuirass']::after {
 	background-image: url('img/icons/armor/body/gladiator-cuirass.png');
 }
 
-.rpgui-icon.gloom-cloak {
+.rpgui-icon.empty-slot[data-item='gloom-cloak']::after {
 	background-image: url('img/icons/armor/body/gloom-cloak.png');
 }
 
-.rpgui-icon.leather-jacket {
+.rpgui-icon.empty-slot[data-item='leather-jacket']::after {
 	background-image: url('img/icons/armor/body/leather-jacket.png');
 }
 
-.rpgui-icon.mage-cape {
+.rpgui-icon.empty-slot[data-item='mage-cape']::after {
 	background-image: url('img/icons/armor/body/mage-cape.png');
 }
 
-.rpgui-icon.nightshade-vest {
+.rpgui-icon.empty-slot[data-item='nightshade-vest']::after {
 	background-image: url('img/icons/armor/body/nightshade-vest.png');
 }
 
-.rpgui-icon.paladin-breastplate {
+.rpgui-icon.empty-slot[data-item='paladin-breastplate']::after {
 	background-image: url('img/icons/armor/body/paladin-breastplate.png');
 }
 
-.rpgui-icon.scavenger-shirt {
+.rpgui-icon.empty-slot[data-item='scavenger-shirt']::after {
 	background-image: url('img/icons/armor/body/scavenger-shirt.png');
 }
 
-.rpgui-icon.temple-knight-cuirass {
+.rpgui-icon.empty-slot[data-item='temple-knight-cuirass']::after {
 	background-image: url('img/icons/armor/body/temple-knight-cuirass.png');
 }
 
-.rpgui-icon.yoshitsune-do {
+.rpgui-icon.empty-slot[data-item='yoshitsune-do']::after {
 	background-image: url('img/icons/armor/body/yoshitsune-do.png');
 }
 
-/** Feet **/
-.rpgui-icon.archers-boots {
+/* Armor - Feet */
+.rpgui-icon.empty-slot[data-item='archers-boots']::after {
 	background-image: url('img/icons/armor/feet/archers-boots.png');
 }
 
-.rpgui-icon.berserker-grieves {
+.rpgui-icon.empty-slot[data-item='berserker-grieves']::after {
 	background-image: url('img/icons/armor/feet/berserker-grieves.png');
 }
 
-.rpgui-icon.brigadier-shoes {
+.rpgui-icon.empty-slot[data-item='brigadier-shoes']::after {
 	background-image: url('img/icons/armor/feet/brigadier-shoes.png');
 }
 
-.rpgui-icon.captains-grieves {
+.rpgui-icon.empty-slot[data-item='captains-grieves']::after {
 	background-image: url('img/icons/armor/feet/captains-grieves.png');
 }
 
-.rpgui-icon.colonels-leg-mail {
+.rpgui-icon.empty-slot[data-item='colonels-leg-mail']::after {
 	background-image: url('img/icons/armor/feet/colonels-leg-mail.png');
 }
 
-.rpgui-icon.combat-boots {
+.rpgui-icon.empty-slot[data-item='combat-boots']::after {
 	background-image: url('img/icons/armor/feet/combat-boots.png');
 }
 
-.rpgui-icon.fencers-boots {
+.rpgui-icon.empty-slot[data-item='fencers-boots']::after {
 	background-image: url('img/icons/armor/feet/fencers-boots.png');
 }
 
-.rpgui-icon.gladiator-grieves {
+.rpgui-icon.empty-slot[data-item='gladiator-grieves']::after {
 	background-image: url('img/icons/armor/feet/gladiator-grieves.png');
 }
 
-.rpgui-icon.gloom-boots {
+.rpgui-icon.empty-slot[data-item='gloom-boots']::after {
 	background-image: url('img/icons/armor/feet/gloom-boots.png');
 }
 
-.rpgui-icon.leather-boots {
+.rpgui-icon.empty-slot[data-item='leather-boots']::after {
 	background-image: url('img/icons/armor/feet/leather-boots.png');
 }
 
-.rpgui-icon.mage-boots {
+.rpgui-icon.empty-slot[data-item='mage-boots']::after {
 	background-image: url('img/icons/armor/feet/mage-boots.png');
 }
 
-.rpgui-icon.nightshade-boots {
+.rpgui-icon.empty-slot[data-item='nightshade-boots']::after {
 	background-image: url('img/icons/armor/feet/nightshade-boots.png');
 }
 
-.rpgui-icon.paladin-boots {
+.rpgui-icon.empty-slot[data-item='paladin-boots']::after {
 	background-image: url('img/icons/armor/feet/paladin-boots.png');
 }
 
-.rpgui-icon.scavenger-shoes {
+.rpgui-icon.empty-slot[data-item='scavenger-shoes']::after {
 	background-image: url('img/icons/armor/feet/scavenger-shoes.png');
 }
 
-.rpgui-icon.temple-knight-boots {
+.rpgui-icon.empty-slot[data-item='temple-knight-boots']::after {
 	background-image: url('img/icons/armor/feet/temple-knight-boots.png');
 }
 
-.rpgui-icon.yoshitsune-suneate {
+.rpgui-icon.empty-slot[data-item='yoshitsune-suneate']::after {
 	background-image: url('img/icons/armor/feet/yoshitsune-suneate.png');
 }
 
-/** Hands **/
-.rpgui-icon.archers-bracers {
+/* Hands */
+.rpgui-icon.empty-slot[data-item='archers-bracers']::after {
 	background-image: url('img/icons/armor/hands/archers-bracers.png');
 }
 
-.rpgui-icon.berserker-gloves {
+.rpgui-icon.empty-slot[data-item='berserker-gloves']::after {
 	background-image: url('img/icons/armor/hands/berserker-gloves.png');
 }
 
-.rpgui-icon.brigadier-bracers {
+.rpgui-icon.empty-slot[data-item='brigadier-bracers']::after {
 	background-image: url('img/icons/armor/hands/brigadier-bracers.png');
 }
 
-.rpgui-icon.captains-bracers {
+.rpgui-icon.empty-slot[data-item='captains-bracers']::after {
 	background-image: url('img/icons/armor/hands/captains-bracers.png');
 }
 
-.rpgui-icon.colonels-bracers {
+.rpgui-icon.empty-slot[data-item='colonels-bracers']::after {
 	background-image: url('img/icons/armor/hands/colonels-bracers.png');
 }
 
-.rpgui-icon.combat-gaunlets {
+.rpgui-icon.empty-slot[data-item='combat-gaunlets']::after {
 	background-image: url('img/icons/armor/hands/combat-gaunlets.png');
 }
 
-.rpgui-icon.fencers-sleeves {
+.rpgui-icon.empty-slot[data-item='fencers-sleeves']::after {
 	background-image: url('img/icons/armor/hands/fencers-sleeves.png');
 }
 
-.rpgui-icon.gladiator-gloves {
+.rpgui-icon.empty-slot[data-item='gladiator-gloves']::after {
 	background-image: url('img/icons/armor/hands/gladiator-gloves.png');
 }
 
-.rpgui-icon.gloom-gloves {
+.rpgui-icon.empty-slot[data-item='gloom-gloves']::after {
 	background-image: url('img/icons/armor/hands/gloom-gloves.png');
 }
 
-.rpgui-icon.leather-gloves {
+.rpgui-icon.empty-slot[data-item='leather-gloves']::after {
 	background-image: url('img/icons/armor/hands/leather-gloves.png');
 }
 
-.rpgui-icon.mage-gloves {
+.rpgui-icon.empty-slot[data-item='mage-gloves']::after {
 	background-image: url('img/icons/armor/hands/mage-gloves.png');
 }
 
-.rpgui-icon.nightshade-gloves {
+.rpgui-icon.empty-slot[data-item='nightshade-gloves']::after {
 	background-image: url('img/icons/armor/hands/nightshade-gloves.png');
 }
 
-.rpgui-icon.paladin-gloves {
+.rpgui-icon.empty-slot[data-item='paladin-gloves']::after {
 	background-image: url('img/icons/armor/hands/paladin-gloves.png');
 }
 
-.rpgui-icon.temple-knight-gloves {
+.rpgui-icon.empty-slot[data-item='temple-knight-gloves']::after {
 	background-image: url('img/icons/armor/hands/temple-knight-gloves.png');
 }
 
-.rpgui-icon.yoshitsune-kote {
+.rpgui-icon.empty-slot[data-item='yoshitsune-kote']::after {
 	background-image: url('img/icons/armor/hands/yoshitsune-kote.png');
 }
 
-/** Head **/
-.rpgui-icon.archers-hat {
+/* Head */
+.rpgui-icon.empty-slot[data-item='archers-hat']::after {
 	background-image: url('img/icons/armor/head/archers-hat.png');
 }
 
-.rpgui-icon.bandana {
+.rpgui-icon.empty-slot[data-item='bandana']::after {
 	background-image: url('img/icons/armor/head/bandana.png');
 }
 
-.rpgui-icon.berserker-helmet {
+.rpgui-icon.empty-slot[data-item='berserker-helmet']::after {
 	background-image: url('img/icons/armor/head/berserker-helmet.png');
 }
 
-.rpgui-icon.brigadier-helmet {
+.rpgui-icon.empty-slot[data-item='brigadier-helmet']::after {
 	background-image: url('img/icons/armor/head/brigadier-helmet.png');
 }
 
-.rpgui-icon.captain-helmet {
+.rpgui-icon.empty-slot[data-item='captain-helmet']::after {
 	background-image: url('img/icons/armor/head/captain-helmet.png');
 }
 
-.rpgui-icon.cavalier-hat {
+.rpgui-icon.empty-slot[data-item='cavalier-hat']::after {
 	background-image: url('img/icons/armor/head/cavalier-hat.png');
 }
 
-.rpgui-icon.colonels-helmet {
+.rpgui-icon.empty-slot[data-item='colonels-helmet']::after {
 	background-image: url('img/icons/armor/head/colonels-helmet.png');
 }
 
-.rpgui-icon.combat-hood {
+.rpgui-icon.empty-slot[data-item='combat-hood']::after {
 	background-image: url('img/icons/armor/head/combat-hood.png');
 }
 
-.rpgui-icon.gladiator-helmet {
+.rpgui-icon.empty-slot[data-item='gladiator-helmet']::after {
 	background-image: url('img/icons/armor/head/gladiator-helmet.png');
 }
 
-.rpgui-icon.gloom-hood {
+.rpgui-icon.empty-slot[data-item='gloom-hood']::after {
 	background-image: url('img/icons/armor/head/gloom-hood.png');
 }
 
-.rpgui-icon.leather-cap {
+.rpgui-icon.empty-slot[data-item='leather-cap']::after {
 	background-image: url('img/icons/armor/head/leather-cap.png');
 }
 
-.rpgui-icon.mage-hat {
+.rpgui-icon.empty-slot[data-item='mage-hat']::after {
 	background-image: url('img/icons/armor/head/mage-hat.png');
 }
 
-.rpgui-icon.nightshade-cap {
+.rpgui-icon.empty-slot[data-item='nightshade-cap']::after {
 	background-image: url('img/icons/armor/head/nightshade-cap.png');
 }
 
-.rpgui-icon.paladin-helmet {
+.rpgui-icon.empty-slot[data-item='paladin-helmet']::after {
 	background-image: url('img/icons/armor/head/paladin-helmet.png');
 }
 
-.rpgui-icon.scavenger-cap {
+.rpgui-icon.empty-slot[data-item='scavenger-cap']::after {
 	background-image: url('img/icons/armor/head/scavenger-cap.png');
 }
 
-.rpgui-icon.temple-knight-helmet {
+.rpgui-icon.empty-slot[data-item='temple-knight-helmet']::after {
 	background-image: url('img/icons/armor/head/temple-knight-helmet.png');
 }
 
-.rpgui-icon.yoshitsune-kabuto {
+.rpgui-icon.empty-slot[data-item='yoshitsune-kabuto']::after {
 	background-image: url('img/icons/armor/head/yoshitsune-kabuto.png');
 }
 
-/**** SHIELDS ****/
-.rpgui-icon.defender-shield {
+/* Shields */
+.rpgui-icon.empty-slot[data-item='defender-shield']::after {
 	background-image: url('img/icons/shields/defender-shield.png');
 }
-.rpgui-icon.metal-shield {
+
+.rpgui-icon.empty-slot[data-item='metal-shield']::after {
 	background-image: url('img/icons/shields/parry-shield.png');
 }
-.rpgui-icon.steel-shield {
+
+.rpgui-icon.empty-slot[data-item='steel-shield']::after {
 	background-image: url('img/icons/shields/round-shield.png');
 }
-.rpgui-icon.tower-shield {
+
+.rpgui-icon.empty-slot[data-item='tower-shield']::after {
 	background-image: url('img/icons/shields/tower-shield.png');
 }
-.rpgui-icon.warrior-shield {
+
+.rpgui-icon.empty-slot[data-item='warrior-shield']::after {
 	background-image: url('img/icons/shields/warrior-shield.png');
 }
 
-/**** CONSUMABLES ****/
-/** Food **/
-.rpgui-icon.blade-leaf {
+/* Food */
+.rpgui-icon.empty-slot[data-item='blade-leaf']::after {
 	background-image: url('img/icons/consumables/food/blade-leaf.png');
 }
 
-.rpgui-icon.bore-stalk {
+.rpgui-icon.empty-slot[data-item='bore-stalk']::after {
 	background-image: url('img/icons/consumables/food/bore-stalk.png');
 }
 
-.rpgui-icon.cherry-bulb {
+.rpgui-icon.empty-slot[data-item='cherry-bulb']::after {
 	background-image: url('img/icons/consumables/food/cherry-bulb.png');
 }
 
-.rpgui-icon.cotton-bush {
+.rpgui-icon.empty-slot[data-item='cotton-bush']::after {
 	background-image: url('img/icons/consumables/food/cotton-bush.png');
 }
 
-.rpgui-icon.cotton-plant {
+.rpgui-icon.empty-slot[data-item='cotton-plant']::after {
 	background-image: url('img/icons/consumables/food/cotton-plant.png');
 }
 
-.rpgui-icon.dream-sprout {
+.rpgui-icon.empty-slot[data-item='dream-sprout']::after {
 	background-image: url('img/icons/consumables/food/dream-sprout.png');
 }
 
-.rpgui-icon.eel-grass {
+.rpgui-icon.empty-slot[data-item='eel-grass']::after {
 	background-image: url('img/icons/consumables/food/eel-grass.png');
 }
 
-.rpgui-icon.field-mushroom {
+.rpgui-icon.empty-slot[data-item='field-mushroom']::after {
 	background-image: url('img/icons/consumables/food/field-mushroom.png');
 }
 
-.rpgui-icon.forest-mushroom {
+.rpgui-icon.empty-slot[data-item='forest-mushroom']::after {
 	background-image: url('img/icons/consumables/food/forest-mushroom.png');
 }
 
-.rpgui-icon.leaf {
+.rpgui-icon.empty-slot[data-item='leaf']::after {
 	background-image: url('img/icons/consumables/food/leaf.png');
 }
 
-.rpgui-icon.redbell {
+.rpgui-icon.empty-slot[data-item='redbell']::after {
 	background-image: url('img/icons/consumables/food/redbell.png');
 }
 
-.rpgui-icon.trident-flower {
+.rpgui-icon.empty-slot[data-item='trident-flower']::after {
 	background-image: url('img/icons/consumables/food/trident-flower.png');
 }
 
-.rpgui-icon.trident-leaf {
+.rpgui-icon.empty-slot[data-item='trident-leaf']::after {
 	background-image: url('img/icons/consumables/food/trident-leaf.png');
 }
 
-.rpgui-icon.wilt {
+.rpgui-icon.empty-slot[data-item='wilt']::after {
 	background-image: url('img/icons/consumables/food/wilt.png');
 }
 
-.rpgui-icon.worm {
+.rpgui-icon.empty-slot[data-item='worm']::after {
 	background-image: url('img/icons/consumables/food/worm.png');
 }
 
-/** Potions **/
-/* Cureables */
-.rpgui-icon.darkness-potion {
+/* Potions - Curables */
+.rpgui-icon.empty-slot[data-item='darkness-potion']::after {
 	background-image: url('img/icons/consumables/potions/curables/darkness-potion.png');
 }
 
-.rpgui-icon.endurance-potion {
+.rpgui-icon.empty-slot[data-item='endurance-potion']::after {
 	background-image: url('img/icons/consumables/potions/curables/endurance-potion.png');
 }
 
-.rpgui-icon.health-potion {
+.rpgui-icon.empty-slot[data-item='health-potion']::after {
 	background-image: url('img/icons/consumables/potions/curables/health-potion.png');
 }
 
-.rpgui-icon.life-potion {
+.rpgui-icon.empty-slot[data-item='life-potion']::after {
 	background-image: url('img/icons/consumables/potions/curables/life-potion.png');
 }
 
-.rpgui-icon.mana-potion {
+.rpgui-icon.empty-slot[data-item='mana-potion']::after {
 	background-image: url('img/icons/consumables/potions/curables/mana-potion.png');
 }
 
-/* Usables */
-.rpgui-icon.dark-potion {
+/* Potions - Usables */
+.rpgui-icon.empty-slot[data-item='dark-potion']::after {
 	background-image: url('img/icons/consumables/potions/usables/dark-potion.png');
 }
-.rpgui-icon.exp-potion {
+
+.rpgui-icon.empty-slot[data-item='exp-potion']::after {
 	background-image: url('img/icons/consumables/potions/usables/exp-potion.png');
 }
-.rpgui-icon.magic-up-potion {
+
+.rpgui-icon.empty-slot[data-item='magic-up-potion']::after {
 	background-image: url('img/icons/consumables/potions/usables/magic-up-potion.png');
 }
-.rpgui-icon.mystery-potion {
+
+.rpgui-icon.empty-slot[data-item='mystery-potion']::after {
 	background-image: url('img/icons/consumables/potions/usables/mystery-potion.png');
 }
-.rpgui-icon.paralysis-potion {
+
+.rpgui-icon.empty-slot[data-item='paralysis-potion']::after {
 	background-image: url('img/icons/consumables/potions/usables/paralysis-potion.png');
 }
-.rpgui-icon.poison-potion {
+
+.rpgui-icon.empty-slot[data-item='poison-potion']::after {
 	background-image: url('img/icons/consumables/potions/usables/poison-potion.png');
 }
-.rpgui-icon.silence-potion {
+
+.rpgui-icon.empty-slot[data-item='silence-potion']::after {
 	background-image: url('img/icons/consumables/potions/usables/silence-potion.png');
 }
 
-/**** CURRENCY ****/
-.rpgui-icon.gold-coin {
+/* Currency */
+.rpgui-icon.empty-slot[data-item='gold-coin']::after {
 	background-image: url('img/icons/currency/gold-coin.png');
 }
 
-/**** GEMS ****/
-.rpgui-icon.diamond {
+/* Gems */
+.rpgui-icon.empty-slot[data-item='diamond']::after {
 	background-image: url('img/icons/gems/diamond.png');
 }
-.rpgui-icon.endurance-up-stone {
+
+.rpgui-icon.empty-slot[data-item='endurance-up-stone']::after {
 	background-image: url('img/icons/gems/endurance-up-stone.png');
 }
-.rpgui-icon.exp-stone {
+
+.rpgui-icon.empty-slot[data-item='exp-stone']::after {
 	background-image: url('img/icons/gems/exp-stone.png');
 }
-.rpgui-icon.health-up-stone {
+
+.rpgui-icon.empty-slot[data-item='health-up-stone']::after {
 	background-image: url('img/icons/gems/health-up-stone.png');
 }
-.rpgui-icon.level-up-stone {
+
+.rpgui-icon.empty-slot[data-item='level-up-stone']::after {
 	background-image: url('img/icons/gems/level-up-stone.png');
 }
-.rpgui-icon.mana-up-stone {
+
+.rpgui-icon.empty-slot[data-item='mana-up-stone']::after {
 	background-image: url('img/icons/gems/mana-up-stone.png');
 }
 
-/**** KEYS ****/
-.rpgui-icon.asmunds-chambers-key {
+/* Keys */
+.rpgui-icon.empty-slot[data-item='asmunds-chambers-key']::after {
 	background-image: url('img/icons/keys/asmunds-chambers-key.png');
 }
-.rpgui-icon.grand-graces-key {
+
+.rpgui-icon.empty-slot[data-item='grand-graces-key']::after {
 	background-image: url('img/icons/keys/grand-graces-key.png');
 }
-.rpgui-icon.marble-tablet {
+
+.rpgui-icon.empty-slot[data-item='marble-tablet']::after {
 	background-image: url('img/icons/keys/marble-tablet.png');
 }
-.rpgui-icon.tetras-scroll {
+
+.rpgui-icon.empty-slot[data-item='tetras-scroll']::after {
 	background-image: url('img/icons/keys/tetras-scroll.png');
 }
-.rpgui-icon.vayas-key {
+
+.rpgui-icon.empty-slot[data-item='vayas-key']::after {
 	background-image: url('img/icons/keys/vayas-key.png');
 }
 
-/**** Materials ****/
-.rpgui-icon.bone {
+/* Materials */
+.rpgui-icon.empty-slot[data-item='bone']::after {
 	background-image: url('img/icons/materials/bone.png');
 }
 
-.rpgui-icon.bronze-bar {
+.rpgui-icon.empty-slot[data-item='bronze-bar']::after {
 	background-image: url('img/icons/materials/bronze-bar.png');
 }
 
-.rpgui-icon.coal-bar {
+.rpgui-icon.empty-slot[data-item='coal-bar']::after {
 	background-image: url('img/icons/materials/coal-bar.png');
 }
 
-.rpgui-icon.emerald-bar {
+.rpgui-icon.empty-slot[data-item='emerald-bar']::after {
 	background-image: url('img/icons/materials/emerald-bar.png');
 }
 
-.rpgui-icon.gold-mound {
+.rpgui-icon.empty-slot[data-item='gold-mound']::after {
 	background-image: url('img/icons/materials/gold-mound.png');
 }
 
-.rpgui-icon.goldroot {
+.rpgui-icon.empty-slot[data-item='goldroot']::after {
 	background-image: url('img/icons/materials/goldroot.png');
 }
 
-.rpgui-icon.mythril-bar {
+.rpgui-icon.empty-slot[data-item='mythril-bar']::after {
 	background-image: url('img/icons/materials/mythril-bar.png');
 }
 
-.rpgui-icon.opal-bar {
+.rpgui-icon.empty-slot[data-item='opal-bar']::after {
 	background-image: url('img/icons/materials/opal-bar.png');
 }
 
-.rpgui-icon.raw-bronze {
+.rpgui-icon.empty-slot[data-item='raw-bronze']::after {
 	background-image: url('img/icons/materials/raw-bronze.png');
 }
 
-.rpgui-icon.raw-coal {
+.rpgui-icon.empty-slot[data-item='raw-coal']::after {
 	background-image: url('img/icons/materials/raw-coal.png');
 }
 
-.rpgui-icon.raw-diamond {
+.rpgui-icon.empty-slot[data-item='raw-diamond']::after {
 	background-image: url('img/icons/materials/raw-diamond.png');
 }
 
-.rpgui-icon.raw-emerald {
+.rpgui-icon.empty-slot[data-item='raw-emerald']::after {
 	background-image: url('img/icons/materials/raw-emerald.png');
 }
 
-.rpgui-icon.raw-mythril {
+.rpgui-icon.empty-slot[data-item='raw-mythril']::after {
 	background-image: url('img/icons/materials/raw-mythril.png');
 }
 
-.rpgui-icon.raw-opal {
+.rpgui-icon.empty-slot[data-item='raw-opal']::after {
 	background-image: url('img/icons/materials/raw-opal.png');
 }
 
-.rpgui-icon.silver-bar {
+.rpgui-icon.empty-slot[data-item='silver-bar']::after {
 	background-image: url('img/icons/materials/silver-bar.png');
 }
 
-.rpgui-icon.stone {
+.rpgui-icon.empty-slot[data-item='stone']::after {
 	background-image: url('img/icons/materials/stone.png');
 }
 
-.rpgui-icon.wood {
+.rpgui-icon.empty-slot[data-item='wood']::after {
 	background-image: url('img/icons/materials/wood.png');
 }
 
-/**** SHIELDS ****/
-.rpgui-icon.blessed-shield {
+/* Shields */
+.rpgui-icon.empty-slot[data-item='blessed-shield']::after {
 	background-image: url('img/icons/shields/blessed-shield.png');
 }
 
-.rpgui-icon.bulb-shield {
+.rpgui-icon.empty-slot[data-item='bulb-shield']::after {
 	background-image: url('img/icons/shields/bulb-shield.png');
 }
 
-.rpgui-icon.devilroot-shield {
+.rpgui-icon.empty-slot[data-item='devilroot-shield']::after {
 	background-image: url('img/icons/shields/devilroot-shield.png');
 }
 
-.rpgui-icon.firedrake-shield {
+.rpgui-icon.empty-slot[data-item='firedrake-shield']::after {
 	background-image: url('img/icons/shields/firedrake-shield.png');
 }
 
-.rpgui-icon.glacier-shield {
+.rpgui-icon.empty-slot[data-item='glacier-shield']::after {
 	background-image: url('img/icons/shields/glacier-shield.png');
 }
 
-.rpgui-icon.holy-shield {
+.rpgui-icon.empty-slot[data-item='holy-shield']::after {
 	background-image: url('img/icons/shields/holy-shield.png');
 }
 
-.rpgui-icon.kings-shield {
+.rpgui-icon.empty-slot[data-item='kings-shield']::after {
 	background-image: url('img/icons/shields/kings-shield.png');
 }
 
-.rpgui-icon.knight-shield {
+.rpgui-icon.empty-slot[data-item='knight-shield']::after {
 	background-image: url('img/icons/shields/knight-shield.png');
 }
 
-.rpgui-icon.maneater-shield {
+.rpgui-icon.empty-slot[data-item='maneater-shield']::after {
 	background-image: url('img/icons/shields/maneater-shield.png');
 }
 
-.rpgui-icon.mantis-shield {
+.rpgui-icon.empty-slot[data-item='mantis-shield']::after {
 	background-image: url('img/icons/shields/mantis-shield.png');
 }
 
-.rpgui-icon.mecha-delta-shield {
+.rpgui-icon.empty-slot[data-item='mecha-delta-shield']::after {
 	background-image: url('img/icons/shields/mecha-delta-shield.png');
 }
 
-.rpgui-icon.parry-shield {
+.rpgui-icon.empty-slot[data-item='parry-shield']::after {
 	background-image: url('img/icons/shields/parry-shield.png');
 }
 
-.rpgui-icon.pillar-shield {
+.rpgui-icon.empty-slot[data-item='pillar-shield']::after {
 	background-image: url('img/icons/shields/pillar-shield.png');
 }
 
-.rpgui-icon.round-shield {
+.rpgui-icon.empty-slot[data-item='round-shield']::after {
 	background-image: url('img/icons/shields/round-shield.png');
 }
 
-.rpgui-icon.royal-shield {
+.rpgui-icon.empty-slot[data-item='royal-shield']::after {
 	background-image: url('img/icons/shields/royal-shield.png');
 }
 
-.rpgui-icon.silent-griever-shield {
+.rpgui-icon.empty-slot[data-item='silent-griever-shield']::after {
 	background-image: url('img/icons/shields/silent-griever-shield.png');
 }
 
-.rpgui-icon.sun-shield {
+.rpgui-icon.empty-slot[data-item='sun-shield']::after {
 	background-image: url('img/icons/shields/sun-shield.png');
 }
 
-.rpgui-icon.titan-fist-shield {
+.rpgui-icon.empty-slot[data-item='titan-fist-shield']::after {
 	background-image: url('img/icons/shields/titan-fist-shield.png');
 }
 
-.rpgui-icon.tourmaline-shield {
+.rpgui-icon.empty-slot[data-item='tourmaline-shield']::after {
 	background-image: url('img/icons/shields/tourmaline-shield.png');
 }
 
-.rpgui-icon.tower-shield {
+.rpgui-icon.empty-slot[data-item='tower-shield']::after {
 	background-image: url('img/icons/shields/tower-shield.png');
 }
 
-.rpgui-icon.tree-shield {
+.rpgui-icon.empty-slot[data-item='tree-shield']::after {
 	background-image: url('img/icons/shields/tree-shield.png');
 }
 
-.rpgui-icon.tribal-shield {
+.rpgui-icon.empty-slot[data-item='tribal-shield']::after {
 	background-image: url('img/icons/shields/tribal-shield.png');
 }
 
-.rpgui-icon.valiant-shield {
+.rpgui-icon.empty-slot[data-item='valiant-shield']::after {
 	background-image: url('img/icons/shields/valiant-shield.png');
 }
 
-.rpgui-icon.vengeance-shield {
+.rpgui-icon.empty-slot[data-item='vengeance-shield']::after {
 	background-image: url('img/icons/shields/vengeance-shield.png');
 }
 
-.rpgui-icon.watcher-shield {
+.rpgui-icon.empty-slot[data-item='watcher-shield']::after {
 	background-image: url('img/icons/shields/watcher-shield.png');
 }
 
-/**** TOOLS ****/
-.rpgui-icon.hammer {
+/* Tools */
+.rpgui-icon.empty-slot[data-item='hammer']::after {
 	background-image: url('img/icons/tools/hammer.png');
 }
-.rpgui-icon.pickaxe {
+
+.rpgui-icon.empty-slot[data-item='pickaxe']::after {
 	background-image: url('img/icons/tools/pickaxe.png');
 }
-.rpgui-icon.rope {
+
+.rpgui-icon.empty-slot[data-item='rope']::after {
 	background-image: url('img/icons/tools/rope.png');
 }
-.rpgui-icon.shovel {
+
+.rpgui-icon.empty-slot[data-item='shovel']::after {
 	background-image: url('img/icons/tools/shovel.png');
 }
 
-/**** WEAPONS ****/
-/** Axes **/
-.rpgui-icon.batle-axe {
+/* Weapons - Axes */
+.rpgui-icon.empty-slot[data-item='batle-axe']::after {
 	background-image: url('img/icons/weapons/axes/battle-axe.png');
 }
-.rpgui-icon.earthbreaker {
+
+.rpgui-icon.empty-slot[data-item='earthbreaker']::after {
 	background-image: url('img/icons/weapons/axes/earthbreaker.png');
 }
-.rpgui-icon.giant-axe {
+
+.rpgui-icon.empty-slot[data-item='giant-axe']::after {
 	background-image: url('img/icons/weapons/axes/giant-axe.png');
 }
-.rpgui-icon.great-axe {
+
+.rpgui-icon.empty-slot[data-item='great-axe']::after {
 	background-image: url('img/icons/weapons/axes/great-axe.png');
 }
-.rpgui-icon.ogre-killer {
+
+.rpgui-icon.empty-slot[data-item='ogre-killer']::after {
 	background-image: url('img/icons/weapons/axes/ogre-killer.png');
 }
-.rpgui-icon.rune-axe {
+
+.rpgui-icon.empty-slot[data-item='rune-axe']::after {
 	background-image: url('img/icons/weapons/axes/rune-axe.png');
 }
-.rpgui-icon.titans-axe {
+
+.rpgui-icon.empty-slot[data-item='titans-axe']::after {
 	background-image: url('img/icons/weapons/axes/titans-axe.png');
 }
 
-/** Bows **/
-/* Crossbows */
-.rpgui-icon.bastille-crossbow {
+/* Weapons - Bows - Crossbows */
+.rpgui-icon.empty-slot[data-item='bastille-crossbow']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/bastille-crossbow.png');
 }
 
-.rpgui-icon.cloud-breaker {
+.rpgui-icon.empty-slot[data-item='cloud-breaker']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/cloud-breaker.png');
 }
 
-.rpgui-icon.crystal-crossbow {
+.rpgui-icon.empty-slot[data-item='crystal-crossbow']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/crystal-crossbow.png');
 }
 
-.rpgui-icon.devils-breath {
+.rpgui-icon.empty-slot[data-item='devils-breath']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/devils-breath.png');
 }
 
-.rpgui-icon.gentle-giant {
+.rpgui-icon.empty-slot[data-item='gentle-giant']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/gentle-giant.png');
 }
 
-.rpgui-icon.horned-crossbow {
+.rpgui-icon.empty-slot[data-item='horned-crossbow']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/horned-crossbow.png');
 }
 
-.rpgui-icon.iron-crossbow {
+.rpgui-icon.empty-slot[data-item='iron-crossbow']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/iron-crossbow.png');
 }
 
-.rpgui-icon.nikolas-defender {
+.rpgui-icon.empty-slot[data-item='nikolas-defender']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/nikolas-defender.png');
 }
 
-.rpgui-icon.ogres-march {
+.rpgui-icon.empty-slot[data-item='ogres-march']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/ogres-march.png');
 }
 
-.rpgui-icon.rising-sun {
+.rpgui-icon.empty-slot[data-item='rising-sun']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/rising-sun.png');
 }
 
-.rpgui-icon.royal-defender {
+.rpgui-icon.empty-slot[data-item='royal-defender']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/royal-defender.png');
 }
 
-.rpgui-icon.scarlet-crossbow {
+.rpgui-icon.empty-slot[data-item='scarlet-crossbow']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/scarlet-crossbow.png');
 }
 
-.rpgui-icon.venom-spitter {
+.rpgui-icon.empty-slot[data-item='venom-spitter']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/venom-spitter.png');
 }
 
-.rpgui-icon.web-weaver {
+.rpgui-icon.empty-slot[data-item='web-weaver']::after {
 	background-image: url('img/icons/weapons/bows/crossbows/web-weaver.png');
 }
 
-/* Longbows */
-.rpgui-icon.amber-bow {
+/* Weapons - Bows - Longbows */
+.rpgui-icon.empty-slot[data-item='amber-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/amber-bow.png');
 }
 
-.rpgui-icon.antler-bow {
+.rpgui-icon.empty-slot[data-item='antler-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/antler-bow.png');
 }
 
-.rpgui-icon.arctic-bow {
+.rpgui-icon.empty-slot[data-item='arctic-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/arctic-bow.png');
 }
 
-.rpgui-icon.atlus-bow {
+.rpgui-icon.empty-slot[data-item='atlus-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/atlus-bow.png');
 }
 
-.rpgui-icon.hunters-bow {
+.rpgui-icon.empty-slot[data-item='hunters-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/hunters-bow.png');
 }
 
-.rpgui-icon.jesters-bow {
+.rpgui-icon.empty-slot[data-item='jesters-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/jesters-bow.png');
 }
 
-.rpgui-icon.lightning-bow {
+.rpgui-icon.empty-slot[data-item='lightning-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/lightning-bow.png');
 }
 
-.rpgui-icon.magma-bow {
+.rpgui-icon.empty-slot[data-item='magma-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/magma-bow.png');
 }
 
-.rpgui-icon.marksman-bow {
+.rpgui-icon.empty-slot[data-item='marksman-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/marksman-bow.png');
 }
 
-.rpgui-icon.mythril-bow {
+.rpgui-icon.empty-slot[data-item='mythril-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/mythril-bow.png');
 }
 
-.rpgui-icon.padded-bow {
+.rpgui-icon.empty-slot[data-item='padded-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/padded-bow.png');
 }
 
-.rpgui-icon.practice-bow {
+.rpgui-icon.empty-slot[data-item='practice-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/practice-bow.png');
 }
 
-.rpgui-icon.precision-bow {
+.rpgui-icon.empty-slot[data-item='precision-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/precision-bow.png');
 }
 
-.rpgui-icon.root-bow {
+.rpgui-icon.empty-slot[data-item='root-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/root-bow.png');
 }
 
-.rpgui-icon.stealth-bow {
+.rpgui-icon.empty-slot[data-item='stealth-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/stealth-bow.png');
 }
 
-.rpgui-icon.thorn-bow {
+.rpgui-icon.empty-slot[data-item='thorn-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/thorn-bow.png');
 }
 
-.rpgui-icon.veridian-bow {
+.rpgui-icon.empty-slot[data-item='veridian-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/veridian-bow.png');
 }
 
-.rpgui-icon.vertex-bow {
+.rpgui-icon.empty-slot[data-item='vertex-bow']::after {
 	background-image: url('img/icons/weapons/bows/longbows/vertex-bow.png');
 }
 
-/** Clubs **/
-.rpgui-icon.mace {
+/* Weapons - Clubs */
+.rpgui-icon.empty-slot[data-item='mace']::after {
 	background-image: url('img/icons/weapons/clubs/mace.png');
 }
-.rpgui-icon.morning-star {
+
+.rpgui-icon.empty-slot[data-item='morning-star']::after {
 	background-image: url('img/icons/weapons/clubs/morning-star.png');
 }
-.rpgui-icon.spiked-club {
+
+.rpgui-icon.empty-slot[data-item='spiked-club']::after {
 	background-image: url('img/icons/weapons/clubs/spiked-club.png');
 }
 
-/** Hammers **/
-.rpgui-icon.mjolnir {
+/* Weapons - Hammers */
+.rpgui-icon.empty-slot[data-item='mjolnir']::after {
 	background-image: url('img/icons/weapons/hammers/mjolnir.png');
 }
 
-/** Spears **/
-.rpgui-icon.scythe {
+/* Weapons - Spears */
+.rpgui-icon.empty-slot[data-item='scythe']::after {
 	background-image: url('img/icons/weapons/spears/scythe.png');
 }
-.rpgui-icon.wood-spear {
+
+.rpgui-icon.empty-slot[data-item='wood-spear']::after {
 	background-image: url('img/icons/weapons/spears/wood-spear.png');
 }
 
-/** Staves **/
-.rpgui-icon.healing-rod {
+/* Weapons - Staves */
+.rpgui-icon.empty-slot[data-item='healing-rod']::after {
 	background-image: url('img/icons/weapons/staves/healing-rod.png');
 }
-.rpgui-icon.oak-staff {
+
+.rpgui-icon.empty-slot[data-item='oak-staff']::after {
 	background-image: url('img/icons/weapons/staves/oak-rod.png');
 }
-.rpgui-icon.sorcerer-staff {
+
+.rpgui-icon.empty-slot[data-item='sorcerer-staff']::after {
 	background-image: url('img/icons/weapons/staves/sorcerer-staff.png');
 }
-.rpgui-icon.life-rod {
+
+.rpgui-icon.empty-slot[data-item='life-rod']::after {
 	background-image: url('img/icons/weapons/staves/life-rod.png');
 }
-.rpgui-icon.fate-sealer {
+
+.rpgui-icon.empty-slot[data-item='fate-sealer']::after {
 	background-image: url('img/icons/weapons/staves/fate-sealer.png');
 }
 
-/** Swords **/
-.rpgui-icon.apocalypse {
+/* Weapons - Swords */
+.rpgui-icon.empty-slot[data-item='apocalypse']::after {
 	background-image: url('img/icons/weapons/swords/apocalypse.png');
 }
-.rpgui-icon.bastard-sword {
+
+.rpgui-icon.empty-slot[data-item='bastard-sword']::after {
 	background-image: url('img/icons/weapons/swords/bastard-sword.png');
 }
-.rpgui-icon.buster-sword {
+
+.rpgui-icon.empty-slot[data-item='buster-sword']::after {
 	background-image: url('img/icons/weapons/swords/buster-sword.png');
 }
-.rpgui-icon.chaos-blade {
+
+.rpgui-icon.empty-slot[data-item='chaos-blade']::after {
 	background-image: url('img/icons/weapons/swords/chaos-blade.png');
 }
-.rpgui-icon.defender {
+
+.rpgui-icon.empty-slot[data-item='defender']::after {
 	background-image: url('img/icons/weapons/swords/defender.png');
 }
-.rpgui-icon.durendal {
+
+.rpgui-icon.empty-slot[data-item='durendal']::after {
 	background-image: url('img/icons/weapons/swords/durendal.png');
 }
-.rpgui-icon.excalibur {
+
+.rpgui-icon.empty-slot[data-item='excalibur']::after {
 	background-image: url('img/icons/weapons/swords/excalibur.png');
 }
-.rpgui-icon.grand-sword {
+
+.rpgui-icon.empty-slot[data-item='grand-sword']::after {
 	background-image: url('img/icons/weapons/swords/grand-sword.png');
 }
-.rpgui-icon.iron-sword {
+
+.rpgui-icon.empty-slot[data-item='iron-sword']::after {
 	background-image: url('img/icons/weapons/swords/iron-sword.png');
 }
-.rpgui-icon.long-sword {
+
+.rpgui-icon.empty-slot[data-item='long-sword']::after {
 	background-image: url('img/icons/weapons/swords/long-sword.png');
 }
-.rpgui-icon.nightmare {
+
+.rpgui-icon.empty-slot[data-item='nightmare']::after {
 	background-image: url('img/icons/weapons/swords/nightmare.png');
 }
-.rpgui-icon.ragnarok {
+
+.rpgui-icon.empty-slot[data-item='ragnarok']::after {
 	background-image: url('img/icons/weapons/swords/ragnarok.png');
 }
-.rpgui-icon.rune-blade {
+
+.rpgui-icon.empty-slot[data-item='rune-blade']::after {
 	background-image: url('img/icons/weapons/swords/rune-blade.png');
 }
-.rpgui-icon.save-the-king {
+
+.rpgui-icon.empty-slot[data-item='save-the-king']::after {
 	background-image: url('img/icons/weapons/swords/save-the-king.png');
 }
-.rpgui-icon.save-the-queen {
+
+.rpgui-icon.empty-slot[data-item='save-the-queen']::after {
 	background-image: url('img/icons/weapons/swords/save-the-queen.png');
 }
-.rpgui-icon.short-sword {
+
+.rpgui-icon.empty-slot[data-item='short-sword']::after {
 	background-image: url('img/icons/weapons/swords/short-sword.png');
-}
-.rpgui-icon.stone-claymore {
-	background-image: url('img/icons/weapons/swords/stone-claymore.png');
-}
-.rpgui-icon.stone-saber {
-	background-image: url('img/icons/weapons/swords/stone-saber.png');
 }
 
 /**** INVENTORY ****/
