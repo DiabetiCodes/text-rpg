@@ -19,7 +19,7 @@ function App() {
 		<div className='rpgui-content'>
 			{/* <Button text='Button' variant='golden' /> */}
 			{/* <Checkbox label='Checkbox' /> */}
-			<Dropdown
+			{/* <Dropdown
 				label='Select class'
 				options={[
 					'Archer',
@@ -32,7 +32,7 @@ function App() {
 					'Thief',
 					'Warrior',
 				]}
-			/>
+			/> */}
 			<Equipment
 				armorSlot='brigadier-cuirass'
 				helmetSlot='archers-hat'
@@ -45,7 +45,7 @@ function App() {
 			/>
 			{/* <Icon /> */}
 			<Inventory
-				itemSlot1='amethyst-amulet'
+				itemSlot1='brigadier-cuirass'
 				itemSlot2='carbon-ring'
 				itemSlot3='blood-heart-charm'
 				itemSlot4='echo-screen-charm'
