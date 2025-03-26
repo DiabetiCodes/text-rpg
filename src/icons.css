@@ -32,15 +32,16 @@ Weapons
 
 /* Allows for displaying an item slot as a background image over another bg image */
 .rpgui-icon.empty-slot.has-item::after {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
 	content: '';
+	height: 40px;
+	left: 50%;
 	position: absolute;
 	top: 50%;
-	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 40px;
-	height: 40px;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
 /**** ACCESSORIES ****/

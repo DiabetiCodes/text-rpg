@@ -34,14 +34,14 @@ function App() {
 				]}
 			/>
 			<Equipment
-				armorSlot=''
-				helmetSlot=''
-				ringSlot1=''
-				ringSlot2=''
-				ringSlot3=''
-				shieldSlot=''
-				shoesSlot=''
-				weaponSlot=''
+				armorSlot='brigadier-cuirass'
+				helmetSlot='archers-hat'
+				ringSlot1='jet-ring'
+				ringSlot2='hp-ring'
+				ringSlot3='mahogany-ring'
+				shieldSlot='archers-bracers'
+				shoesSlot='archers-boots'
+				weaponSlot='cloud-breaker'
 			/>
 			{/* <Icon /> */}
 			<Inventory
