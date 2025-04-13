@@ -44,7 +44,7 @@ const Inventory = ({
 			item.type === 'armor' ||
 			item.type === 'shield' ||
 			(item.type === 'accessory' &&
-				['ring', 'amulet', 'charm'].includes(item.subtype)) ||
+				['accessory', 'ring', 'amulet', 'charm'].includes(item.subtype)) ||
 			(item.type === 'misc' && item.equipable)
 		);
 	};
@@ -77,7 +77,7 @@ const Inventory = ({
 	return (
 		<div
 			className='rpgui-container rpgui-draggable framed w-[350px] max-w-[350px] max-h-[400px]'
-			style={{ zIndex: 20 }}>
+			style={{ zIndex: 20}}>
 			<div className='text-center m-auto'>
 				<h1>Inventory</h1>
 				<hr />

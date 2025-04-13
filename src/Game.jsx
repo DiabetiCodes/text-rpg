@@ -1,7 +1,7 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext, useState } from 'react';
+import Bag from './components/CharacterMenu/Bag.jsx';
 import Equipment from './components/CharacterMenu/Equipment.jsx';
 import Inventory from './components/CharacterMenu/Inventory.jsx';
-import Bag from './components/CharacterMenu/Bag.jsx';
 import { TooltipContext } from './contexts/TooltipContext';
 import useEquipmentSystem from './hooks/useEquipmentSystem';
 
@@ -18,22 +18,22 @@ const Game = () => {
 		handleInventoryItemClick,
 		handleEquipmentItemClick,
 	} = useEquipmentSystem([
-		'brigadier-cuirass',
-		'carbon-ring',
-		'blood-heart-charm',
-		'echo-screen-charm',
-		'amethyst-amulet',
-		'royal-ruby-amulet',
-		'darkness-potion',
-		'health-potion',
-		'cherry-bulb',
-		'bore-stalk',
-		'emerald-bar',
-		'raw-bronze',
-		'',
-		'',
-		'',
-		'',
+		'leather-boots', // Boots (armor, subtype: feet)
+		'iron-sword', // Weapon (weapon, subtype: sword)
+		'steel-shield', // Shield (shield)
+		'leather-cap', // Helmet (armor, subtype: head)
+		'ruby-ring', // Ring (accessory, subtype: ring)
+		'amethyst-amulet', // Amulet (accessory, subtype: amulet)
+		'chaos-charm', // Charm (accessory, subtype: charm)
+		'leather-jacket', // Body armor (armor, subtype: body)
+		'', // Empty slot
+		'', // Empty slot
+		'', // Empty slot
+		'', // Empty slot
+		'', // Empty slot
+		'', // Empty slot
+		'', // Empty slot
+		'', // Empty slot
 	]);
 
 	return (
