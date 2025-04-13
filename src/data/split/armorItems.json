@@ -1,0 +1,1227 @@
+{
+  "amethyst-amulet": {
+    "name": "Amethyst Amulet",
+    "description": "A epic accessory (amulet).",
+    "stats": {
+      "magicPower": 8,
+      "elementalResistance": 17
+    },
+    "type": "accessory",
+    "subtype": "amulet",
+    "equipable": true
+  },
+  "emerald-amulet": {
+    "name": "Emerald Amulet",
+    "description": "A epic accessory (amulet).",
+    "stats": {
+      "magicPower": 8,
+      "elementalResistance": 9
+    },
+    "type": "accessory",
+    "subtype": "amulet",
+    "equipable": true
+  },
+  "garnet-amulet": {
+    "name": "Garnet Amulet",
+    "description": "A epic accessory (amulet).",
+    "stats": {
+      "magicPower": 14,
+      "elementalResistance": 14
+    },
+    "type": "accessory",
+    "subtype": "amulet",
+    "equipable": true
+  },
+  "jet-amulet": {
+    "name": "Jet Amulet",
+    "description": "A uncommon accessory (amulet).",
+    "stats": {
+      "magicPower": 10,
+      "elementalResistance": 17
+    },
+    "type": "accessory",
+    "subtype": "amulet",
+    "equipable": true
+  },
+  "opal-amulet": {
+    "name": "Opal Amulet",
+    "description": "A epic accessory (amulet).",
+    "stats": {
+      "magicPower": 8,
+      "elementalResistance": 9
+    },
+    "type": "accessory",
+    "subtype": "amulet",
+    "equipable": true
+  },
+  "royal-amethyst-amulet": {
+    "name": "Royal Amethyst Amulet",
+    "description": "A legendary accessory (amulet).",
+    "stats": {
+      "magicPower": 8,
+      "elementalResistance": 10
+    },
+    "type": "accessory",
+    "subtype": "amulet",
+    "equipable": true
+  },
+  "royal-emerald-amulet": {
+    "name": "Royal Emerald Amulet",
+    "description": "A legendary accessory (amulet).",
+    "stats": {
+      "magicPower": 12,
+      "elementalResistance": 11
+    },
+    "type": "accessory",
+    "subtype": "amulet",
+    "equipable": true
+  },
+  "royal-garnet-amulet": {
+    "name": "Royal Garnet Amulet",
+    "description": "A legendary accessory (amulet).",
+    "stats": {
+      "magicPower": 12,
+      "elementalResistance": 15
+    },
+    "type": "accessory",
+    "subtype": "amulet",
+    "equipable": true
+  },
+  "royal-jet-amulet": {
+    "name": "Royal Jet Amulet",
+    "description": "A legendary accessory (amulet).",
+    "stats": {
+      "magicPower": 12,
+      "elementalResistance": 13
+    },
+    "type": "accessory",
+    "subtype": "amulet",
+    "equipable": true
+  },
+  "royal-opal-amulet": {
+    "name": "Royal Opal Amulet",
+    "description": "A legendary accessory (amulet).",
+    "stats": {
+      "magicPower": 9,
+      "elementalResistance": 8
+    },
+    "type": "accessory",
+    "subtype": "amulet",
+    "equipable": true
+  },
+  "royal-ruby-amulet": {
+    "name": "Royal Ruby Amulet",
+    "description": "A legendary accessory (amulet).",
+    "stats": {
+      "magicPower": 7,
+      "elementalResistance": 15
+    },
+    "type": "accessory",
+    "subtype": "amulet",
+    "equipable": true
+  },
+  "ruby-amulet": {
+    "name": "Ruby Amulet",
+    "description": "A epic accessory (amulet).",
+    "stats": {
+      "magicPower": 12,
+      "elementalResistance": 5
+    },
+    "type": "accessory",
+    "subtype": "amulet",
+    "equipable": true
+  },
+  "amber-desire-charm": {
+    "name": "Amber Desire Charm",
+    "description": "A uncommon accessory (charm).",
+    "stats": {
+      "luck": 5,
+      "charisma": 6
+    },
+    "type": "accessory",
+    "subtype": "charm",
+    "equipable": true
+  },
+  "blood-heart-charm": {
+    "name": "Blood Heart Charm",
+    "description": "A uncommon accessory (charm).",
+    "stats": {
+      "luck": 13,
+      "charisma": 6
+    },
+    "type": "accessory",
+    "subtype": "charm",
+    "equipable": true
+  },
+  "bryteroot-charm": {
+    "name": "Bryteroot Charm",
+    "description": "A uncommon accessory (charm).",
+    "stats": {
+      "luck": 11,
+      "charisma": 8
+    },
+    "type": "accessory",
+    "subtype": "charm",
+    "equipable": true
+  },
+  "chaos-charm": {
+    "name": "Chaos Charm",
+    "description": "A uncommon accessory (charm).",
+    "stats": {
+      "luck": 9,
+      "charisma": 10
+    },
+    "type": "accessory",
+    "subtype": "charm",
+    "equipable": true
+  },
+  "crimson-spade-charm": {
+    "name": "Crimson Spade Charm",
+    "description": "A uncommon accessory (charm).",
+    "stats": {
+      "luck": 10,
+      "charisma": 4
+    },
+    "type": "accessory",
+    "subtype": "charm",
+    "equipable": true
+  },
+  "dark-essence-charm": {
+    "name": "Dark Essence Charm",
+    "description": "A uncommon accessory (charm).",
+    "stats": {
+      "luck": 6,
+      "charisma": 6
+    },
+    "type": "accessory",
+    "subtype": "charm",
+    "equipable": true
+  },
+  "echo-screen-charm": {
+    "name": "Echo Screen Charm",
+    "description": "A uncommon accessory (charm).",
+    "stats": {
+      "luck": 8,
+      "charisma": 8
+    },
+    "type": "accessory",
+    "subtype": "charm",
+    "equipable": true
+  },
+  "hypnotist-charm": {
+    "name": "Hypnotist Charm",
+    "description": "A uncommon accessory (charm).",
+    "stats": {
+      "luck": 10,
+      "charisma": 3
+    },
+    "type": "accessory",
+    "subtype": "charm",
+    "equipable": true
+  },
+  "savior-charm": {
+    "name": "Savior Charm",
+    "description": "A uncommon accessory (charm).",
+    "stats": {
+      "luck": 7,
+      "charisma": 3
+    },
+    "type": "accessory",
+    "subtype": "charm",
+    "equipable": true
+  },
+  "spiderfly-charm": {
+    "name": "Spiderfly Charm",
+    "description": "A uncommon accessory (charm).",
+    "stats": {
+      "luck": 12,
+      "charisma": 5
+    },
+    "type": "accessory",
+    "subtype": "charm",
+    "equipable": true
+  },
+  "terrestrial-charm": {
+    "name": "Terrestrial Charm",
+    "description": "A uncommon accessory (charm).",
+    "stats": {
+      "luck": 7,
+      "charisma": 4
+    },
+    "type": "accessory",
+    "subtype": "charm",
+    "equipable": true
+  },
+  "throwing-dice-charm": {
+    "name": "Throwing Dice Charm",
+    "description": "A uncommon accessory (charm).",
+    "stats": {
+      "luck": 6,
+      "charisma": 8
+    },
+    "type": "accessory",
+    "subtype": "charm",
+    "equipable": true
+  },
+  "trinity-charm": {
+    "name": "Trinity Charm",
+    "description": "A uncommon accessory (charm).",
+    "stats": {
+      "luck": 6,
+      "charisma": 4
+    },
+    "type": "accessory",
+    "subtype": "charm",
+    "equipable": true
+  },
+  "ashen-bone-ring": {
+    "name": "Ashen Bone Ring",
+    "description": "A uncommon accessory (ring).",
+    "stats": {
+      "magicResistance": 7
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "carbon-ring": {
+    "name": "Carbon Ring",
+    "description": "A uncommon accessory (ring).",
+    "stats": {
+      "magicResistance": 13
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "coal-ring": {
+    "name": "Coal Ring",
+    "description": "A uncommon accessory (ring).",
+    "stats": {
+      "magicResistance": 8
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "cracked-platinum-ring": {
+    "name": "Cracked Platinum Ring",
+    "description": "A uncommon accessory (ring).",
+    "stats": {
+      "magicResistance": 6
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "gold-ring": {
+    "name": "Gold Ring",
+    "description": "A rare accessory (ring).",
+    "stats": {
+      "magicResistance": 8
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "hp-ring": {
+    "name": "Hp Ring",
+    "description": "A uncommon accessory (ring).",
+    "stats": {
+      "healthBoost": 18
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "jet-ring": {
+    "name": "Jet Ring",
+    "description": "A uncommon accessory (ring).",
+    "stats": {
+      "magicResistance": 7
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "mahogany-ring": {
+    "name": "Mahogany Ring",
+    "description": "A uncommon accessory (ring).",
+    "stats": {
+      "magicResistance": 11
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "mp-ring": {
+    "name": "Mp Ring",
+    "description": "A uncommon accessory (ring).",
+    "stats": {
+      "manaBoost": 14
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "royal-emerald-ring": {
+    "name": "Royal Emerald Ring",
+    "description": "A legendary accessory (ring).",
+    "stats": {
+      "magicResistance": 10
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "royal-hp-ring": {
+    "name": "Royal Hp Ring",
+    "description": "A legendary accessory (ring).",
+    "stats": {
+      "healthBoost": 16
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "royal-jet-ring": {
+    "name": "Royal Jet Ring",
+    "description": "A legendary accessory (ring).",
+    "stats": {
+      "magicResistance": 9
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "royal-mp-ring": {
+    "name": "Royal Mp Ring",
+    "description": "A legendary accessory (ring).",
+    "stats": {
+      "manaBoost": 26
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "royal-ruby-ring": {
+    "name": "Royal Ruby Ring",
+    "description": "A legendary accessory (ring).",
+    "stats": {
+      "magicResistance": 11
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "royal-xp-ring": {
+    "name": "Royal Xp Ring",
+    "description": "A legendary accessory (ring).",
+    "stats": {
+      "experienceBoost": 11
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "ruby-ring": {
+    "name": "Ruby Ring",
+    "description": "A epic accessory (ring).",
+    "stats": {
+      "magicResistance": 5
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "silver-ring": {
+    "name": "Silver Ring",
+    "description": "A rare accessory (ring).",
+    "stats": {
+      "magicResistance": 14
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "stamina-ring": {
+    "name": "Stamina Ring",
+    "description": "A uncommon accessory (ring).",
+    "stats": {
+      "magicResistance": 9
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "stone-protection-ring": {
+    "name": "Stone Protection Ring",
+    "description": "A uncommon accessory (ring).",
+    "stats": {
+      "magicResistance": 8
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "venom-ring": {
+    "name": "Venom Ring",
+    "description": "A uncommon accessory (ring).",
+    "stats": {
+      "magicResistance": 7
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "xp-ring": {
+    "name": "Xp Ring",
+    "description": "A uncommon accessory (ring).",
+    "stats": {
+      "experienceBoost": 5
+    },
+    "type": "accessory",
+    "subtype": "ring",
+    "equipable": true
+  },
+  "berserker-cuirass": {
+    "name": "Berserker Cuirass",
+    "description": "A uncommon armor (body).",
+    "stats": {
+      "defense": 4,
+      "durability": 115,
+      "healthBoost": 9
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "brigadier-cuirass": {
+    "name": "Brigadier Cuirass",
+    "description": "A uncommon armor (body).",
+    "stats": {
+      "defense": 7,
+      "durability": 97,
+      "healthBoost": 19
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "captains-chestplate": {
+    "name": "Captains Chestplate",
+    "description": "A rare armor (head).",
+    "stats": {
+      "defense": 10,
+      "durability": 52,
+      "perception": 4
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "cavalier-suit": {
+    "name": "Cavalier Suit",
+    "description": "A uncommon armor (body).",
+    "stats": {
+      "defense": 3,
+      "durability": 78,
+      "healthBoost": 5
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "colonels-mail": {
+    "name": "Colonels Mail",
+    "description": "A rare armor (body).",
+    "stats": {
+      "defense": 11,
+      "durability": 101,
+      "healthBoost": 19
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "combat-suit": {
+    "name": "Combat Suit",
+    "description": "A uncommon armor (body).",
+    "stats": {
+      "defense": 10,
+      "durability": 97,
+      "healthBoost": 16
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "gladiator-cuirass": {
+    "name": "Gladiator Cuirass",
+    "description": "A uncommon armor (body).",
+    "stats": {
+      "defense": 7,
+      "durability": 75,
+      "healthBoost": 16
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "gloom-cloak": {
+    "name": "Gloom Cloak",
+    "description": "A uncommon armor (body).",
+    "stats": {
+      "defense": 6,
+      "durability": 81,
+      "healthBoost": 19
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "leather-jacket": {
+    "name": "Leather Jacket",
+    "description": "A common armor (body).",
+    "stats": {
+      "defense": 11,
+      "durability": 42,
+      "healthBoost": 12
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "mage-cape": {
+    "name": "Mage Cape",
+    "description": "A uncommon armor (head).",
+    "stats": {
+      "defense": 8,
+      "durability": 94,
+      "perception": 2
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "nightshade-vest": {
+    "name": "Nightshade Vest",
+    "description": "A uncommon armor (body).",
+    "stats": {
+      "defense": 7,
+      "durability": 54,
+      "healthBoost": 8
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "paladin-breastplate": {
+    "name": "Paladin Breastplate",
+    "description": "A rare armor (body).",
+    "stats": {
+      "defense": 11,
+      "durability": 88,
+      "healthBoost": 13
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "scavenger-shirt": {
+    "name": "Scavenger Shirt",
+    "description": "A uncommon armor (body).",
+    "stats": {
+      "defense": 10,
+      "durability": 58,
+      "healthBoost": 11
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "temple-knight-cuirass": {
+    "name": "Temple Knight Cuirass",
+    "description": "A rare armor (body).",
+    "stats": {
+      "defense": 4,
+      "durability": 81,
+      "healthBoost": 16
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "yoshitsune-do": {
+    "name": "Yoshitsune Do",
+    "description": "A uncommon armor (body).",
+    "stats": {
+      "defense": 2,
+      "durability": 68,
+      "healthBoost": 12
+    },
+    "type": "armor",
+    "subtype": "body",
+    "equipable": true
+  },
+  "archers-boots": {
+    "name": "Archers Boots",
+    "description": "A uncommon armor (feet).",
+    "stats": {
+      "defense": 4,
+      "durability": 82,
+      "speed": 4
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "berserker-greaves": {
+    "name": "Berserker Greaves",
+    "description": "A uncommon armor (feet).",
+    "stats": {
+      "defense": 3,
+      "durability": 79,
+      "speed": 5
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "brigadier-shoes": {
+    "name": "Brigadier Shoes",
+    "description": "A uncommon armor (feet).",
+    "stats": {
+      "defense": 5,
+      "durability": 40,
+      "speed": 5
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "captains-greaves": {
+    "name": "Captains Greaves",
+    "description": "A rare armor (head).",
+    "stats": {
+      "defense": 3,
+      "durability": 54,
+      "perception": 1
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "colonels-leg-mail": {
+    "name": "Colonels Leg Mail",
+    "description": "A rare armor (body).",
+    "stats": {
+      "defense": 4,
+      "durability": 86,
+      "healthBoost": 17
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "combat-boots": {
+    "name": "Combat Boots",
+    "description": "A uncommon armor (feet).",
+    "stats": {
+      "defense": 10,
+      "durability": 99,
+      "speed": 4
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "fencers-boots": {
+    "name": "Fencers Boots",
+    "description": "A uncommon armor (feet).",
+    "stats": {
+      "defense": 3,
+      "durability": 97,
+      "speed": 3
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "gladiator-Greaves": {
+    "name": "Gladiator Greaves",
+    "description": "A uncommon armor (feet).",
+    "stats": {
+      "defense": 11,
+      "durability": 53,
+      "speed": 4
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "gloom-boots": {
+    "name": "Gloom Boots",
+    "description": "A uncommon armor (feet).",
+    "stats": {
+      "defense": 4,
+      "durability": 53,
+      "speed": 2
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "leather-boots": {
+    "name": "Leather Boots",
+    "description": "A common armor (feet).",
+    "stats": {
+      "defense": 3,
+      "durability": 109,
+      "speed": 1
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "mage-boots": {
+    "name": "Mage Boots",
+    "description": "A uncommon armor (feet).",
+    "stats": {
+      "defense": 9,
+      "durability": 42,
+      "speed": 1
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "nightshade-boots": {
+    "name": "Nightshade Boots",
+    "description": "A uncommon armor (feet).",
+    "stats": {
+      "defense": 3,
+      "durability": 88,
+      "speed": 3
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "paladin-boots": {
+    "name": "Paladin Boots",
+    "description": "A rare armor (feet).",
+    "stats": {
+      "defense": 3,
+      "durability": 43,
+      "speed": 3
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "scavenger-shoes": {
+    "name": "Scavenger Shoes",
+    "description": "A uncommon armor (feet).",
+    "stats": {
+      "defense": 6,
+      "durability": 94,
+      "speed": 3
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "temple-knight-boots": {
+    "name": "Temple Knight Boots",
+    "description": "A rare armor (feet).",
+    "stats": {
+      "defense": 9,
+      "durability": 114,
+      "speed": 2
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "yoshitsune-suneate": {
+    "name": "Yoshitsune Suneate",
+    "description": "A uncommon armor (feet).",
+    "stats": {
+      "defense": 6,
+      "durability": 69,
+      "speed": 5
+    },
+    "type": "armor",
+    "subtype": "feet",
+    "equipable": true
+  },
+  "archers-bracers": {
+    "name": "Archers Bracers",
+    "description": "A uncommon armor (hands).",
+    "stats": {
+      "defense": 2,
+      "durability": 87,
+      "dexterity": 3
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "berserker-gloves": {
+    "name": "Berserker Gloves",
+    "description": "A uncommon armor (hands).",
+    "stats": {
+      "defense": 6,
+      "durability": 109,
+      "dexterity": 3
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "brigadier-bracers": {
+    "name": "Brigadier Bracers",
+    "description": "A uncommon armor (hands).",
+    "stats": {
+      "defense": 7,
+      "durability": 101,
+      "dexterity": 3
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "captains-bracers": {
+    "name": "Captains Bracers",
+    "description": "A rare armor (head).",
+    "stats": {
+      "defense": 6,
+      "durability": 79,
+      "perception": 3
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "colonels-bracers": {
+    "name": "Colonels Bracers",
+    "description": "A rare armor (hands).",
+    "stats": {
+      "defense": 10,
+      "durability": 51,
+      "dexterity": 1
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "fencers-sleeves": {
+    "name": "Fencers Sleeves",
+    "description": "A uncommon armor (hands).",
+    "stats": {
+      "defense": 7,
+      "durability": 77,
+      "dexterity": 4
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "gladiator-gloves": {
+    "name": "Gladiator Gloves",
+    "description": "A uncommon armor (hands).",
+    "stats": {
+      "defense": 5,
+      "durability": 62,
+      "dexterity": 1
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "gloom-gloves": {
+    "name": "Gloom Gloves",
+    "description": "A uncommon armor (hands).",
+    "stats": {
+      "defense": 6,
+      "durability": 58,
+      "dexterity": 5
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "leather-gloves": {
+    "name": "Leather Gloves",
+    "description": "A common armor (hands).",
+    "stats": {
+      "defense": 3,
+      "durability": 100,
+      "dexterity": 1
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "mage-gloves": {
+    "name": "Mage Gloves",
+    "description": "A uncommon armor (hands).",
+    "stats": {
+      "defense": 9,
+      "durability": 75,
+      "dexterity": 4
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "nightshade-gloves": {
+    "name": "Nightshade Gloves",
+    "description": "A uncommon armor (hands).",
+    "stats": {
+      "defense": 10,
+      "durability": 76,
+      "dexterity": 2
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "paladin-gloves": {
+    "name": "Paladin Gloves",
+    "description": "A rare armor (hands).",
+    "stats": {
+      "defense": 11,
+      "durability": 114,
+      "dexterity": 1
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "temple-knight-gloves": {
+    "name": "Temple Knight Gloves",
+    "description": "A rare armor (hands).",
+    "stats": {
+      "defense": 5,
+      "durability": 81,
+      "dexterity": 5
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "yoshitsune-kote": {
+    "name": "Yoshitsune Kote",
+    "description": "A uncommon armor (hands).",
+    "stats": {
+      "defense": 10,
+      "durability": 58,
+      "dexterity": 1
+    },
+    "type": "armor",
+    "subtype": "hands",
+    "equipable": true
+  },
+  "archers-hat": {
+    "name": "Archers Hat",
+    "description": "A uncommon armor (head).",
+    "stats": {
+      "defense": 11,
+      "durability": 106,
+      "perception": 4
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "bandana": {
+    "name": "Bandana",
+    "description": "A uncommon misc.",
+    "stats": {},
+    "type": "armor",
+    "subtype": "head",
+    "consumable": false
+  },
+  "berserker-helmet": {
+    "name": "Berserker Helmet",
+    "description": "A uncommon armor (head).",
+    "stats": {
+      "defense": 5,
+      "durability": 45,
+      "perception": 3
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "brigadier-helmet": {
+    "name": "Brigadier Helmet",
+    "description": "A uncommon armor (head).",
+    "stats": {
+      "defense": 3,
+      "durability": 85,
+      "perception": 4
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "captain-helmet": {
+    "name": "Captain Helmet",
+    "description": "A rare armor (head).",
+    "stats": {
+      "defense": 3,
+      "durability": 102,
+      "perception": 2
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "cavalier-hat": {
+    "name": "Cavalier Hat",
+    "description": "A uncommon armor (head).",
+    "stats": {
+      "defense": 7,
+      "durability": 76,
+      "perception": 1
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "colonels-helmet": {
+    "name": "Colonels Helmet",
+    "description": "A rare armor (head).",
+    "stats": {
+      "defense": 8,
+      "durability": 102,
+      "perception": 5
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "combat-hood": {
+    "name": "Combat Hood",
+    "description": "A uncommon armor (head).",
+    "stats": {
+      "defense": 2,
+      "durability": 51,
+      "perception": 2
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "gladiator-helmet": {
+    "name": "Gladiator Helmet",
+    "description": "A uncommon armor (head).",
+    "stats": {
+      "defense": 7,
+      "durability": 61,
+      "perception": 4
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "gloom-hood": {
+    "name": "Gloom Hood",
+    "description": "A uncommon armor (head).",
+    "stats": {
+      "defense": 4,
+      "durability": 65,
+      "perception": 5
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "leather-cap": {
+    "name": "Leather Cap",
+    "description": "A common armor (head).",
+    "stats": {
+      "defense": 2,
+      "durability": 70,
+      "perception": 1
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "mage-hat": {
+    "name": "Mage Hat",
+    "description": "A uncommon armor (head).",
+    "stats": {
+      "defense": 10,
+      "durability": 111,
+      "perception": 5
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "nightshade-cap": {
+    "name": "Nightshade Cap",
+    "description": "A uncommon armor (head).",
+    "stats": {
+      "defense": 5,
+      "durability": 40,
+      "perception": 4
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "paladin-helmet": {
+    "name": "Paladin Helmet",
+    "description": "A rare armor (head).",
+    "stats": {
+      "defense": 2,
+      "durability": 107,
+      "perception": 4
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "scavenger-cap": {
+    "name": "Scavenger Cap",
+    "description": "A uncommon armor (head).",
+    "stats": {
+      "defense": 7,
+      "durability": 100,
+      "perception": 5
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "temple-knight-helmet": {
+    "name": "Temple Knight Helmet",
+    "description": "A rare armor (head).",
+    "stats": {
+      "defense": 6,
+      "durability": 85,
+      "perception": 4
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  },
+  "yoshitsune-kabuto": {
+    "name": "Yoshitsune Kabuto",
+    "description": "A uncommon armor (head).",
+    "stats": {
+      "defense": 8,
+      "durability": 98,
+      "perception": 2
+    },
+    "type": "armor",
+    "subtype": "head",
+    "equipable": true
+  }
+}

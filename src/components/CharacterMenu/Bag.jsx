@@ -22,7 +22,7 @@ const Inventory = ({
 	return (
 		<div className='rpgui-container rpgui-draggable framed w-[350px] max-w-[350px]'>
 			<div className='text-center m-auto'>
-				<h1>Inventory</h1>
+				<h1>Bag</h1>
 				<hr />
 				{/* Top row - tooltips appear below */}
 				<ItemTooltip itemId={itemSlot1 || ''} position='bottom'>

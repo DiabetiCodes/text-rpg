@@ -84,7 +84,7 @@ const Equipment = ({
 					</ItemTooltip>
 
 					<div className='rpgui-icon'></div>
-
+ 
 					<ItemTooltip itemId={ringSlot3 || 'ring-slot'} position='left'>
 						<div
 							className={`rpgui-icon rpgui-cursor-point relative inline-block max-h-[80px] max-w-[80px] ${

@@ -1,3095 +1,2841 @@
 {
-  "amethyst-amulet": {
-    "name": "Amethyst Amulet",
-    "description": "A epic accessory (amulet).",
-    "stats": {
-      "magicPower": 8,
-      "elementalResistance": 17
-    },
-    "rarity": "Epic",
-    "type": "accessory",
-    "subtype": "amulet",
-    "equipable": true
-  },
-  "emerald-amulet": {
-    "name": "Emerald Amulet",
-    "description": "A epic accessory (amulet).",
-    "stats": {
-      "magicPower": 8,
-      "elementalResistance": 9
-    },
-    "rarity": "Epic",
-    "type": "accessory",
-    "subtype": "amulet",
-    "equipable": true
-  },
-  "garnet-amulet": {
-    "name": "Garnet Amulet",
-    "description": "A epic accessory (amulet).",
-    "stats": {
-      "magicPower": 14,
-      "elementalResistance": 14
-    },
-    "rarity": "Epic",
-    "type": "accessory",
-    "subtype": "amulet",
-    "equipable": true
-  },
-  "jet-amulet": {
-    "name": "Jet Amulet",
-    "description": "A uncommon accessory (amulet).",
-    "stats": {
-      "magicPower": 10,
-      "elementalResistance": 17
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "amulet",
-    "equipable": true
-  },
-  "opal-amulet": {
-    "name": "Opal Amulet",
-    "description": "A epic accessory (amulet).",
-    "stats": {
-      "magicPower": 8,
-      "elementalResistance": 9
-    },
-    "rarity": "Epic",
-    "type": "accessory",
-    "subtype": "amulet",
-    "equipable": true
-  },
-  "royal-amethyst-amulet": {
-    "name": "Royal Amethyst Amulet",
-    "description": "A legendary accessory (amulet).",
-    "stats": {
-      "magicPower": 8,
-      "elementalResistance": 10
-    },
-    "rarity": "Legendary",
-    "type": "accessory",
-    "subtype": "amulet",
-    "equipable": true
-  },
-  "royal-emerald-amulet": {
-    "name": "Royal Emerald Amulet",
-    "description": "A legendary accessory (amulet).",
-    "stats": {
-      "magicPower": 12,
-      "elementalResistance": 11
-    },
-    "rarity": "Legendary",
-    "type": "accessory",
-    "subtype": "amulet",
-    "equipable": true
-  },
-  "royal-garnet-amulet": {
-    "name": "Royal Garnet Amulet",
-    "description": "A legendary accessory (amulet).",
-    "stats": {
-      "magicPower": 12,
-      "elementalResistance": 15
-    },
-    "rarity": "Legendary",
-    "type": "accessory",
-    "subtype": "amulet",
-    "equipable": true
-  },
-  "royal-jet-amulet": {
-    "name": "Royal Jet Amulet",
-    "description": "A legendary accessory (amulet).",
-    "stats": {
-      "magicPower": 12,
-      "elementalResistance": 13
-    },
-    "rarity": "Legendary",
-    "type": "accessory",
-    "subtype": "amulet",
-    "equipable": true
-  },
-  "royal-opal-amulet": {
-    "name": "Royal Opal Amulet",
-    "description": "A legendary accessory (amulet).",
-    "stats": {
-      "magicPower": 9,
-      "elementalResistance": 8
-    },
-    "rarity": "Legendary",
-    "type": "accessory",
-    "subtype": "amulet",
-    "equipable": true
-  },
-  "royal-ruby-amulet": {
-    "name": "Royal Ruby Amulet",
-    "description": "A legendary accessory (amulet).",
-    "stats": {
-      "magicPower": 7,
-      "elementalResistance": 15
-    },
-    "rarity": "Legendary",
-    "type": "accessory",
-    "subtype": "amulet",
-    "equipable": true
-  },
-  "ruby-amulet": {
-    "name": "Ruby Amulet",
-    "description": "A epic accessory (amulet).",
-    "stats": {
-      "magicPower": 12,
-      "elementalResistance": 5
-    },
-    "rarity": "Epic",
-    "type": "accessory",
-    "subtype": "amulet",
-    "equipable": true
-  },
-  "amber-desire-charm": {
-    "name": "Amber Desire Charm",
-    "description": "A uncommon accessory (charm).",
-    "stats": {
-      "luck": 5,
-      "charisma": 6
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "charm",
-    "equipable": true
-  },
-  "blood-heart-charm": {
-    "name": "Blood Heart Charm",
-    "description": "A uncommon accessory (charm).",
-    "stats": {
-      "luck": 13,
-      "charisma": 6
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "charm",
-    "equipable": true
-  },
-  "bryteroot-charm": {
-    "name": "Bryteroot Charm",
-    "description": "A uncommon accessory (charm).",
-    "stats": {
-      "luck": 11,
-      "charisma": 8
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "charm",
-    "equipable": true
-  },
-  "chaos-charm": {
-    "name": "Chaos Charm",
-    "description": "A uncommon accessory (charm).",
-    "stats": {
-      "luck": 9,
-      "charisma": 10
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "charm",
-    "equipable": true
-  },
-  "crimson-spade-charm": {
-    "name": "Crimson Spade Charm",
-    "description": "A uncommon accessory (charm).",
-    "stats": {
-      "luck": 10,
-      "charisma": 4
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "charm",
-    "equipable": true
-  },
-  "dark-essence-charm": {
-    "name": "Dark Essence Charm",
-    "description": "A uncommon accessory (charm).",
-    "stats": {
-      "luck": 6,
-      "charisma": 6
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "charm",
-    "equipable": true
-  },
-  "echo-screen-charm": {
-    "name": "Echo Screen Charm",
-    "description": "A uncommon accessory (charm).",
-    "stats": {
-      "luck": 8,
-      "charisma": 8
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "charm",
-    "equipable": true
-  },
-  "hypnotist-charm": {
-    "name": "Hypnotist Charm",
-    "description": "A uncommon accessory (charm).",
-    "stats": {
-      "luck": 10,
-      "charisma": 3
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "charm",
-    "equipable": true
-  },
-  "savior-charm": {
-    "name": "Savior Charm",
-    "description": "A uncommon accessory (charm).",
-    "stats": {
-      "luck": 7,
-      "charisma": 3
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "charm",
-    "equipable": true
-  },
-  "spiderfly-charm": {
-    "name": "Spiderfly Charm",
-    "description": "A uncommon accessory (charm).",
-    "stats": {
-      "luck": 12,
-      "charisma": 5
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "charm",
-    "equipable": true
-  },
-  "terrestrial-charm": {
-    "name": "Terrestrial Charm",
-    "description": "A uncommon accessory (charm).",
-    "stats": {
-      "luck": 7,
-      "charisma": 4
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "charm",
-    "equipable": true
-  },
-  "throwing-dice-charm": {
-    "name": "Throwing Dice Charm",
-    "description": "A uncommon accessory (charm).",
-    "stats": {
-      "luck": 6,
-      "charisma": 8
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "charm",
-    "equipable": true
-  },
-  "trinity-charm": {
-    "name": "Trinity Charm",
-    "description": "A uncommon accessory (charm).",
-    "stats": {
-      "luck": 6,
-      "charisma": 4
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "charm",
-    "equipable": true
-  },
-  "ashen-bone-ring": {
-    "name": "Ashen Bone Ring",
-    "description": "A uncommon accessory (ring).",
-    "stats": {
-      "magicResistance": 7
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "carbon-ring": {
-    "name": "Carbon Ring",
-    "description": "A uncommon accessory (ring).",
-    "stats": {
-      "magicResistance": 13
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "coal-ring": {
-    "name": "Coal Ring",
-    "description": "A uncommon accessory (ring).",
-    "stats": {
-      "magicResistance": 8
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "cracked-platinum-ring": {
-    "name": "Cracked Platinum Ring",
-    "description": "A uncommon accessory (ring).",
-    "stats": {
-      "magicResistance": 6
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "gold-ring": {
-    "name": "Gold Ring",
-    "description": "A rare accessory (ring).",
-    "stats": {
-      "magicResistance": 8
-    },
-    "rarity": "Rare",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "hp-ring": {
-    "name": "Hp Ring",
-    "description": "A uncommon accessory (ring).",
-    "stats": {
-      "healthBoost": 18
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "jet-ring": {
-    "name": "Jet Ring",
-    "description": "A uncommon accessory (ring).",
-    "stats": {
-      "magicResistance": 7
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "mahogany-ring": {
-    "name": "Mahogany Ring",
-    "description": "A uncommon accessory (ring).",
-    "stats": {
-      "magicResistance": 11
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "mp-ring": {
-    "name": "Mp Ring",
-    "description": "A uncommon accessory (ring).",
-    "stats": {
-      "manaBoost": 14
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "royal-emerald-ring": {
-    "name": "Royal Emerald Ring",
-    "description": "A legendary accessory (ring).",
-    "stats": {
-      "magicResistance": 10
-    },
-    "rarity": "Legendary",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "royal-hp-ring": {
-    "name": "Royal Hp Ring",
-    "description": "A legendary accessory (ring).",
-    "stats": {
-      "healthBoost": 16
-    },
-    "rarity": "Legendary",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "royal-jet-ring": {
-    "name": "Royal Jet Ring",
-    "description": "A legendary accessory (ring).",
-    "stats": {
-      "magicResistance": 9
-    },
-    "rarity": "Legendary",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "royal-mp-ring": {
-    "name": "Royal Mp Ring",
-    "description": "A legendary accessory (ring).",
-    "stats": {
-      "manaBoost": 26
-    },
-    "rarity": "Legendary",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "royal-ruby-ring": {
-    "name": "Royal Ruby Ring",
-    "description": "A legendary accessory (ring).",
-    "stats": {
-      "magicResistance": 11
-    },
-    "rarity": "Legendary",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "royal-xp-ring": {
-    "name": "Royal Xp Ring",
-    "description": "A legendary accessory (ring).",
-    "stats": {
-      "experienceBoost": 11
-    },
-    "rarity": "Legendary",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "ruby-ring": {
-    "name": "Ruby Ring",
-    "description": "A epic accessory (ring).",
-    "stats": {
-      "magicResistance": 5
-    },
-    "rarity": "Epic",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "silver-ring": {
-    "name": "Silver Ring",
-    "description": "A rare accessory (ring).",
-    "stats": {
-      "magicResistance": 14
-    },
-    "rarity": "Rare",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "stamina-ring": {
-    "name": "Stamina Ring",
-    "description": "A uncommon accessory (ring).",
-    "stats": {
-      "magicResistance": 9
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "stone-protection-ring": {
-    "name": "Stone Protection Ring",
-    "description": "A uncommon accessory (ring).",
-    "stats": {
-      "magicResistance": 8
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "venom-ring": {
-    "name": "Venom Ring",
-    "description": "A uncommon accessory (ring).",
-    "stats": {
-      "magicResistance": 7
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "xp-ring": {
-    "name": "Xp Ring",
-    "description": "A uncommon accessory (ring).",
-    "stats": {
-      "experienceBoost": 5
-    },
-    "rarity": "Uncommon",
-    "type": "accessory",
-    "subtype": "ring",
-    "equipable": true
-  },
-  "archers-gambeson": {
-    "name": "Archers Gambeson",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "berserker-cuirass": {
-    "name": "Berserker Cuirass",
-    "description": "A uncommon armor (body).",
-    "stats": {
-      "defense": 4,
-      "durability": 115,
-      "healthBoost": 9
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "brigadier-cuirass": {
-    "name": "Brigadier Cuirass",
-    "description": "A uncommon armor (body).",
-    "stats": {
-      "defense": 7,
-      "durability": 97,
-      "healthBoost": 19
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "captains-chestplate": {
-    "name": "Captains Chestplate",
-    "description": "A rare armor (head).",
-    "stats": {
-      "defense": 10,
-      "durability": 52,
-      "perception": 4
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "cavalier-suit": {
-    "name": "Cavalier Suit",
-    "description": "A uncommon armor (body).",
-    "stats": {
-      "defense": 3,
-      "durability": 78,
-      "healthBoost": 5
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "colonels-mail": {
-    "name": "Colonels Mail",
-    "description": "A rare armor (body).",
-    "stats": {
-      "defense": 11,
-      "durability": 101,
-      "healthBoost": 19
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "combat-suit": {
-    "name": "Combat Suit",
-    "description": "A uncommon armor (body).",
-    "stats": {
-      "defense": 10,
-      "durability": 97,
-      "healthBoost": 16
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "gladiator-cuirass": {
-    "name": "Gladiator Cuirass",
-    "description": "A uncommon armor (body).",
-    "stats": {
-      "defense": 7,
-      "durability": 75,
-      "healthBoost": 16
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "gloom-cloak": {
-    "name": "Gloom Cloak",
-    "description": "A uncommon armor (body).",
-    "stats": {
-      "defense": 6,
-      "durability": 81,
-      "healthBoost": 19
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "leather-jacket": {
-    "name": "Leather Jacket",
-    "description": "A common armor (body).",
-    "stats": {
-      "defense": 11,
-      "durability": 42,
-      "healthBoost": 12
-    },
-    "rarity": "Common",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "mage-cape": {
-    "name": "Mage Cape",
-    "description": "A uncommon armor (head).",
-    "stats": {
-      "defense": 8,
-      "durability": 94,
-      "perception": 2
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "nightshade-vest": {
-    "name": "Nightshade Vest",
-    "description": "A uncommon armor (body).",
-    "stats": {
-      "defense": 7,
-      "durability": 54,
-      "healthBoost": 8
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "paladin-breastplate": {
-    "name": "Paladin Breastplate",
-    "description": "A rare armor (body).",
-    "stats": {
-      "defense": 11,
-      "durability": 88,
-      "healthBoost": 13
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "scavenger-shirt": {
-    "name": "Scavenger Shirt",
-    "description": "A uncommon armor (body).",
-    "stats": {
-      "defense": 10,
-      "durability": 58,
-      "healthBoost": 11
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "temple-knight-cuirass": {
-    "name": "Temple Knight Cuirass",
-    "description": "A rare armor (body).",
-    "stats": {
-      "defense": 4,
-      "durability": 81,
-      "healthBoost": 16
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "yoshitsune-do": {
-    "name": "Yoshitsune Do",
-    "description": "A uncommon armor (body).",
-    "stats": {
-      "defense": 2,
-      "durability": 68,
-      "healthBoost": 12
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "archers-boots": {
-    "name": "Archers Boots",
-    "description": "A uncommon armor (feet).",
-    "stats": {
-      "defense": 4,
-      "durability": 82,
-      "speed": 4
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "berserker-grieves": {
-    "name": "Berserker Grieves",
-    "description": "A uncommon armor (feet).",
-    "stats": {
-      "defense": 3,
-      "durability": 79,
-      "speed": 5
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "brigadier-shoes": {
-    "name": "Brigadier Shoes",
-    "description": "A uncommon armor (feet).",
-    "stats": {
-      "defense": 5,
-      "durability": 40,
-      "speed": 5
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "captains-grieves": {
-    "name": "Captains Grieves",
-    "description": "A rare armor (head).",
-    "stats": {
-      "defense": 3,
-      "durability": 54,
-      "perception": 1
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "colonels-leg-mail": {
-    "name": "Colonels Leg Mail",
-    "description": "A rare armor (body).",
-    "stats": {
-      "defense": 4,
-      "durability": 86,
-      "healthBoost": 17
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "body",
-    "equipable": true
-  },
-  "combat-boots": {
-    "name": "Combat Boots",
-    "description": "A uncommon armor (feet).",
-    "stats": {
-      "defense": 10,
-      "durability": 99,
-      "speed": 4
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "fencers-boots": {
-    "name": "Fencers Boots",
-    "description": "A uncommon armor (feet).",
-    "stats": {
-      "defense": 3,
-      "durability": 97,
-      "speed": 3
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "gladiator-grieves": {
-    "name": "Gladiator Grieves",
-    "description": "A uncommon armor (feet).",
-    "stats": {
-      "defense": 11,
-      "durability": 53,
-      "speed": 4
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "gloom-boots": {
-    "name": "Gloom Boots",
-    "description": "A uncommon armor (feet).",
-    "stats": {
-      "defense": 4,
-      "durability": 53,
-      "speed": 2
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "leather-boots": {
-    "name": "Leather Boots",
-    "description": "A common armor (feet).",
-    "stats": {
-      "defense": 3,
-      "durability": 109,
-      "speed": 1
-    },
-    "rarity": "Common",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "mage-boots": {
-    "name": "Mage Boots",
-    "description": "A uncommon armor (feet).",
-    "stats": {
-      "defense": 9,
-      "durability": 42,
-      "speed": 1
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "nightshade-boots": {
-    "name": "Nightshade Boots",
-    "description": "A uncommon armor (feet).",
-    "stats": {
-      "defense": 3,
-      "durability": 88,
-      "speed": 3
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "paladin-boots": {
-    "name": "Paladin Boots",
-    "description": "A rare armor (feet).",
-    "stats": {
-      "defense": 3,
-      "durability": 43,
-      "speed": 3
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "scavenger-shoes": {
-    "name": "Scavenger Shoes",
-    "description": "A uncommon armor (feet).",
-    "stats": {
-      "defense": 6,
-      "durability": 94,
-      "speed": 3
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "temple-knight-boots": {
-    "name": "Temple Knight Boots",
-    "description": "A rare armor (feet).",
-    "stats": {
-      "defense": 9,
-      "durability": 114,
-      "speed": 2
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "yoshitsune-suneate": {
-    "name": "Yoshitsune Suneate",
-    "description": "A uncommon armor (feet).",
-    "stats": {
-      "defense": 6,
-      "durability": 69,
-      "speed": 5
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "feet",
-    "equipable": true
-  },
-  "archers-bracers": {
-    "name": "Archers Bracers",
-    "description": "A uncommon armor (hands).",
-    "stats": {
-      "defense": 2,
-      "durability": 87,
-      "dexterity": 3
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "hands",
-    "equipable": true
-  },
-  "berserker-gloves": {
-    "name": "Berserker Gloves",
-    "description": "A uncommon armor (hands).",
-    "stats": {
-      "defense": 6,
-      "durability": 109,
-      "dexterity": 3
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "hands",
-    "equipable": true
-  },
-  "brigadier-bracers": {
-    "name": "Brigadier Bracers",
-    "description": "A uncommon armor (hands).",
-    "stats": {
-      "defense": 7,
-      "durability": 101,
-      "dexterity": 3
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "hands",
-    "equipable": true
-  },
-  "captains-bracers": {
-    "name": "Captains Bracers",
-    "description": "A rare armor (head).",
-    "stats": {
-      "defense": 6,
-      "durability": 79,
-      "perception": 3
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "colonels-bracers": {
-    "name": "Colonels Bracers",
-    "description": "A rare armor (hands).",
-    "stats": {
-      "defense": 10,
-      "durability": 51,
-      "dexterity": 1
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "hands",
-    "equipable": true
-  },
-  "combat-gaunlets": {
-    "name": "Combat Gaunlets",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "fencers-sleeves": {
-    "name": "Fencers Sleeves",
-    "description": "A uncommon armor (hands).",
-    "stats": {
-      "defense": 7,
-      "durability": 77,
-      "dexterity": 4
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "hands",
-    "equipable": true
-  },
-  "gladiator-gloves": {
-    "name": "Gladiator Gloves",
-    "description": "A uncommon armor (hands).",
-    "stats": {
-      "defense": 5,
-      "durability": 62,
-      "dexterity": 1
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "hands",
-    "equipable": true
-  },
-  "gloom-gloves": {
-    "name": "Gloom Gloves",
-    "description": "A uncommon armor (hands).",
-    "stats": {
-      "defense": 6,
-      "durability": 58,
-      "dexterity": 5
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "hands",
-    "equipable": true
-  },
-  "leather-gloves": {
-    "name": "Leather Gloves",
-    "description": "A common armor (hands).",
-    "stats": {
-      "defense": 3,
-      "durability": 100,
-      "dexterity": 1
-    },
-    "rarity": "Common",
-    "type": "armor",
-    "subtype": "hands",
-    "equipable": true
-  },
-  "mage-gloves": {
-    "name": "Mage Gloves",
-    "description": "A uncommon armor (hands).",
-    "stats": {
-      "defense": 9,
-      "durability": 75,
-      "dexterity": 4
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "hands",
-    "equipable": true
-  },
-  "nightshade-gloves": {
-    "name": "Nightshade Gloves",
-    "description": "A uncommon armor (hands).",
-    "stats": {
-      "defense": 10,
-      "durability": 76,
-      "dexterity": 2
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "hands",
-    "equipable": true
-  },
-  "paladin-gloves": {
-    "name": "Paladin Gloves",
-    "description": "A rare armor (hands).",
-    "stats": {
-      "defense": 11,
-      "durability": 114,
-      "dexterity": 1
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "hands",
-    "equipable": true
-  },
-  "temple-knight-gloves": {
-    "name": "Temple Knight Gloves",
-    "description": "A rare armor (hands).",
-    "stats": {
-      "defense": 5,
-      "durability": 81,
-      "dexterity": 5
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "hands",
-    "equipable": true
-  },
-  "yoshitsune-kote": {
-    "name": "Yoshitsune Kote",
-    "description": "A uncommon armor (hands).",
-    "stats": {
-      "defense": 10,
-      "durability": 58,
-      "dexterity": 1
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "hands",
-    "equipable": true
-  },
-  "archers-hat": {
-    "name": "Archers Hat",
-    "description": "A uncommon armor (head).",
-    "stats": {
-      "defense": 11,
-      "durability": 106,
-      "perception": 4
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "bandana": {
-    "name": "Bandana",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "berserker-helmet": {
-    "name": "Berserker Helmet",
-    "description": "A uncommon armor (head).",
-    "stats": {
-      "defense": 5,
-      "durability": 45,
-      "perception": 3
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "brigadier-helmet": {
-    "name": "Brigadier Helmet",
-    "description": "A uncommon armor (head).",
-    "stats": {
-      "defense": 3,
-      "durability": 85,
-      "perception": 4
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "captain-helmet": {
-    "name": "Captain Helmet",
-    "description": "A rare armor (head).",
-    "stats": {
-      "defense": 3,
-      "durability": 102,
-      "perception": 2
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "cavalier-hat": {
-    "name": "Cavalier Hat",
-    "description": "A uncommon armor (head).",
-    "stats": {
-      "defense": 7,
-      "durability": 76,
-      "perception": 1
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "colonels-helmet": {
-    "name": "Colonels Helmet",
-    "description": "A rare armor (head).",
-    "stats": {
-      "defense": 8,
-      "durability": 102,
-      "perception": 5
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "combat-hood": {
-    "name": "Combat Hood",
-    "description": "A uncommon armor (head).",
-    "stats": {
-      "defense": 2,
-      "durability": 51,
-      "perception": 2
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "gladiator-helmet": {
-    "name": "Gladiator Helmet",
-    "description": "A uncommon armor (head).",
-    "stats": {
-      "defense": 7,
-      "durability": 61,
-      "perception": 4
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "gloom-hood": {
-    "name": "Gloom Hood",
-    "description": "A uncommon armor (head).",
-    "stats": {
-      "defense": 4,
-      "durability": 65,
-      "perception": 5
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "leather-cap": {
-    "name": "Leather Cap",
-    "description": "A common armor (head).",
-    "stats": {
-      "defense": 2,
-      "durability": 70,
-      "perception": 1
-    },
-    "rarity": "Common",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "mage-hat": {
-    "name": "Mage Hat",
-    "description": "A uncommon armor (head).",
-    "stats": {
-      "defense": 10,
-      "durability": 111,
-      "perception": 5
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "nightshade-cap": {
-    "name": "Nightshade Cap",
-    "description": "A uncommon armor (head).",
-    "stats": {
-      "defense": 5,
-      "durability": 40,
-      "perception": 4
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "paladin-helmet": {
-    "name": "Paladin Helmet",
-    "description": "A rare armor (head).",
-    "stats": {
-      "defense": 2,
-      "durability": 107,
-      "perception": 4
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "scavenger-cap": {
-    "name": "Scavenger Cap",
-    "description": "A uncommon armor (head).",
-    "stats": {
-      "defense": 7,
-      "durability": 100,
-      "perception": 5
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "temple-knight-helmet": {
-    "name": "Temple Knight Helmet",
-    "description": "A rare armor (head).",
-    "stats": {
-      "defense": 6,
-      "durability": 85,
-      "perception": 4
-    },
-    "rarity": "Rare",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "yoshitsune-kabuto": {
-    "name": "Yoshitsune Kabuto",
-    "description": "A uncommon armor (head).",
-    "stats": {
-      "defense": 8,
-      "durability": 98,
-      "perception": 2
-    },
-    "rarity": "Uncommon",
-    "type": "armor",
-    "subtype": "head",
-    "equipable": true
-  },
-  "defender-shield": {
-    "name": "Defender Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 11,
-      "defense": 3,
-      "durability": 125
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "metal-shield": {
-    "name": "Metal Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 14,
-      "defense": 7,
-      "durability": 71
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "steel-shield": {
-    "name": "Steel Shield",
-    "description": "A common shield.",
-    "stats": {
-      "blockChance": 12,
-      "defense": 8,
-      "durability": 102
-    },
-    "rarity": "Common",
-    "type": "shield",
-    "equipable": true
-  },
-  "tower-shield": {
-    "name": "Tower Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 19,
-      "defense": 10,
-      "durability": 53
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "warrior-shield": {
-    "name": "Warrior Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 22,
-      "defense": 4,
-      "durability": 80
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "blade-leaf": {
-    "name": "Blade Leaf",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 13,
-      "healthRestore": 2
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "bore-stalk": {
-    "name": "Bore Stalk",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 10,
-      "healthRestore": 3
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "cherry-bulb": {
-    "name": "Cherry Bulb",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 14,
-      "healthRestore": 4
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "cotton-bush": {
-    "name": "Cotton Bush",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 18,
-      "healthRestore": 10
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "cotton-plant": {
-    "name": "Cotton Plant",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 6,
-      "healthRestore": 2
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "dream-sprout": {
-    "name": "Dream Sprout",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 13,
-      "healthRestore": 11
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "eel-grass": {
-    "name": "Eel Grass",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 5,
-      "healthRestore": 2
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "field-mushroom": {
-    "name": "Field Mushroom",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 10,
-      "healthRestore": 11
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "forest-mushroom": {
-    "name": "Forest Mushroom",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 18,
-      "healthRestore": 7
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "leaf": {
-    "name": "Leaf",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 7,
-      "healthRestore": 2
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "redbell": {
-    "name": "Redbell",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "trident-flower": {
-    "name": "Trident Flower",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 17,
-      "healthRestore": 7
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "trident-leaf": {
-    "name": "Trident Leaf",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 13,
-      "healthRestore": 4
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "wilt": {
-    "name": "Wilt",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 5,
-      "healthRestore": 6
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "worm": {
-    "name": "Worm",
-    "description": "A uncommon consumable (food).",
-    "stats": {
-      "nutrition": 19,
-      "healthRestore": 2
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "food",
-    "consumable": true
-  },
-  "darkness-potion": {
-    "name": "Darkness Potion",
-    "description": "A uncommon consumable (potion).",
-    "stats": {
-      "effect": "Special effect",
-      "duration": 57
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "potion",
-    "consumable": true
-  },
-  "endurance-potion": {
-    "name": "Endurance Potion",
-    "description": "A uncommon consumable (potion).",
-    "stats": {
-      "staminaRestore": 59
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "potion",
-    "consumable": true
-  },
-  "health-potion": {
-    "name": "Health Potion",
-    "description": "A uncommon consumable (potion).",
-    "stats": {
-      "healing": 26
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "potion",
-    "consumable": true
-  },
-  "life-potion": {
-    "name": "Life Potion",
-    "description": "A uncommon consumable (potion).",
-    "stats": {
-      "healing": 59
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "potion",
-    "consumable": true
-  },
-  "mana-potion": {
-    "name": "Mana Potion",
-    "description": "A uncommon consumable (potion).",
-    "stats": {
-      "manaRestore": 62
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "potion",
-    "consumable": true
-  },
-  "dark-potion": {
-    "name": "Dark Potion",
-    "description": "A uncommon consumable (potion).",
-    "stats": {
-      "effect": "Special effect",
-      "duration": 41
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "potion",
-    "consumable": true
-  },
-  "exp-potion": {
-    "name": "Exp Potion",
-    "description": "A uncommon consumable (potion).",
-    "stats": {
-      "experienceBoost": 116
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "potion",
-    "consumable": true
-  },
-  "magic-up-potion": {
-    "name": "Magic Up Potion",
-    "description": "A uncommon consumable (potion).",
-    "stats": {
-      "effect": "Special effect",
-      "duration": 43
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "potion",
-    "consumable": true
-  },
-  "mystery-potion": {
-    "name": "Mystery Potion",
-    "description": "A uncommon consumable (potion).",
-    "stats": {
-      "effect": "Special effect",
-      "duration": 30
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "potion",
-    "consumable": true
-  },
-  "paralysis-potion": {
-    "name": "Paralysis Potion",
-    "description": "A uncommon consumable (potion).",
-    "stats": {
-      "effect": "Special effect",
-      "duration": 69
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "potion",
-    "consumable": true
-  },
-  "poison-potion": {
-    "name": "Poison Potion",
-    "description": "A uncommon consumable (potion).",
-    "stats": {
-      "effect": "Special effect",
-      "duration": 42
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "potion",
-    "consumable": true
-  },
-  "silence-potion": {
-    "name": "Silence Potion",
-    "description": "A uncommon consumable (potion).",
-    "stats": {
-      "effect": "Special effect",
-      "duration": 69
-    },
-    "rarity": "Uncommon",
-    "type": "consumable",
-    "subtype": "potion",
-    "consumable": true
-  },
-  "gold-coin": {
-    "name": "Gold Coin",
-    "description": "A rare currency.",
-    "stats": {},
-    "rarity": "Rare",
-    "type": "currency",
-    "consumable": false
-  },
-  "diamond": {
-    "name": "Diamond",
-    "description": "A epic gem.",
-    "stats": {},
-    "rarity": "Epic",
-    "type": "gem",
-    "consumable": false
-  },
-  "endurance-up-stone": {
-    "name": "Endurance Up Stone",
-    "description": "A uncommon gem.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "gem",
-    "consumable": false
-  },
-  "exp-stone": {
-    "name": "Exp Stone",
-    "description": "A uncommon gem.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "gem",
-    "consumable": false
-  },
-  "health-up-stone": {
-    "name": "Health Up Stone",
-    "description": "A uncommon gem.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "gem",
-    "consumable": false
-  },
-  "level-up-stone": {
-    "name": "Level Up Stone",
-    "description": "A uncommon gem.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "gem",
-    "consumable": false
-  },
-  "mana-up-stone": {
-    "name": "Mana Up Stone",
-    "description": "A uncommon gem.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "gem",
-    "consumable": false
-  },
-  "asmunds-chambers-key": {
-    "name": "Asmunds Chambers Key",
-    "description": "A uncommon key.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "key",
-    "consumable": false
-  },
-  "grand-graces-key": {
-    "name": "Grand Graces Key",
-    "description": "A uncommon key.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "key",
-    "consumable": false
-  },
-  "marble-tablet": {
-    "name": "Marble Tablet",
-    "description": "A uncommon key.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "key",
-    "consumable": false
-  },
-  "tetras-scroll": {
-    "name": "Tetras Scroll",
-    "description": "A uncommon key.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "key",
-    "consumable": false
-  },
-  "vayas-key": {
-    "name": "Vayas Key",
-    "description": "A uncommon key.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "key",
-    "consumable": false
-  },
-  "bone": {
-    "name": "Bone",
-    "description": "A uncommon material.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "material",
-    "consumable": false
-  },
-  "bronze-bar": {
-    "name": "Bronze Bar",
-    "description": "A uncommon material.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "material",
-    "consumable": false
-  },
-  "coal-bar": {
-    "name": "Coal Bar",
-    "description": "A uncommon material.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "material",
-    "consumable": false
-  },
-  "emerald-bar": {
-    "name": "Emerald Bar",
-    "description": "A epic material.",
-    "stats": {},
-    "rarity": "Epic",
-    "type": "material",
-    "consumable": false
-  },
-  "gold-mound": {
-    "name": "Gold Mound",
-    "description": "A rare material.",
-    "stats": {},
-    "rarity": "Rare",
-    "type": "material",
-    "consumable": false
-  },
-  "goldroot": {
-    "name": "Goldroot",
-    "description": "A rare material.",
-    "stats": {},
-    "rarity": "Rare",
-    "type": "material",
-    "consumable": false
-  },
-  "mythril-bar": {
-    "name": "Mythril Bar",
-    "description": "A epic material.",
-    "stats": {},
-    "rarity": "Epic",
-    "type": "material",
-    "consumable": false
-  },
-  "opal-bar": {
-    "name": "Opal Bar",
-    "description": "A epic material.",
-    "stats": {},
-    "rarity": "Epic",
-    "type": "material",
-    "consumable": false
-  },
-  "raw-bronze": {
-    "name": "Raw Bronze",
-    "description": "A uncommon material.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "material",
-    "consumable": false
-  },
-  "raw-coal": {
-    "name": "Raw Coal",
-    "description": "A uncommon material.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "material",
-    "consumable": false
-  },
-  "raw-diamond": {
-    "name": "Raw Diamond",
-    "description": "A epic gem.",
-    "stats": {},
-    "rarity": "Epic",
-    "type": "gem",
-    "consumable": false
-  },
-  "raw-emerald": {
-    "name": "Raw Emerald",
-    "description": "A epic material.",
-    "stats": {},
-    "rarity": "Epic",
-    "type": "material",
-    "consumable": false
-  },
-  "raw-mythril": {
-    "name": "Raw Mythril",
-    "description": "A epic material.",
-    "stats": {},
-    "rarity": "Epic",
-    "type": "material",
-    "consumable": false
-  },
-  "raw-opal": {
-    "name": "Raw Opal",
-    "description": "A epic material.",
-    "stats": {},
-    "rarity": "Epic",
-    "type": "material",
-    "consumable": false
-  },
-  "silver-bar": {
-    "name": "Silver Bar",
-    "description": "A rare material.",
-    "stats": {},
-    "rarity": "Rare",
-    "type": "material",
-    "consumable": false
-  },
-  "stone": {
-    "name": "Stone",
-    "description": "A uncommon gem.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "gem",
-    "consumable": false
-  },
-  "wood": {
-    "name": "Wood",
-    "description": "A common material.",
-    "stats": {},
-    "rarity": "Common",
-    "type": "material",
-    "consumable": false
-  },
-  "blessed-shield": {
-    "name": "Blessed Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 13,
-      "defense": 5,
-      "durability": 106
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "bulb-shield": {
-    "name": "Bulb Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 19,
-      "defense": 10,
-      "durability": 80
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "devilroot-shield": {
-    "name": "Devilroot Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 18,
-      "defense": 9,
-      "durability": 122
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "firedrake-shield": {
-    "name": "Firedrake Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 25,
-      "defense": 10,
-      "durability": 45
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "glacier-shield": {
-    "name": "Glacier Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 11,
-      "defense": 8,
-      "durability": 121
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "holy-shield": {
-    "name": "Holy Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 24,
-      "defense": 7,
-      "durability": 105
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "kings-shield": {
-    "name": "Kings Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 24,
-      "defense": 3,
-      "durability": 108
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "knight-shield": {
-    "name": "Knight Shield",
-    "description": "A rare shield.",
-    "stats": {
-      "blockChance": 15,
-      "defense": 6,
-      "durability": 109
-    },
-    "rarity": "Rare",
-    "type": "shield",
-    "equipable": true
-  },
-  "maneater-shield": {
-    "name": "Maneater Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 17,
-      "defense": 3,
-      "durability": 54
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "mantis-shield": {
-    "name": "Mantis Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 27,
-      "defense": 9,
-      "durability": 90
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "mecha-delta-shield": {
-    "name": "Mecha Delta Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 28,
-      "defense": 9,
-      "durability": 75
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "parry-shield": {
-    "name": "Parry Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 10,
-      "defense": 6,
-      "durability": 65
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "pillar-shield": {
-    "name": "Pillar Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 15,
-      "defense": 9,
-      "durability": 121
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "round-shield": {
-    "name": "Round Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 19,
-      "defense": 7,
-      "durability": 51
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "royal-shield": {
-    "name": "Royal Shield",
-    "description": "A legendary shield.",
-    "stats": {
-      "blockChance": 11,
-      "defense": 7,
-      "durability": 61
-    },
-    "rarity": "Legendary",
-    "type": "shield",
-    "equipable": true
-  },
-  "silent-griever-shield": {
-    "name": "Silent Griever Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 10,
-      "defense": 5,
-      "durability": 45
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "sun-shield": {
-    "name": "Sun Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 16,
-      "defense": 5,
-      "durability": 93
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "titan-fist-shield": {
-    "name": "Titan Fist Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 16,
-      "defense": 7,
-      "durability": 101
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "tourmaline-shield": {
-    "name": "Tourmaline Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 17,
-      "defense": 8,
-      "durability": 49
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "tree-shield": {
-    "name": "Tree Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 17,
-      "defense": 8,
-      "durability": 81
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "tribal-shield": {
-    "name": "Tribal Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 19,
-      "defense": 4,
-      "durability": 64
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "valiant-shield": {
-    "name": "Valiant Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 17,
-      "defense": 5,
-      "durability": 73
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "vengeance-shield": {
-    "name": "Vengeance Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 28,
-      "defense": 6,
-      "durability": 74
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "watcher-shield": {
-    "name": "Watcher Shield",
-    "description": "A uncommon shield.",
-    "stats": {
-      "blockChance": 17,
-      "defense": 9,
-      "durability": 42
-    },
-    "rarity": "Uncommon",
-    "type": "shield",
-    "equipable": true
-  },
-  "hammer": {
-    "name": "Hammer",
-    "description": "A uncommon tool.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "tool",
-    "equipable": true
-  },
-  "pickaxe": {
-    "name": "Pickaxe",
-    "description": "A uncommon tool.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "tool",
-    "equipable": true
-  },
-  "rope": {
-    "name": "Rope",
-    "description": "A uncommon tool.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "tool",
-    "equipable": true
-  },
-  "shovel": {
-    "name": "Shovel",
-    "description": "A uncommon tool.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "tool",
-    "equipable": true
-  },
-  "batle-axe": {
-    "name": "Batle Axe",
-    "description": "A uncommon weapon (axe).",
-    "stats": {
-      "attack": 11,
-      "durability": 73,
-      "criticalChance": 9
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "axe",
-    "equipable": true
-  },
-  "earthbreaker": {
-    "name": "Earthbreaker",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "giant-axe": {
-    "name": "Giant Axe",
-    "description": "A uncommon weapon (axe).",
-    "stats": {
-      "attack": 17,
-      "durability": 78,
-      "criticalChance": 8
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "axe",
-    "equipable": true
-  },
-  "great-axe": {
-    "name": "Great Axe",
-    "description": "A uncommon weapon (axe).",
-    "stats": {
-      "attack": 13,
-      "durability": 115,
-      "criticalChance": 13
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "axe",
-    "equipable": true
-  },
-  "ogre-killer": {
-    "name": "Ogre Killer",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "rune-axe": {
-    "name": "Rune Axe",
-    "description": "A uncommon weapon (axe).",
-    "stats": {
-      "attack": 9,
-      "durability": 128,
-      "criticalChance": 5
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "axe",
-    "equipable": true
-  },
-  "titans-axe": {
-    "name": "Titans Axe",
-    "description": "A uncommon weapon (axe).",
-    "stats": {
-      "attack": 23,
-      "durability": 141,
-      "criticalChance": 5
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "axe",
-    "equipable": true
-  },
-  "bastille-crossbow": {
-    "name": "Bastille Crossbow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 22,
-      "durability": 119,
-      "range": 5,
-      "accuracy": 81
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "cloud-breaker": {
-    "name": "Cloud Breaker",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "crystal-crossbow": {
-    "name": "Crystal Crossbow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 6,
-      "durability": 138,
-      "range": 5,
-      "accuracy": 88
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "devils-breath": {
-    "name": "Devils Breath",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "gentle-giant": {
-    "name": "Gentle Giant",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "horned-crossbow": {
-    "name": "Horned Crossbow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 19,
-      "durability": 124,
-      "range": 5,
-      "accuracy": 81
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "iron-crossbow": {
-    "name": "Iron Crossbow",
-    "description": "A common weapon (bow).",
-    "stats": {
-      "attack": 23,
-      "durability": 62,
-      "range": 9,
-      "accuracy": 80
-    },
-    "rarity": "Common",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "nikolas-defender": {
-    "name": "Nikolas Defender",
-    "description": "A uncommon weapon (sword).",
-    "stats": {
-      "attack": 14,
-      "durability": 105,
-      "slashDamage": 9
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "ogres-march": {
-    "name": "Ogres March",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "rising-sun": {
-    "name": "Rising Sun",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "royal-defender": {
-    "name": "Royal Defender",
-    "description": "A legendary weapon (sword).",
-    "stats": {
-      "attack": 17,
-      "durability": 109,
-      "slashDamage": 8
-    },
-    "rarity": "Legendary",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "scarlet-crossbow": {
-    "name": "Scarlet Crossbow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 17,
-      "durability": 79,
-      "range": 8,
-      "accuracy": 88
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "venom-spitter": {
-    "name": "Venom Spitter",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "web-weaver": {
-    "name": "Web Weaver",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "amber-bow": {
-    "name": "Amber Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 7,
-      "durability": 123,
-      "range": 6,
-      "accuracy": 85
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "antler-bow": {
-    "name": "Antler Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 22,
-      "durability": 72,
-      "range": 6,
-      "accuracy": 82
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "arctic-bow": {
-    "name": "Arctic Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 19,
-      "durability": 144,
-      "range": 6,
-      "accuracy": 83
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "atlus-bow": {
-    "name": "Atlus Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 20,
-      "durability": 137,
-      "range": 8,
-      "accuracy": 86
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "hunters-bow": {
-    "name": "Hunters Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 8,
-      "durability": 85,
-      "range": 7,
-      "accuracy": 80
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "jesters-bow": {
-    "name": "Jesters Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 24,
-      "durability": 147,
-      "range": 7,
-      "accuracy": 88
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "lightning-bow": {
-    "name": "Lightning Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 6,
-      "durability": 106,
-      "range": 6,
-      "accuracy": 89
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "magma-bow": {
-    "name": "Magma Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 23,
-      "durability": 92,
-      "range": 7,
-      "accuracy": 87
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "marksman-bow": {
-    "name": "Marksman Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 15,
-      "durability": 143,
-      "range": 9,
-      "accuracy": 80
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "mythril-bow": {
-    "name": "Mythril Bow",
-    "description": "A epic weapon (bow).",
-    "stats": {
-      "attack": 11,
-      "durability": 148,
-      "range": 8,
-      "accuracy": 83
-    },
-    "rarity": "Epic",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "padded-bow": {
-    "name": "Padded Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 12,
-      "durability": 84,
-      "range": 7,
-      "accuracy": 84
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "practice-bow": {
-    "name": "Practice Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 15,
-      "durability": 90,
-      "range": 8,
-      "accuracy": 88
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "precision-bow": {
-    "name": "Precision Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 8,
-      "durability": 101,
-      "range": 5,
-      "accuracy": 89
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "root-bow": {
-    "name": "Root Bow",
-    "description": "A uncommon material.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "material",
-    "consumable": false
-  },
-  "stealth-bow": {
-    "name": "Stealth Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 12,
-      "durability": 79,
-      "range": 6,
-      "accuracy": 83
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "thorn-bow": {
-    "name": "Thorn Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 21,
-      "durability": 65,
-      "range": 6,
-      "accuracy": 89
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "veridian-bow": {
-    "name": "Veridian Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 22,
-      "durability": 118,
-      "range": 8,
-      "accuracy": 83
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "vertex-bow": {
-    "name": "Vertex Bow",
-    "description": "A uncommon weapon (bow).",
-    "stats": {
-      "attack": 15,
-      "durability": 100,
-      "range": 7,
-      "accuracy": 86
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "bow",
-    "equipable": true
-  },
-  "mace": {
-    "name": "Mace",
-    "description": "A uncommon weapon (club).",
-    "stats": {
-      "attack": 16,
-      "durability": 134
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "club",
-    "equipable": true
-  },
-  "morning-star": {
-    "name": "Morning Star",
-    "description": "A uncommon weapon (club).",
-    "stats": {
-      "attack": 11,
-      "durability": 55
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "club",
-    "equipable": true
-  },
-  "spiked-club": {
-    "name": "Spiked Club",
-    "description": "A uncommon weapon (club).",
-    "stats": {
-      "attack": 13,
-      "durability": 93
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "club",
-    "equipable": true
-  },
-  "mjolnir": {
-    "name": "Mjolnir",
-    "description": "A legendary weapon (hammer).",
-    "stats": {
-      "attack": 9,
-      "durability": 125
-    },
-    "rarity": "Legendary",
-    "type": "weapon",
-    "subtype": "hammer",
-    "equipable": true
-  },
-  "scythe": {
-    "name": "Scythe",
-    "description": "A uncommon weapon (spear).",
-    "stats": {
-      "attack": 21,
-      "durability": 102
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "spear",
-    "equipable": true
-  },
-  "wood-spear": {
-    "name": "Wood Spear",
-    "description": "A common material.",
-    "stats": {},
-    "rarity": "Common",
-    "type": "material",
-    "consumable": false
-  },
-  "healing-rod": {
-    "name": "Healing Rod",
-    "description": "A uncommon weapon (staff).",
-    "stats": {
-      "attack": 21,
-      "durability": 54,
-      "magicPower": 22,
-      "manaBoost": 19
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "staff",
-    "equipable": true
-  },
-  "oak-staff": {
-    "name": "Oak Staff",
-    "description": "A uncommon weapon (staff).",
-    "stats": {
-      "attack": 8,
-      "durability": 63,
-      "magicPower": 11,
-      "manaBoost": 28
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "staff",
-    "equipable": true
-  },
-  "sorcerer-staff": {
-    "name": "Sorcerer Staff",
-    "description": "A uncommon weapon (staff).",
-    "stats": {
-      "attack": 21,
-      "durability": 87,
-      "magicPower": 11,
-      "manaBoost": 23
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "staff",
-    "equipable": true
-  },
-  "life-rod": {
-    "name": "Life Rod",
-    "description": "A uncommon weapon (staff).",
-    "stats": {
-      "attack": 20,
-      "durability": 119,
-      "magicPower": 16,
-      "manaBoost": 12
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "staff",
-    "equipable": true
-  },
-  "fate-sealer": {
-    "name": "Fate Sealer",
-    "description": "A uncommon misc.",
-    "stats": {},
-    "rarity": "Uncommon",
-    "type": "misc",
-    "consumable": false
-  },
-  "apocalypse": {
-    "name": "Apocalypse",
-    "description": "A legendary weapon (sword).",
-    "stats": {
-      "attack": 16,
-      "durability": 59,
-      "slashDamage": 10
-    },
-    "rarity": "Legendary",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "bastard-sword": {
-    "name": "Bastard Sword",
-    "description": "A uncommon weapon (club).",
-    "stats": {
-      "attack": 20,
-      "durability": 122
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "club",
-    "equipable": true
-  },
-  "buster-sword": {
-    "name": "Buster Sword",
-    "description": "A uncommon weapon (sword).",
-    "stats": {
-      "attack": 18,
-      "durability": 65,
-      "slashDamage": 12
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "chaos-blade": {
-    "name": "Chaos Blade",
-    "description": "A uncommon weapon (sword).",
-    "stats": {
-      "attack": 18,
-      "durability": 89,
-      "slashDamage": 6
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "defender": {
-    "name": "Defender",
-    "description": "A uncommon weapon (sword).",
-    "stats": {
-      "attack": 23,
-      "durability": 143,
-      "slashDamage": 7
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "durendal": {
-    "name": "Durendal",
-    "description": "A uncommon weapon (sword).",
-    "stats": {
-      "attack": 8,
-      "durability": 131,
-      "slashDamage": 5
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "excalibur": {
-    "name": "Excalibur",
-    "description": "A legendary weapon (sword).",
-    "stats": {
-      "attack": 9,
-      "durability": 82,
-      "slashDamage": 13
-    },
-    "rarity": "Legendary",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "grand-sword": {
-    "name": "Grand Sword",
-    "description": "A uncommon weapon (sword).",
-    "stats": {
-      "attack": 21,
-      "durability": 145,
-      "slashDamage": 13
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "iron-sword": {
-    "name": "Iron Sword",
-    "description": "A common weapon (sword).",
-    "stats": {
-      "attack": 5,
-      "durability": 94,
-      "slashDamage": 13
-    },
-    "rarity": "Common",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "long-sword": {
-    "name": "Long Sword",
-    "description": "A uncommon weapon (sword).",
-    "stats": {
-      "attack": 9,
-      "durability": 93,
-      "slashDamage": 7
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "nightmare": {
-    "name": "Nightmare",
-    "description": "A uncommon weapon (sword).",
-    "stats": {
-      "attack": 9,
-      "durability": 124,
-      "slashDamage": 7
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "ragnarok": {
-    "name": "Ragnarok",
-    "description": "A legendary weapon (sword).",
-    "stats": {
-      "attack": 15,
-      "durability": 102,
-      "slashDamage": 8
-    },
-    "rarity": "Legendary",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "rune-blade": {
-    "name": "Rune Blade",
-    "description": "A uncommon weapon (sword).",
-    "stats": {
-      "attack": 13,
-      "durability": 112,
-      "slashDamage": 5
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "save-the-king": {
-    "name": "Save The King",
-    "description": "A legendary weapon (sword).",
-    "stats": {
-      "attack": 11,
-      "durability": 77,
-      "slashDamage": 14
-    },
-    "rarity": "Legendary",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "save-the-queen": {
-    "name": "Save The Queen",
-    "description": "A legendary weapon (sword).",
-    "stats": {
-      "attack": 16,
-      "durability": 127,
-      "slashDamage": 12
-    },
-    "rarity": "Legendary",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  },
-  "short-sword": {
-    "name": "Short Sword",
-    "description": "A uncommon weapon (sword).",
-    "stats": {
-      "attack": 14,
-      "durability": 60,
-      "slashDamage": 10
-    },
-    "rarity": "Uncommon",
-    "type": "weapon",
-    "subtype": "sword",
-    "equipable": true
-  }
+	"amethyst-amulet": {
+		"name": "Amethyst Amulet",
+		"description": "A epic accessory (amulet).",
+		"stats": {
+			"magicPower": 8,
+			"elementalResistance": 17
+		},
+		"type": "accessory",
+		"subtype": "amulet",
+		"equipable": true
+	},
+	"emerald-amulet": {
+		"name": "Emerald Amulet",
+		"description": "A epic accessory (amulet).",
+		"stats": {
+			"magicPower": 8,
+			"elementalResistance": 9
+		},
+		"type": "accessory",
+		"subtype": "amulet",
+		"equipable": true
+	},
+	"garnet-amulet": {
+		"name": "Garnet Amulet",
+		"description": "A epic accessory (amulet).",
+		"stats": {
+			"magicPower": 14,
+			"elementalResistance": 14
+		},
+		"type": "accessory",
+		"subtype": "amulet",
+		"equipable": true
+	},
+	"jet-amulet": {
+		"name": "Jet Amulet",
+		"description": "A uncommon accessory (amulet).",
+		"stats": {
+			"magicPower": 10,
+			"elementalResistance": 17
+		},
+		"type": "accessory",
+		"subtype": "amulet",
+		"equipable": true
+	},
+	"opal-amulet": {
+		"name": "Opal Amulet",
+		"description": "A epic accessory (amulet).",
+		"stats": {
+			"magicPower": 8,
+			"elementalResistance": 9
+		},
+		"type": "accessory",
+		"subtype": "amulet",
+		"equipable": true
+	},
+	"royal-amethyst-amulet": {
+		"name": "Royal Amethyst Amulet",
+		"description": "A legendary accessory (amulet).",
+		"stats": {
+			"magicPower": 8,
+			"elementalResistance": 10
+		},
+		"type": "accessory",
+		"subtype": "amulet",
+		"equipable": true
+	},
+	"royal-emerald-amulet": {
+		"name": "Royal Emerald Amulet",
+		"description": "A legendary accessory (amulet).",
+		"stats": {
+			"magicPower": 12,
+			"elementalResistance": 11
+		},
+		"type": "accessory",
+		"subtype": "amulet",
+		"equipable": true
+	},
+	"royal-garnet-amulet": {
+		"name": "Royal Garnet Amulet",
+		"description": "A legendary accessory (amulet).",
+		"stats": {
+			"magicPower": 12,
+			"elementalResistance": 15
+		},
+		"type": "accessory",
+		"subtype": "amulet",
+		"equipable": true
+	},
+	"royal-jet-amulet": {
+		"name": "Royal Jet Amulet",
+		"description": "A legendary accessory (amulet).",
+		"stats": {
+			"magicPower": 12,
+			"elementalResistance": 13
+		},
+		"type": "accessory",
+		"subtype": "amulet",
+		"equipable": true
+	},
+	"royal-opal-amulet": {
+		"name": "Royal Opal Amulet",
+		"description": "A legendary accessory (amulet).",
+		"stats": {
+			"magicPower": 9,
+			"elementalResistance": 8
+		},
+		"type": "accessory",
+		"subtype": "amulet",
+		"equipable": true
+	},
+	"royal-ruby-amulet": {
+		"name": "Royal Ruby Amulet",
+		"description": "A legendary accessory (amulet).",
+		"stats": {
+			"magicPower": 7,
+			"elementalResistance": 15
+		},
+		"type": "accessory",
+		"subtype": "amulet",
+		"equipable": true
+	},
+	"ruby-amulet": {
+		"name": "Ruby Amulet",
+		"description": "A epic accessory (amulet).",
+		"stats": {
+			"magicPower": 12,
+			"elementalResistance": 5
+		},
+		"type": "accessory",
+		"subtype": "amulet",
+		"equipable": true
+	},
+	"amber-desire-charm": {
+		"name": "Amber Desire Charm",
+		"description": "A uncommon accessory (charm).",
+		"stats": {
+			"luck": 5,
+			"charisma": 6
+		},
+		"type": "accessory",
+		"subtype": "charm",
+		"equipable": true
+	},
+	"blood-heart-charm": {
+		"name": "Blood Heart Charm",
+		"description": "A uncommon accessory (charm).",
+		"stats": {
+			"luck": 13,
+			"charisma": 6
+		},
+		"type": "accessory",
+		"subtype": "charm",
+		"equipable": true
+	},
+	"bryteroot-charm": {
+		"name": "Bryteroot Charm",
+		"description": "A uncommon accessory (charm).",
+		"stats": {
+			"luck": 11,
+			"charisma": 8
+		},
+		"type": "accessory",
+		"subtype": "charm",
+		"equipable": true
+	},
+	"chaos-charm": {
+		"name": "Chaos Charm",
+		"description": "A uncommon accessory (charm).",
+		"stats": {
+			"luck": 9,
+			"charisma": 10
+		},
+		"type": "accessory",
+		"subtype": "charm",
+		"equipable": true
+	},
+	"crimson-spade-charm": {
+		"name": "Crimson Spade Charm",
+		"description": "A uncommon accessory (charm).",
+		"stats": {
+			"luck": 10,
+			"charisma": 4
+		},
+		"type": "accessory",
+		"subtype": "charm",
+		"equipable": true
+	},
+	"dark-essence-charm": {
+		"name": "Dark Essence Charm",
+		"description": "A uncommon accessory (charm).",
+		"stats": {
+			"luck": 6,
+			"charisma": 6
+		},
+		"type": "accessory",
+		"subtype": "charm",
+		"equipable": true
+	},
+	"echo-screen-charm": {
+		"name": "Echo Screen Charm",
+		"description": "A uncommon accessory (charm).",
+		"stats": {
+			"luck": 8,
+			"charisma": 8
+		},
+		"type": "accessory",
+		"subtype": "charm",
+		"equipable": true
+	},
+	"hypnotist-charm": {
+		"name": "Hypnotist Charm",
+		"description": "A uncommon accessory (charm).",
+		"stats": {
+			"luck": 10,
+			"charisma": 3
+		},
+		"type": "accessory",
+		"subtype": "charm",
+		"equipable": true
+	},
+	"savior-charm": {
+		"name": "Savior Charm",
+		"description": "A uncommon accessory (charm).",
+		"stats": {
+			"luck": 7,
+			"charisma": 3
+		},
+		"type": "accessory",
+		"subtype": "charm",
+		"equipable": true
+	},
+	"spiderfly-charm": {
+		"name": "Spiderfly Charm",
+		"description": "A uncommon accessory (charm).",
+		"stats": {
+			"luck": 12,
+			"charisma": 5
+		},
+		"type": "accessory",
+		"subtype": "charm",
+		"equipable": true
+	},
+	"terrestrial-charm": {
+		"name": "Terrestrial Charm",
+		"description": "A uncommon accessory (charm).",
+		"stats": {
+			"luck": 7,
+			"charisma": 4
+		},
+		"type": "accessory",
+		"subtype": "charm",
+		"equipable": true
+	},
+	"throwing-dice-charm": {
+		"name": "Throwing Dice Charm",
+		"description": "A uncommon accessory (charm).",
+		"stats": {
+			"luck": 6,
+			"charisma": 8
+		},
+		"type": "accessory",
+		"subtype": "charm",
+		"equipable": true
+	},
+	"trinity-charm": {
+		"name": "Trinity Charm",
+		"description": "A uncommon accessory (charm).",
+		"stats": {
+			"luck": 6,
+			"charisma": 4
+		},
+		"type": "accessory",
+		"subtype": "charm",
+		"equipable": true
+	},
+	"ashen-bone-ring": {
+		"name": "Ashen Bone Ring",
+		"description": "A uncommon accessory (ring).",
+		"stats": {
+			"magicResistance": 7
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"carbon-ring": {
+		"name": "Carbon Ring",
+		"description": "A uncommon accessory (ring).",
+		"stats": {
+			"magicResistance": 13
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"coal-ring": {
+		"name": "Coal Ring",
+		"description": "A uncommon accessory (ring).",
+		"stats": {
+			"magicResistance": 8
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"cracked-platinum-ring": {
+		"name": "Cracked Platinum Ring",
+		"description": "A uncommon accessory (ring).",
+		"stats": {
+			"magicResistance": 6
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"gold-ring": {
+		"name": "Gold Ring",
+		"description": "A rare accessory (ring).",
+		"stats": {
+			"magicResistance": 8
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"hp-ring": {
+		"name": "Hp Ring",
+		"description": "A uncommon accessory (ring).",
+		"stats": {
+			"healthBoost": 18
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"jet-ring": {
+		"name": "Jet Ring",
+		"description": "A uncommon accessory (ring).",
+		"stats": {
+			"magicResistance": 7
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"mahogany-ring": {
+		"name": "Mahogany Ring",
+		"description": "A uncommon accessory (ring).",
+		"stats": {
+			"magicResistance": 11
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"mp-ring": {
+		"name": "Mp Ring",
+		"description": "A uncommon accessory (ring).",
+		"stats": {
+			"manaBoost": 14
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"royal-emerald-ring": {
+		"name": "Royal Emerald Ring",
+		"description": "A legendary accessory (ring).",
+		"stats": {
+			"magicResistance": 10
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"royal-hp-ring": {
+		"name": "Royal Hp Ring",
+		"description": "A legendary accessory (ring).",
+		"stats": {
+			"healthBoost": 16
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"royal-jet-ring": {
+		"name": "Royal Jet Ring",
+		"description": "A legendary accessory (ring).",
+		"stats": {
+			"magicResistance": 9
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"royal-mp-ring": {
+		"name": "Royal Mp Ring",
+		"description": "A legendary accessory (ring).",
+		"stats": {
+			"manaBoost": 26
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"royal-ruby-ring": {
+		"name": "Royal Ruby Ring",
+		"description": "A legendary accessory (ring).",
+		"stats": {
+			"magicResistance": 11
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"royal-xp-ring": {
+		"name": "Royal Xp Ring",
+		"description": "A legendary accessory (ring).",
+		"stats": {
+			"experienceBoost": 11
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"ruby-ring": {
+		"name": "Ruby Ring",
+		"description": "A epic accessory (ring).",
+		"stats": {
+			"magicResistance": 5
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"silver-ring": {
+		"name": "Silver Ring",
+		"description": "A rare accessory (ring).",
+		"stats": {
+			"magicResistance": 14
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"stamina-ring": {
+		"name": "Stamina Ring",
+		"description": "A uncommon accessory (ring).",
+		"stats": {
+			"magicResistance": 9
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"stone-protection-ring": {
+		"name": "Stone Protection Ring",
+		"description": "A uncommon accessory (ring).",
+		"stats": {
+			"magicResistance": 8
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"venom-ring": {
+		"name": "Venom Ring",
+		"description": "A uncommon accessory (ring).",
+		"stats": {
+			"magicResistance": 7
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"xp-ring": {
+		"name": "Xp Ring",
+		"description": "A uncommon accessory (ring).",
+		"stats": {
+			"experienceBoost": 5
+		},
+		"type": "accessory",
+		"subtype": "ring",
+		"equipable": true
+	},
+	"archers-gambeson": {
+		"name": "Archers Gambeson",
+		"description": "A uncommon misc.",
+		"stats": {},
+		"type": "misc",
+		"consumable": false
+	},
+	"berserker-cuirass": {
+		"name": "Berserker Cuirass",
+		"description": "A uncommon armor (body).",
+		"stats": {
+			"defense": 4,
+			"durability": 115,
+			"healthBoost": 9
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"brigadier-cuirass": {
+		"name": "Brigadier Cuirass",
+		"description": "A uncommon armor (body).",
+		"stats": {
+			"defense": 7,
+			"durability": 97,
+			"healthBoost": 19
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"captains-chestplate": {
+		"name": "Captains Chestplate",
+		"description": "A rare armor (head).",
+		"stats": {
+			"defense": 10,
+			"durability": 52,
+			"perception": 4
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"cavalier-suit": {
+		"name": "Cavalier Suit",
+		"description": "A uncommon armor (body).",
+		"stats": {
+			"defense": 3,
+			"durability": 78,
+			"healthBoost": 5
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"colonels-mail": {
+		"name": "Colonels Mail",
+		"description": "A rare armor (body).",
+		"stats": {
+			"defense": 11,
+			"durability": 101,
+			"healthBoost": 19
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"combat-suit": {
+		"name": "Combat Suit",
+		"description": "A uncommon armor (body).",
+		"stats": {
+			"defense": 10,
+			"durability": 97,
+			"healthBoost": 16
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"gladiator-cuirass": {
+		"name": "Gladiator Cuirass",
+		"description": "A uncommon armor (body).",
+		"stats": {
+			"defense": 7,
+			"durability": 75,
+			"healthBoost": 16
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"gloom-cloak": {
+		"name": "Gloom Cloak",
+		"description": "A uncommon armor (body).",
+		"stats": {
+			"defense": 6,
+			"durability": 81,
+			"healthBoost": 19
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"leather-jacket": {
+		"name": "Leather Jacket",
+		"description": "A common armor (body).",
+		"stats": {
+			"defense": 11,
+			"durability": 42,
+			"healthBoost": 12
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"mage-cape": {
+		"name": "Mage Cape",
+		"description": "A uncommon armor (head).",
+		"stats": {
+			"defense": 8,
+			"durability": 94,
+			"perception": 2
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"nightshade-vest": {
+		"name": "Nightshade Vest",
+		"description": "A uncommon armor (body).",
+		"stats": {
+			"defense": 7,
+			"durability": 54,
+			"healthBoost": 8
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"paladin-breastplate": {
+		"name": "Paladin Breastplate",
+		"description": "A rare armor (body).",
+		"stats": {
+			"defense": 11,
+			"durability": 88,
+			"healthBoost": 13
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"scavenger-shirt": {
+		"name": "Scavenger Shirt",
+		"description": "A uncommon armor (body).",
+		"stats": {
+			"defense": 10,
+			"durability": 58,
+			"healthBoost": 11
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"temple-knight-cuirass": {
+		"name": "Temple Knight Cuirass",
+		"description": "A rare armor (body).",
+		"stats": {
+			"defense": 4,
+			"durability": 81,
+			"healthBoost": 16
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"yoshitsune-do": {
+		"name": "Yoshitsune Do",
+		"description": "A uncommon armor (body).",
+		"stats": {
+			"defense": 2,
+			"durability": 68,
+			"healthBoost": 12
+		},
+		"type": "armor",
+		"subtype": "body",
+		"equipable": true
+	},
+	"archers-boots": {
+		"name": "Archers Boots",
+		"description": "A uncommon armor (feet).",
+		"stats": {
+			"defense": 4,
+			"durability": 82,
+			"speed": 4
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"berserker-greaves": {
+		"name": "Berserker Greaves",
+		"description": "A uncommon armor (feet).",
+		"stats": {
+			"defense": 3,
+			"durability": 79,
+			"speed": 5
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"brigadier-shoes": {
+		"name": "Brigadier Shoes",
+		"description": "A uncommon armor (feet).",
+		"stats": {
+			"defense": 5,
+			"durability": 40,
+			"speed": 5
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"captains-greaves": {
+		"name": "Captains Greaves",
+		"description": "A rare armor (head).",
+		"stats": {
+			"defense": 3,
+			"durability": 54,
+			"perception": 1
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"colonels-leg-mail": {
+		"name": "Colonels Leg Mail",
+		"description": "A rare armor (body).",
+		"stats": {
+			"defense": 4,
+			"durability": 86,
+			"healthBoost": 17
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"combat-boots": {
+		"name": "Combat Boots",
+		"description": "A uncommon armor (feet).",
+		"stats": {
+			"defense": 10,
+			"durability": 99,
+			"speed": 4
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"fencers-boots": {
+		"name": "Fencers Boots",
+		"description": "A uncommon armor (feet).",
+		"stats": {
+			"defense": 3,
+			"durability": 97,
+			"speed": 3
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"gladiator-Greaves": {
+		"name": "Gladiator Greaves",
+		"description": "A uncommon armor (feet).",
+		"stats": {
+			"defense": 11,
+			"durability": 53,
+			"speed": 4
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"gloom-boots": {
+		"name": "Gloom Boots",
+		"description": "A uncommon armor (feet).",
+		"stats": {
+			"defense": 4,
+			"durability": 53,
+			"speed": 2
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"leather-boots": {
+		"name": "Leather Boots",
+		"description": "A common armor (feet).",
+		"stats": {
+			"defense": 3,
+			"durability": 109,
+			"speed": 1
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"mage-boots": {
+		"name": "Mage Boots",
+		"description": "A uncommon armor (feet).",
+		"stats": {
+			"defense": 9,
+			"durability": 42,
+			"speed": 1
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"nightshade-boots": {
+		"name": "Nightshade Boots",
+		"description": "A uncommon armor (feet).",
+		"stats": {
+			"defense": 3,
+			"durability": 88,
+			"speed": 3
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"paladin-boots": {
+		"name": "Paladin Boots",
+		"description": "A rare armor (feet).",
+		"stats": {
+			"defense": 3,
+			"durability": 43,
+			"speed": 3
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"scavenger-shoes": {
+		"name": "Scavenger Shoes",
+		"description": "A uncommon armor (feet).",
+		"stats": {
+			"defense": 6,
+			"durability": 94,
+			"speed": 3
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"temple-knight-boots": {
+		"name": "Temple Knight Boots",
+		"description": "A rare armor (feet).",
+		"stats": {
+			"defense": 9,
+			"durability": 114,
+			"speed": 2
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"yoshitsune-suneate": {
+		"name": "Yoshitsune Suneate",
+		"description": "A uncommon armor (feet).",
+		"stats": {
+			"defense": 6,
+			"durability": 69,
+			"speed": 5
+		},
+		"type": "armor",
+		"subtype": "feet",
+		"equipable": true
+	},
+	"archers-bracers": {
+		"name": "Archers Bracers",
+		"description": "A uncommon armor (hands).",
+		"stats": {
+			"defense": 2,
+			"durability": 87,
+			"dexterity": 3
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"berserker-gloves": {
+		"name": "Berserker Gloves",
+		"description": "A uncommon armor (hands).",
+		"stats": {
+			"defense": 6,
+			"durability": 109,
+			"dexterity": 3
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"brigadier-bracers": {
+		"name": "Brigadier Bracers",
+		"description": "A uncommon armor (hands).",
+		"stats": {
+			"defense": 7,
+			"durability": 101,
+			"dexterity": 3
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"captains-bracers": {
+		"name": "Captains Bracers",
+		"description": "A rare armor (head).",
+		"stats": {
+			"defense": 6,
+			"durability": 79,
+			"perception": 3
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"colonels-bracers": {
+		"name": "Colonels Bracers",
+		"description": "A rare armor (hands).",
+		"stats": {
+			"defense": 10,
+			"durability": 51,
+			"dexterity": 1
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"combat-gaunlets": {
+		"name": "Combat Gaunlets",
+		"description": "A uncommon misc.",
+		"stats": {},
+		"type": "armot",
+		"subtype": "hands",
+		"consumable": false,
+		"equipable": true
+	},
+	"fencers-sleeves": {
+		"name": "Fencers Sleeves",
+		"description": "A uncommon armor (hands).",
+		"stats": {
+			"defense": 7,
+			"durability": 77,
+			"dexterity": 4
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"gladiator-gloves": {
+		"name": "Gladiator Gloves",
+		"description": "A uncommon armor (hands).",
+		"stats": {
+			"defense": 5,
+			"durability": 62,
+			"dexterity": 1
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"gloom-gloves": {
+		"name": "Gloom Gloves",
+		"description": "A uncommon armor (hands).",
+		"stats": {
+			"defense": 6,
+			"durability": 58,
+			"dexterity": 5
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"leather-gloves": {
+		"name": "Leather Gloves",
+		"description": "A common armor (hands).",
+		"stats": {
+			"defense": 3,
+			"durability": 100,
+			"dexterity": 1
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"mage-gloves": {
+		"name": "Mage Gloves",
+		"description": "A uncommon armor (hands).",
+		"stats": {
+			"defense": 9,
+			"durability": 75,
+			"dexterity": 4
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"nightshade-gloves": {
+		"name": "Nightshade Gloves",
+		"description": "A uncommon armor (hands).",
+		"stats": {
+			"defense": 10,
+			"durability": 76,
+			"dexterity": 2
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"paladin-gloves": {
+		"name": "Paladin Gloves",
+		"description": "A rare armor (hands).",
+		"stats": {
+			"defense": 11,
+			"durability": 114,
+			"dexterity": 1
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"temple-knight-gloves": {
+		"name": "Temple Knight Gloves",
+		"description": "A rare armor (hands).",
+		"stats": {
+			"defense": 5,
+			"durability": 81,
+			"dexterity": 5
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"yoshitsune-kote": {
+		"name": "Yoshitsune Kote",
+		"description": "A uncommon armor (hands).",
+		"stats": {
+			"defense": 10,
+			"durability": 58,
+			"dexterity": 1
+		},
+		"type": "armor",
+		"subtype": "hands",
+		"equipable": true
+	},
+	"archers-hat": {
+		"name": "Archers Hat",
+		"description": "A uncommon armor (head).",
+		"stats": {
+			"defense": 11,
+			"durability": 106,
+			"perception": 4
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"bandana": {
+		"name": "Bandana",
+		"description": "A uncommon misc.",
+		"stats": {},
+		"type": "armor",
+		"subtype": "head",
+		"consumable": false
+	},
+	"berserker-helmet": {
+		"name": "Berserker Helmet",
+		"description": "A uncommon armor (head).",
+		"stats": {
+			"defense": 5,
+			"durability": 45,
+			"perception": 3
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"brigadier-helmet": {
+		"name": "Brigadier Helmet",
+		"description": "A uncommon armor (head).",
+		"stats": {
+			"defense": 3,
+			"durability": 85,
+			"perception": 4
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"captain-helmet": {
+		"name": "Captain Helmet",
+		"description": "A rare armor (head).",
+		"stats": {
+			"defense": 3,
+			"durability": 102,
+			"perception": 2
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"cavalier-hat": {
+		"name": "Cavalier Hat",
+		"description": "A uncommon armor (head).",
+		"stats": {
+			"defense": 7,
+			"durability": 76,
+			"perception": 1
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"colonels-helmet": {
+		"name": "Colonels Helmet",
+		"description": "A rare armor (head).",
+		"stats": {
+			"defense": 8,
+			"durability": 102,
+			"perception": 5
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"combat-hood": {
+		"name": "Combat Hood",
+		"description": "A uncommon armor (head).",
+		"stats": {
+			"defense": 2,
+			"durability": 51,
+			"perception": 2
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"gladiator-helmet": {
+		"name": "Gladiator Helmet",
+		"description": "A uncommon armor (head).",
+		"stats": {
+			"defense": 7,
+			"durability": 61,
+			"perception": 4
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"gloom-hood": {
+		"name": "Gloom Hood",
+		"description": "A uncommon armor (head).",
+		"stats": {
+			"defense": 4,
+			"durability": 65,
+			"perception": 5
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"leather-cap": {
+		"name": "Leather Cap",
+		"description": "A common armor (head).",
+		"stats": {
+			"defense": 2,
+			"durability": 70,
+			"perception": 1
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"mage-hat": {
+		"name": "Mage Hat",
+		"description": "A uncommon armor (head).",
+		"stats": {
+			"defense": 10,
+			"durability": 111,
+			"perception": 5
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"nightshade-cap": {
+		"name": "Nightshade Cap",
+		"description": "A uncommon armor (head).",
+		"stats": {
+			"defense": 5,
+			"durability": 40,
+			"perception": 4
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"paladin-helmet": {
+		"name": "Paladin Helmet",
+		"description": "A rare armor (head).",
+		"stats": {
+			"defense": 2,
+			"durability": 107,
+			"perception": 4
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"scavenger-cap": {
+		"name": "Scavenger Cap",
+		"description": "A uncommon armor (head).",
+		"stats": {
+			"defense": 7,
+			"durability": 100,
+			"perception": 5
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"temple-knight-helmet": {
+		"name": "Temple Knight Helmet",
+		"description": "A rare armor (head).",
+		"stats": {
+			"defense": 6,
+			"durability": 85,
+			"perception": 4
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"yoshitsune-kabuto": {
+		"name": "Yoshitsune Kabuto",
+		"description": "A uncommon armor (head).",
+		"stats": {
+			"defense": 8,
+			"durability": 98,
+			"perception": 2
+		},
+		"type": "armor",
+		"subtype": "head",
+		"equipable": true
+	},
+	"defender-shield": {
+		"name": "Defender Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 11,
+			"defense": 3,
+			"durability": 125
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"metal-shield": {
+		"name": "Metal Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 14,
+			"defense": 7,
+			"durability": 71
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"steel-shield": {
+		"name": "Steel Shield",
+		"description": "A common shield.",
+		"stats": {
+			"blockChance": 12,
+			"defense": 8,
+			"durability": 102
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"tower-shield": {
+		"name": "Tower Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 19,
+			"defense": 10,
+			"durability": 53
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"warrior-shield": {
+		"name": "Warrior Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 22,
+			"defense": 4,
+			"durability": 80
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"blade-leaf": {
+		"name": "Blade Leaf",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 13,
+			"healthRestore": 2
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"bore-stalk": {
+		"name": "Bore Stalk",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 10,
+			"healthRestore": 3
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"cherry-bulb": {
+		"name": "Cherry Bulb",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 14,
+			"healthRestore": 4
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"cotton-bush": {
+		"name": "Cotton Bush",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 18,
+			"healthRestore": 10
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"cotton-plant": {
+		"name": "Cotton Plant",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 6,
+			"healthRestore": 2
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"dream-sprout": {
+		"name": "Dream Sprout",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 13,
+			"healthRestore": 11
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"eel-grass": {
+		"name": "Eel Grass",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 5,
+			"healthRestore": 2
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"field-mushroom": {
+		"name": "Field Mushroom",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 10,
+			"healthRestore": 11
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"forest-mushroom": {
+		"name": "Forest Mushroom",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 18,
+			"healthRestore": 7
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"leaf": {
+		"name": "Leaf",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 7,
+			"healthRestore": 2
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"redbell": {
+		"name": "Redbell",
+		"description": "A uncommon misc.",
+		"stats": {},
+		"type": "misc",
+		"consumable": false
+	},
+	"trident-flower": {
+		"name": "Trident Flower",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 17,
+			"healthRestore": 7
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"trident-leaf": {
+		"name": "Trident Leaf",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 13,
+			"healthRestore": 4
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"wilt": {
+		"name": "Wilt",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 5,
+			"healthRestore": 6
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"worm": {
+		"name": "Worm",
+		"description": "A uncommon consumable (food).",
+		"stats": {
+			"nutrition": 19,
+			"healthRestore": 2
+		},
+		"type": "consumable",
+		"subtype": "food",
+		"consumable": true
+	},
+	"darkness-potion": {
+		"name": "Darkness Potion",
+		"description": "A uncommon consumable (potion).",
+		"stats": {
+			"effect": "Special effect",
+			"duration": 57
+		},
+		"type": "consumable",
+		"subtype": "potion",
+		"consumable": true
+	},
+	"endurance-potion": {
+		"name": "Endurance Potion",
+		"description": "A uncommon consumable (potion).",
+		"stats": {
+			"staminaRestore": 59
+		},
+		"type": "consumable",
+		"subtype": "potion",
+		"consumable": true
+	},
+	"health-potion": {
+		"name": "Health Potion",
+		"description": "A uncommon consumable (potion).",
+		"stats": {
+			"healing": 26
+		},
+		"type": "consumable",
+		"subtype": "potion",
+		"consumable": true
+	},
+	"life-potion": {
+		"name": "Life Potion",
+		"description": "A uncommon consumable (potion).",
+		"stats": {
+			"healing": 59
+		},
+		"type": "consumable",
+		"subtype": "potion",
+		"consumable": true
+	},
+	"mana-potion": {
+		"name": "Mana Potion",
+		"description": "A uncommon consumable (potion).",
+		"stats": {
+			"manaRestore": 62
+		},
+		"type": "consumable",
+		"subtype": "potion",
+		"consumable": true
+	},
+	"dark-potion": {
+		"name": "Dark Potion",
+		"description": "A uncommon consumable (potion).",
+		"stats": {
+			"effect": "Special effect",
+			"duration": 41
+		},
+		"type": "consumable",
+		"subtype": "potion",
+		"consumable": true
+	},
+	"exp-potion": {
+		"name": "Exp Potion",
+		"description": "A uncommon consumable (potion).",
+		"stats": {
+			"experienceBoost": 116
+		},
+		"type": "consumable",
+		"subtype": "potion",
+		"consumable": true
+	},
+	"magic-up-potion": {
+		"name": "Magic Up Potion",
+		"description": "A uncommon consumable (potion).",
+		"stats": {
+			"effect": "Special effect",
+			"duration": 43
+		},
+		"type": "consumable",
+		"subtype": "potion",
+		"consumable": true
+	},
+	"mystery-potion": {
+		"name": "Mystery Potion",
+		"description": "A uncommon consumable (potion).",
+		"stats": {
+			"effect": "Special effect",
+			"duration": 30
+		},
+		"type": "consumable",
+		"subtype": "potion",
+		"consumable": true
+	},
+	"paralysis-potion": {
+		"name": "Paralysis Potion",
+		"description": "A uncommon consumable (potion).",
+		"stats": {
+			"effect": "Special effect",
+			"duration": 69
+		},
+		"type": "consumable",
+		"subtype": "potion",
+		"consumable": true
+	},
+	"poison-potion": {
+		"name": "Poison Potion",
+		"description": "A uncommon consumable (potion).",
+		"stats": {
+			"effect": "Special effect",
+			"duration": 42
+		},
+		"type": "consumable",
+		"subtype": "potion",
+		"consumable": true
+	},
+	"silence-potion": {
+		"name": "Silence Potion",
+		"description": "A uncommon consumable (potion).",
+		"stats": {
+			"effect": "Special effect",
+			"duration": 69
+		},
+		"type": "consumable",
+		"subtype": "potion",
+		"consumable": true
+	},
+	"gold-coin": {
+		"name": "Gold Coin",
+		"description": "A rare currency.",
+		"stats": {},
+		"type": "currency",
+		"consumable": false
+	},
+	"diamond": {
+		"name": "Diamond",
+		"description": "A epic gem.",
+		"stats": {},
+		"type": "gem",
+		"consumable": false
+	},
+	"endurance-up-stone": {
+		"name": "Endurance Up Stone",
+		"description": "A uncommon gem.",
+		"stats": {},
+		"type": "gem",
+		"consumable": false
+	},
+	"exp-stone": {
+		"name": "Exp Stone",
+		"description": "A uncommon gem.",
+		"stats": {},
+		"type": "gem",
+		"consumable": false
+	},
+	"health-up-stone": {
+		"name": "Health Up Stone",
+		"description": "A uncommon gem.",
+		"stats": {},
+		"type": "gem",
+		"consumable": false
+	},
+	"level-up-stone": {
+		"name": "Level Up Stone",
+		"description": "A uncommon gem.",
+		"stats": {},
+		"type": "gem",
+		"consumable": false
+	},
+	"mana-up-stone": {
+		"name": "Mana Up Stone",
+		"description": "A uncommon gem.",
+		"stats": {},
+		"type": "gem",
+		"consumable": false
+	},
+	"asmunds-chambers-key": {
+		"name": "Asmunds Chambers Key",
+		"description": "A uncommon key.",
+		"stats": {},
+		"type": "key",
+		"consumable": false
+	},
+	"grand-graces-key": {
+		"name": "Grand Graces Key",
+		"description": "A uncommon key.",
+		"stats": {},
+		"type": "key",
+		"consumable": false
+	},
+	"marble-tablet": {
+		"name": "Marble Tablet",
+		"description": "A uncommon key.",
+		"stats": {},
+		"type": "key",
+		"consumable": false
+	},
+	"tetras-scroll": {
+		"name": "Tetras Scroll",
+		"description": "A uncommon key.",
+		"stats": {},
+		"type": "key",
+		"consumable": false
+	},
+	"vayas-key": {
+		"name": "Vayas Key",
+		"description": "A uncommon key.",
+		"stats": {},
+		"type": "key",
+		"consumable": false
+	},
+	"bone": {
+		"name": "Bone",
+		"description": "A uncommon material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"bronze-bar": {
+		"name": "Bronze Bar",
+		"description": "A uncommon material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"coal-bar": {
+		"name": "Coal Bar",
+		"description": "A uncommon material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"emerald-bar": {
+		"name": "Emerald Bar",
+		"description": "A epic material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"gold-mound": {
+		"name": "Gold Mound",
+		"description": "A rare material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"goldroot": {
+		"name": "Goldroot",
+		"description": "A rare material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"mythril-bar": {
+		"name": "Mythril Bar",
+		"description": "A epic material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"opal-bar": {
+		"name": "Opal Bar",
+		"description": "A epic material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"raw-bronze": {
+		"name": "Raw Bronze",
+		"description": "A uncommon material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"raw-coal": {
+		"name": "Raw Coal",
+		"description": "A uncommon material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"raw-diamond": {
+		"name": "Raw Diamond",
+		"description": "A epic gem.",
+		"stats": {},
+		"type": "gem",
+		"consumable": false
+	},
+	"raw-emerald": {
+		"name": "Raw Emerald",
+		"description": "A epic material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"raw-mythril": {
+		"name": "Raw Mythril",
+		"description": "A epic material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"raw-opal": {
+		"name": "Raw Opal",
+		"description": "A epic material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"silver-bar": {
+		"name": "Silver Bar",
+		"description": "A rare material.",
+		"stats": {},
+
+		"type": "material",
+		"consumable": false
+	},
+	"stone": {
+		"name": "Stone",
+		"description": "A uncommon gem.",
+		"stats": {},
+		"type": "gem",
+		"consumable": false
+	},
+	"wood": {
+		"name": "Wood",
+		"description": "A common material.",
+		"stats": {},
+
+		"type": "material",
+		"consumable": false
+	},
+	"blessed-shield": {
+		"name": "Blessed Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 13,
+			"defense": 5,
+			"durability": 106
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"bulb-shield": {
+		"name": "Bulb Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 19,
+			"defense": 10,
+			"durability": 80
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"devilroot-shield": {
+		"name": "Devilroot Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 18,
+			"defense": 9,
+			"durability": 122
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"firedrake-shield": {
+		"name": "Firedrake Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 25,
+			"defense": 10,
+			"durability": 45
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"glacier-shield": {
+		"name": "Glacier Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 11,
+			"defense": 8,
+			"durability": 121
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"holy-shield": {
+		"name": "Holy Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 24,
+			"defense": 7,
+			"durability": 105
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"kings-shield": {
+		"name": "Kings Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 24,
+			"defense": 3,
+			"durability": 108
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"knight-shield": {
+		"name": "Knight Shield",
+		"description": "A rare shield.",
+		"stats": {
+			"blockChance": 15,
+			"defense": 6,
+			"durability": 109
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"maneater-shield": {
+		"name": "Maneater Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 17,
+			"defense": 3,
+			"durability": 54
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"mantis-shield": {
+		"name": "Mantis Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 27,
+			"defense": 9,
+			"durability": 90
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"mecha-delta-shield": {
+		"name": "Mecha Delta Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 28,
+			"defense": 9,
+			"durability": 75
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"parry-shield": {
+		"name": "Parry Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 10,
+			"defense": 6,
+			"durability": 65
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"pillar-shield": {
+		"name": "Pillar Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 15,
+			"defense": 9,
+			"durability": 121
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"round-shield": {
+		"name": "Round Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 19,
+			"defense": 7,
+			"durability": 51
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"royal-shield": {
+		"name": "Royal Shield",
+		"description": "A legendary shield.",
+		"stats": {
+			"blockChance": 11,
+			"defense": 7,
+			"durability": 61
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"silent-griever-shield": {
+		"name": "Silent Griever Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 10,
+			"defense": 5,
+			"durability": 45
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"sun-shield": {
+		"name": "Sun Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 16,
+			"defense": 5,
+			"durability": 93
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"titan-fist-shield": {
+		"name": "Titan Fist Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 16,
+			"defense": 7,
+			"durability": 101
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"tourmaline-shield": {
+		"name": "Tourmaline Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 17,
+			"defense": 8,
+			"durability": 49
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"tree-shield": {
+		"name": "Tree Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 17,
+			"defense": 8,
+			"durability": 81
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"tribal-shield": {
+		"name": "Tribal Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 19,
+			"defense": 4,
+			"durability": 64
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"valiant-shield": {
+		"name": "Valiant Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 17,
+			"defense": 5,
+			"durability": 73
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"vengeance-shield": {
+		"name": "Vengeance Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 28,
+			"defense": 6,
+			"durability": 74
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"watcher-shield": {
+		"name": "Watcher Shield",
+		"description": "A uncommon shield.",
+		"stats": {
+			"blockChance": 17,
+			"defense": 9,
+			"durability": 42
+		},
+		"type": "shield",
+		"equipable": true
+	},
+	"hammer": {
+		"name": "Hammer",
+		"description": "A uncommon tool.",
+		"stats": {},
+		"type": "tool",
+		"equipable": true
+	},
+	"pickaxe": {
+		"name": "Pickaxe",
+		"description": "A uncommon tool.",
+		"stats": {},
+		"type": "tool",
+		"equipable": true
+	},
+	"rope": {
+		"name": "Rope",
+		"description": "A uncommon tool.",
+		"stats": {},
+
+		"type": "tool",
+		"equipable": true
+	},
+	"shovel": {
+		"name": "Shovel",
+		"description": "A uncommon tool.",
+		"stats": {},
+
+		"type": "tool",
+		"equipable": true
+	},
+	"batle-axe": {
+		"name": "Batle Axe",
+		"description": "A uncommon weapon (axe).",
+		"stats": {
+			"attack": 11,
+			"durability": 73,
+			"criticalChance": 9
+		},
+		"type": "weapon",
+		"subtype": "axe",
+		"equipable": true
+	},
+	"earthbreaker": {
+		"name": "Earthbreaker",
+		"description": "A uncommon misc.",
+		"stats": {},
+
+		"type": "misc",
+		"consumable": false
+	},
+	"giant-axe": {
+		"name": "Giant Axe",
+		"description": "A uncommon weapon (axe).",
+		"stats": {
+			"attack": 17,
+			"durability": 78,
+			"criticalChance": 8
+		},
+		"type": "weapon",
+		"subtype": "axe",
+		"equipable": true
+	},
+	"great-axe": {
+		"name": "Great Axe",
+		"description": "A uncommon weapon (axe).",
+		"stats": {
+			"attack": 13,
+			"durability": 115,
+			"criticalChance": 13
+		},
+		"type": "weapon",
+		"subtype": "axe",
+		"equipable": true
+	},
+	"ogre-killer": {
+		"name": "Ogre Killer",
+		"description": "A uncommon misc.",
+		"stats": {},
+		"type": "misc",
+		"consumable": false
+	},
+	"rune-axe": {
+		"name": "Rune Axe",
+		"description": "A uncommon weapon (axe).",
+		"stats": {
+			"attack": 9,
+			"durability": 128,
+			"criticalChance": 5
+		},
+
+		"type": "weapon",
+		"subtype": "axe",
+		"equipable": true
+	},
+	"titans-axe": {
+		"name": "Titans Axe",
+		"description": "A uncommon weapon (axe).",
+		"stats": {
+			"attack": 23,
+			"durability": 141,
+			"criticalChance": 5
+		},
+
+		"type": "weapon",
+		"subtype": "axe",
+		"equipable": true
+	},
+	"bastille-crossbow": {
+		"name": "Bastille Crossbow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 22,
+			"durability": 119,
+			"range": 5,
+			"accuracy": 81
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"cloud-breaker": {
+		"name": "Cloud Breaker",
+		"description": "A uncommon misc.",
+		"stats": {},
+
+		"type": "misc",
+		"consumable": false
+	},
+	"crystal-crossbow": {
+		"name": "Crystal Crossbow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 6,
+			"durability": 138,
+			"range": 5,
+			"accuracy": 88
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"devils-breath": {
+		"name": "Devils Breath",
+		"description": "A uncommon misc.",
+		"stats": {},
+		"type": "misc",
+		"consumable": false
+	},
+	"gentle-giant": {
+		"name": "Gentle Giant",
+		"description": "A uncommon misc.",
+		"stats": {},
+		"type": "misc",
+		"consumable": false
+	},
+	"horned-crossbow": {
+		"name": "Horned Crossbow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 19,
+			"durability": 124,
+			"range": 5,
+			"accuracy": 81
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"iron-crossbow": {
+		"name": "Iron Crossbow",
+		"description": "A common weapon (bow).",
+		"stats": {
+			"attack": 23,
+			"durability": 62,
+			"range": 9,
+			"accuracy": 80
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"nikolas-defender": {
+		"name": "Nikolas Defender",
+		"description": "A uncommon weapon (sword).",
+		"stats": {
+			"attack": 14,
+			"durability": 105,
+			"slashDamage": 9
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"ogres-march": {
+		"name": "Ogres March",
+		"description": "A uncommon misc.",
+		"stats": {},
+		"type": "misc",
+		"consumable": false
+	},
+	"rising-sun": {
+		"name": "Rising Sun",
+		"description": "A uncommon misc.",
+		"stats": {},
+		"type": "misc",
+		"consumable": false
+	},
+	"royal-defender": {
+		"name": "Royal Defender",
+		"description": "A legendary weapon (sword).",
+		"stats": {
+			"attack": 17,
+			"durability": 109,
+			"slashDamage": 8
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"scarlet-crossbow": {
+		"name": "Scarlet Crossbow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 17,
+			"durability": 79,
+			"range": 8,
+			"accuracy": 88
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"venom-spitter": {
+		"name": "Venom Spitter",
+		"description": "A uncommon misc.",
+		"stats": {},
+		"type": "misc",
+		"consumable": false
+	},
+	"web-weaver": {
+		"name": "Web Weaver",
+		"description": "A uncommon misc.",
+		"stats": {},
+		"type": "misc",
+		"consumable": false
+	},
+	"amber-bow": {
+		"name": "Amber Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 7,
+			"durability": 123,
+			"range": 6,
+			"accuracy": 85
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"antler-bow": {
+		"name": "Antler Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 22,
+			"durability": 72,
+			"range": 6,
+			"accuracy": 82
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"arctic-bow": {
+		"name": "Arctic Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 19,
+			"durability": 144,
+			"range": 6,
+			"accuracy": 83
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"atlus-bow": {
+		"name": "Atlus Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 20,
+			"durability": 137,
+			"range": 8,
+			"accuracy": 86
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"hunters-bow": {
+		"name": "Hunters Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 8,
+			"durability": 85,
+			"range": 7,
+			"accuracy": 80
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"jesters-bow": {
+		"name": "Jesters Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 24,
+			"durability": 147,
+			"range": 7,
+			"accuracy": 88
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"lightning-bow": {
+		"name": "Lightning Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 6,
+			"durability": 106,
+			"range": 6,
+			"accuracy": 89
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"magma-bow": {
+		"name": "Magma Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 23,
+			"durability": 92,
+			"range": 7,
+			"accuracy": 87
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"marksman-bow": {
+		"name": "Marksman Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 15,
+			"durability": 143,
+			"range": 9,
+			"accuracy": 80
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"mythril-bow": {
+		"name": "Mythril Bow",
+		"description": "A epic weapon (bow).",
+		"stats": {
+			"attack": 11,
+			"durability": 148,
+			"range": 8,
+			"accuracy": 83
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"padded-bow": {
+		"name": "Padded Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 12,
+			"durability": 84,
+			"range": 7,
+			"accuracy": 84
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"practice-bow": {
+		"name": "Practice Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 15,
+			"durability": 90,
+			"range": 8,
+			"accuracy": 88
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"precision-bow": {
+		"name": "Precision Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 8,
+			"durability": 101,
+			"range": 5,
+			"accuracy": 89
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"root-bow": {
+		"name": "Root Bow",
+		"description": "A uncommon material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"stealth-bow": {
+		"name": "Stealth Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 12,
+			"durability": 79,
+			"range": 6,
+			"accuracy": 83
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"thorn-bow": {
+		"name": "Thorn Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 21,
+			"durability": 65,
+			"range": 6,
+			"accuracy": 89
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"veridian-bow": {
+		"name": "Veridian Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 22,
+			"durability": 118,
+			"range": 8,
+			"accuracy": 83
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"vertex-bow": {
+		"name": "Vertex Bow",
+		"description": "A uncommon weapon (bow).",
+		"stats": {
+			"attack": 15,
+			"durability": 100,
+			"range": 7,
+			"accuracy": 86
+		},
+		"type": "weapon",
+		"subtype": "bow",
+		"equipable": true
+	},
+	"mace": {
+		"name": "Mace",
+		"description": "A uncommon weapon (club).",
+		"stats": {
+			"attack": 16,
+			"durability": 134
+		},
+		"type": "weapon",
+		"subtype": "club",
+		"equipable": true
+	},
+	"morning-star": {
+		"name": "Morning Star",
+		"description": "A uncommon weapon (club).",
+		"stats": {
+			"attack": 11,
+			"durability": 55
+		},
+		"type": "weapon",
+		"subtype": "club",
+		"equipable": true
+	},
+	"spiked-club": {
+		"name": "Spiked Club",
+		"description": "A uncommon weapon (club).",
+		"stats": {
+			"attack": 13,
+			"durability": 93
+		},
+		"type": "weapon",
+		"subtype": "club",
+		"equipable": true
+	},
+	"mjolnir": {
+		"name": "Mjolnir",
+		"description": "A legendary weapon (hammer).",
+		"stats": {
+			"attack": 9,
+			"durability": 125
+		},
+		"type": "weapon",
+		"subtype": "hammer",
+		"equipable": true
+	},
+	"scythe": {
+		"name": "Scythe",
+		"description": "A uncommon weapon (spear).",
+		"stats": {
+			"attack": 21,
+			"durability": 102
+		},
+		"type": "weapon",
+		"subtype": "spear",
+		"equipable": true
+	},
+	"wood-spear": {
+		"name": "Wood Spear",
+		"description": "A common material.",
+		"stats": {},
+		"type": "material",
+		"consumable": false
+	},
+	"healing-rod": {
+		"name": "Healing Rod",
+		"description": "A uncommon weapon (staff).",
+		"stats": {
+			"attack": 21,
+			"durability": 54,
+			"magicPower": 22,
+			"manaBoost": 19
+		},
+		"type": "weapon",
+		"subtype": "staff",
+		"equipable": true
+	},
+	"oak-staff": {
+		"name": "Oak Staff",
+		"description": "A uncommon weapon (staff).",
+		"stats": {
+			"attack": 8,
+			"durability": 63,
+			"magicPower": 11,
+			"manaBoost": 28
+		},
+		"type": "weapon",
+		"subtype": "staff",
+		"equipable": true
+	},
+	"sorcerer-staff": {
+		"name": "Sorcerer Staff",
+		"description": "A uncommon weapon (staff).",
+		"stats": {
+			"attack": 21,
+			"durability": 87,
+			"magicPower": 11,
+			"manaBoost": 23
+		},
+		"type": "weapon",
+		"subtype": "staff",
+		"equipable": true
+	},
+	"life-rod": {
+		"name": "Life Rod",
+		"description": "A uncommon weapon (staff).",
+		"stats": {
+			"attack": 20,
+			"durability": 119,
+			"magicPower": 16,
+			"manaBoost": 12
+		},
+		"type": "weapon",
+		"subtype": "staff",
+		"equipable": true
+	},
+	"fate-sealer": {
+		"name": "Fate Sealer",
+		"description": "A uncommon misc.",
+		"stats": {},
+		"type": "misc",
+		"consumable": false
+	},
+	"apocalypse": {
+		"name": "Apocalypse",
+		"description": "A legendary weapon (sword).",
+		"stats": {
+			"attack": 16,
+			"durability": 59,
+			"slashDamage": 10
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"bastard-sword": {
+		"name": "Bastard Sword",
+		"description": "A uncommon weapon (club).",
+		"stats": {
+			"attack": 20,
+			"durability": 122
+		},
+		"type": "weapon",
+		"subtype": "club",
+		"equipable": true
+	},
+	"buster-sword": {
+		"name": "Buster Sword",
+		"description": "A uncommon weapon (sword).",
+		"stats": {
+			"attack": 18,
+			"durability": 65,
+			"slashDamage": 12
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"chaos-blade": {
+		"name": "Chaos Blade",
+		"description": "A uncommon weapon (sword).",
+		"stats": {
+			"attack": 18,
+			"durability": 89,
+			"slashDamage": 6
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"defender": {
+		"name": "Defender",
+		"description": "A uncommon weapon (sword).",
+		"stats": {
+			"attack": 23,
+			"durability": 143,
+			"slashDamage": 7
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"durendal": {
+		"name": "Durendal",
+		"description": "A uncommon weapon (sword).",
+		"stats": {
+			"attack": 8,
+			"durability": 131,
+			"slashDamage": 5
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"excalibur": {
+		"name": "Excalibur",
+		"description": "A legendary weapon (sword).",
+		"stats": {
+			"attack": 9,
+			"durability": 82,
+			"slashDamage": 13
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"grand-sword": {
+		"name": "Grand Sword",
+		"description": "A uncommon weapon (sword).",
+		"stats": {
+			"attack": 21,
+			"durability": 145,
+			"slashDamage": 13
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"iron-sword": {
+		"name": "Iron Sword",
+		"description": "A common weapon (sword).",
+		"stats": {
+			"attack": 5,
+			"durability": 94,
+			"slashDamage": 13
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"long-sword": {
+		"name": "Long Sword",
+		"description": "A uncommon weapon (sword).",
+		"stats": {
+			"attack": 9,
+			"durability": 93,
+			"slashDamage": 7
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"nightmare": {
+		"name": "Nightmare",
+		"description": "A uncommon weapon (sword).",
+		"stats": {
+			"attack": 9,
+			"durability": 124,
+			"slashDamage": 7
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"ragnarok": {
+		"name": "Ragnarok",
+		"description": "A legendary weapon (sword).",
+		"stats": {
+			"attack": 15,
+			"durability": 102,
+			"slashDamage": 8
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"rune-blade": {
+		"name": "Rune Blade",
+		"description": "A uncommon weapon (sword).",
+		"stats": {
+			"attack": 13,
+			"durability": 112,
+			"slashDamage": 5
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"save-the-king": {
+		"name": "Save The King",
+		"description": "A legendary weapon (sword).",
+		"stats": {
+			"attack": 11,
+			"durability": 77,
+			"slashDamage": 14
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"save-the-queen": {
+		"name": "Save The Queen",
+		"description": "A legendary weapon (sword).",
+		"stats": {
+			"attack": 16,
+			"durability": 127,
+			"slashDamage": 12
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	},
+	"short-sword": {
+		"name": "Short Sword",
+		"description": "A uncommon weapon (sword).",
+		"stats": {
+			"attack": 14,
+			"durability": 60,
+			"slashDamage": 10
+		},
+		"type": "weapon",
+		"subtype": "sword",
+		"equipable": true
+	}
 }

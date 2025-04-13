@@ -1,0 +1,458 @@
+{
+  "blade-leaf": {
+    "name": "Blade Leaf",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 13,
+      "healthRestore": 2
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "bore-stalk": {
+    "name": "Bore Stalk",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 10,
+      "healthRestore": 3
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "cherry-bulb": {
+    "name": "Cherry Bulb",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 14,
+      "healthRestore": 4
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "cotton-bush": {
+    "name": "Cotton Bush",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 18,
+      "healthRestore": 10
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "cotton-plant": {
+    "name": "Cotton Plant",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 6,
+      "healthRestore": 2
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "dream-sprout": {
+    "name": "Dream Sprout",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 13,
+      "healthRestore": 11
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "eel-grass": {
+    "name": "Eel Grass",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 5,
+      "healthRestore": 2
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "field-mushroom": {
+    "name": "Field Mushroom",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 10,
+      "healthRestore": 11
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "forest-mushroom": {
+    "name": "Forest Mushroom",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 18,
+      "healthRestore": 7
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "leaf": {
+    "name": "Leaf",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 7,
+      "healthRestore": 2
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "trident-flower": {
+    "name": "Trident Flower",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 17,
+      "healthRestore": 7
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "trident-leaf": {
+    "name": "Trident Leaf",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 13,
+      "healthRestore": 4
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "wilt": {
+    "name": "Wilt",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 5,
+      "healthRestore": 6
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "worm": {
+    "name": "Worm",
+    "description": "A uncommon consumable (food).",
+    "stats": {
+      "nutrition": 19,
+      "healthRestore": 2
+    },
+    "type": "consumable",
+    "subtype": "food",
+    "consumable": true
+  },
+  "darkness-potion": {
+    "name": "Darkness Potion",
+    "description": "A uncommon consumable (potion).",
+    "stats": {
+      "effect": "Special effect",
+      "duration": 57
+    },
+    "type": "consumable",
+    "subtype": "potion",
+    "consumable": true
+  },
+  "endurance-potion": {
+    "name": "Endurance Potion",
+    "description": "A uncommon consumable (potion).",
+    "stats": {
+      "staminaRestore": 59
+    },
+    "type": "consumable",
+    "subtype": "potion",
+    "consumable": true
+  },
+  "health-potion": {
+    "name": "Health Potion",
+    "description": "A uncommon consumable (potion).",
+    "stats": {
+      "healing": 26
+    },
+    "type": "consumable",
+    "subtype": "potion",
+    "consumable": true
+  },
+  "life-potion": {
+    "name": "Life Potion",
+    "description": "A uncommon consumable (potion).",
+    "stats": {
+      "healing": 59
+    },
+    "type": "consumable",
+    "subtype": "potion",
+    "consumable": true
+  },
+  "mana-potion": {
+    "name": "Mana Potion",
+    "description": "A uncommon consumable (potion).",
+    "stats": {
+      "manaRestore": 62
+    },
+    "type": "consumable",
+    "subtype": "potion",
+    "consumable": true
+  },
+  "dark-potion": {
+    "name": "Dark Potion",
+    "description": "A uncommon consumable (potion).",
+    "stats": {
+      "effect": "Special effect",
+      "duration": 41
+    },
+    "type": "consumable",
+    "subtype": "potion",
+    "consumable": true
+  },
+  "exp-potion": {
+    "name": "Exp Potion",
+    "description": "A uncommon consumable (potion).",
+    "stats": {
+      "experienceBoost": 116
+    },
+    "type": "consumable",
+    "subtype": "potion",
+    "consumable": true
+  },
+  "magic-up-potion": {
+    "name": "Magic Up Potion",
+    "description": "A uncommon consumable (potion).",
+    "stats": {
+      "effect": "Special effect",
+      "duration": 43
+    },
+    "type": "consumable",
+    "subtype": "potion",
+    "consumable": true
+  },
+  "mystery-potion": {
+    "name": "Mystery Potion",
+    "description": "A uncommon consumable (potion).",
+    "stats": {
+      "effect": "Special effect",
+      "duration": 30
+    },
+    "type": "consumable",
+    "subtype": "potion",
+    "consumable": true
+  },
+  "paralysis-potion": {
+    "name": "Paralysis Potion",
+    "description": "A uncommon consumable (potion).",
+    "stats": {
+      "effect": "Special effect",
+      "duration": 69
+    },
+    "type": "consumable",
+    "subtype": "potion",
+    "consumable": true
+  },
+  "poison-potion": {
+    "name": "Poison Potion",
+    "description": "A uncommon consumable (potion).",
+    "stats": {
+      "effect": "Special effect",
+      "duration": 42
+    },
+    "type": "consumable",
+    "subtype": "potion",
+    "consumable": true
+  },
+  "silence-potion": {
+    "name": "Silence Potion",
+    "description": "A uncommon consumable (potion).",
+    "stats": {
+      "effect": "Special effect",
+      "duration": 69
+    },
+    "type": "consumable",
+    "subtype": "potion",
+    "consumable": true
+  },
+  "diamond": {
+    "name": "Diamond",
+    "description": "A epic gem.",
+    "stats": {},
+    "type": "gem",
+    "consumable": false
+  },
+  "endurance-up-stone": {
+    "name": "Endurance Up Stone",
+    "description": "A uncommon gem.",
+    "stats": {},
+    "type": "gem",
+    "consumable": false
+  },
+  "exp-stone": {
+    "name": "Exp Stone",
+    "description": "A uncommon gem.",
+    "stats": {},
+    "type": "gem",
+    "consumable": false
+  },
+  "health-up-stone": {
+    "name": "Health Up Stone",
+    "description": "A uncommon gem.",
+    "stats": {},
+    "type": "gem",
+    "consumable": false
+  },
+  "level-up-stone": {
+    "name": "Level Up Stone",
+    "description": "A uncommon gem.",
+    "stats": {},
+    "type": "gem",
+    "consumable": false
+  },
+  "mana-up-stone": {
+    "name": "Mana Up Stone",
+    "description": "A uncommon gem.",
+    "stats": {},
+    "type": "gem",
+    "consumable": false
+  },
+  "bone": {
+    "name": "Bone",
+    "description": "A uncommon material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "bronze-bar": {
+    "name": "Bronze Bar",
+    "description": "A uncommon material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "coal-bar": {
+    "name": "Coal Bar",
+    "description": "A uncommon material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "emerald-bar": {
+    "name": "Emerald Bar",
+    "description": "A epic material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "gold-mound": {
+    "name": "Gold Mound",
+    "description": "A rare material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "goldroot": {
+    "name": "Goldroot",
+    "description": "A rare material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "mythril-bar": {
+    "name": "Mythril Bar",
+    "description": "A epic material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "opal-bar": {
+    "name": "Opal Bar",
+    "description": "A epic material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "raw-bronze": {
+    "name": "Raw Bronze",
+    "description": "A uncommon material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "raw-coal": {
+    "name": "Raw Coal",
+    "description": "A uncommon material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "raw-diamond": {
+    "name": "Raw Diamond",
+    "description": "A epic gem.",
+    "stats": {},
+    "type": "gem",
+    "consumable": false
+  },
+  "raw-emerald": {
+    "name": "Raw Emerald",
+    "description": "A epic material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "raw-mythril": {
+    "name": "Raw Mythril",
+    "description": "A epic material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "raw-opal": {
+    "name": "Raw Opal",
+    "description": "A epic material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "silver-bar": {
+    "name": "Silver Bar",
+    "description": "A rare material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "stone": {
+    "name": "Stone",
+    "description": "A uncommon gem.",
+    "stats": {},
+    "type": "gem",
+    "consumable": false
+  },
+  "wood": {
+    "name": "Wood",
+    "description": "A common material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "root-bow": {
+    "name": "Root Bow",
+    "description": "A uncommon material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  },
+  "wood-spear": {
+    "name": "Wood Spear",
+    "description": "A common material.",
+    "stats": {},
+    "type": "material",
+    "consumable": false
+  }
+}

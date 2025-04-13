@@ -56,7 +56,7 @@ const categorizeItem = (itemId) => {
 	if (
 		itemId.includes('boots') ||
 		itemId.includes('shoes') ||
-		itemId.includes('grieves') ||
+		itemId.includes('greaves') ||
 		itemId.includes('suneate')
 	)
 		return { type: 'armor', subtype: 'feet', equipable: true };
