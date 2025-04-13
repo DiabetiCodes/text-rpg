@@ -1,56 +1,60 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+// import { TooltipContext } from '../../contexts/tooltipContext';
+import itemDescriptions from '../../data/itemDescriptions.json';
 
-const ItemTooltip = ({ children, itemId, position }) => {
-	const [showTooltip, setShowTooltip] = useState(false);
+const ItemTooltip = ({ itemId, position, children }) => {
+	const { activeTooltip, showTooltip, hideTooltip } =
+		useContext(TooltipContext);
+	const isVisible = activeTooltip === itemId;
 
-	// Only show tooltip if there's an actual item (not an empty slot)
-	const isEmptySlot =
-		!itemId ||
-		itemId === 'helmet-slot' ||
-		itemId === 'ring-slot' ||
-		itemId === 'weapon-slot' ||
-		itemId === 'armor-slot' ||
-		itemId === 'shield-slot' ||
-		itemId === 'shoes-slot';
-
-	if (isEmptySlot) {
-		return children;
+	// Skip rendering tooltip content for empty slots
+	if (!itemId || itemId.endsWith('-slot')) {
+		return <div onMouseEnter={() => hideTooltip()}>{children}</div>;
 	}
+
+	const item = itemDescriptions[itemId];
+	if (!item) {
+		return <div onMouseEnter={() => hideTooltip()}>{children}</div>;
+	}
+
+	// Determine tooltip position classes
+	const positionClasses = {
+		top: 'bottom-full mb-2',
+		bottom: 'top-full mt-2',
+		left: 'right-full mr-2',
+		right: 'left-full ml-2',
+	};
+
+	const positionClass = positionClasses[position] || positionClasses.bottom;
 
 	return (
 		<div
 			className='relative inline-block'
-			onMouseEnter={() => setShowTooltip(true)}
-			onMouseLeave={() => setShowTooltip(false)}>
+			onMouseEnter={() => showTooltip(itemId)}
+			onMouseLeave={() => hideTooltip()}>
 			{children}
 
-			{showTooltip && (
+			{isVisible && (
 				<div
-					className='absolute rpgui-container framed-golden z-50 p-2 w-[200px]'
-					style={{
-						[position === 'top'
-							? 'bottom'
-							: position === 'bottom'
-							? 'top'
-							: position === 'left'
-							? 'right'
-							: 'left']: '100%',
-						[position === 'left' || position === 'right' ? 'top' : 'left']:
-							'50%',
-						transform:
-							position === 'left' || position === 'right'
-								? 'translateY(-50%)'
-								: 'translateX(-50%)',
-						pointerEvents: 'none', // This makes the tooltip "transparent" to mouse events
-					}}>
-					<h4>
-						{itemId
-							.split('-')
-							.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-							.join(' ')}
-					</h4>
-					<p>Item description would go here.</p>
-					<p>Stats: +5 Strength, +3 Agility</p>
+					className={`absolute z-50 ${positionClass} w-64 p-2 rpgui-container framed`}>
+					<h4 className='text-lg font-bold'>{item.name}</h4>
+					<p className='text-sm'>{item.description}</p>
+
+					{item.stats && Object.keys(item.stats).length > 0 && (
+						<div className='mt-2'>
+							<h5 className='text-sm font-bold'>Stats:</h5>
+							<ul className='text-xs'>
+								{Object.entries(item.stats).map(([stat, value]) => (
+									<li key={stat}>
+										{stat
+											.replace(/([A-Z])/g, ' $1')
+											.replace(/^./, (str) => str.toUpperCase())}
+										: {value}
+									</li>
+								))}
+							</ul>
+						</div>
+					)}
 				</div>
 			)}
 		</div>

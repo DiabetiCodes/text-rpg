@@ -2,7 +2,9 @@ import './App.css';
 import Button from './components/Buttons/Button.jsx';
 import Checkbox from './components/Buttons/Checkbox.jsx';
 import RadioBtn from './components/Buttons/RadioBtn.jsx';
+import Bag from './components/CharacterMenu/Bag.jsx';
 import Equipment from './components/CharacterMenu/Equipment.jsx';
+import EquipmentManager from './components/CharacterMenu/EquipmentManager.jsx';
 import Inventory from './components/CharacterMenu/Inventory.jsx';
 import Dropdown from './components/Dropdown.jsx';
 import Frames from './components/Frames.jsx';
@@ -12,11 +14,29 @@ import List from './components/List.jsx';
 import Narration from './components/Narration.jsx';
 import ProgressBars from './components/ProgressBar.jsx';
 import Slider from './components/Slider.jsx';
+import useEquipmentSystem from './hooks/useEquipmentSystem.jsx';
 import './index.css';
+
+
 
 function App() {
   return (
 		<div className='rpgui-content'>
+			<Bag
+				itemSlot1='brigadier-cuirass'
+				itemSlot2='carbon-ring'
+				itemSlot3='blood-heart-charm'
+				itemSlot4='echo-screen-charm'
+				itemSlot5='amethyst-amulet'
+				itemSlot6='royal-ruby-amulet'
+				itemSlot7='darkness-potion'
+				itemSlot8='health-potion'
+				itemSlot9='cherry-bulb'
+				itemSlot10='bore-stalk'
+				itemSlot11='emerald-bar'
+				itemSlot12='raw-bronze'
+			/>
+			<EquipmentManager />
 			{/* <Button text='Button' variant='golden' /> */}
 			{/* <Checkbox label='Checkbox' /> */}
 			{/* <Dropdown

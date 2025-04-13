@@ -1,4 +1,5 @@
 import React from 'react';
+import itemDescriptions from '../../data/itemDescriptions.json';
 import ItemTooltip from '../Tooltips/ItemTooltip';
 
 const Inventory = ({
@@ -18,132 +19,224 @@ const Inventory = ({
 	itemSlot14,
 	itemSlot15,
 	itemSlot16,
+	onSlotClick,
 }) => {
+	// Function to check if an item is allowed in the inventory
+	const isAllowedInInventory = (itemId) => {
+		if (!itemId) return true; // Empty slots are allowed
+
+		const item = itemDescriptions[itemId];
+		if (!item) return false;
+
+		// Only allow weapons, armor, rings, amulets, and charms in the inventory
+		return (
+			item.type === 'weapon' ||
+			item.type === 'armor' ||
+			item.type === 'shield' ||
+			(item.type === 'accessory' &&
+				['ring', 'amulet', 'charm'].includes(item.subtype)) ||
+			(item.type === 'misc' && item.equipable)
+		);
+	};
+
+	// Validate all slots
+	const slots = [
+		itemSlot1,
+		itemSlot2,
+		itemSlot3,
+		itemSlot4,
+		itemSlot5,
+		itemSlot6,
+		itemSlot7,
+		itemSlot8,
+		itemSlot9,
+		itemSlot10,
+		itemSlot11,
+		itemSlot12,
+		itemSlot13,
+		itemSlot14,
+		itemSlot15,
+		itemSlot16,
+	];
+
+	// Filter out invalid items
+	const validatedSlots = slots.map((slot) =>
+		isAllowedInInventory(slot) ? slot : ''
+	);
+
 	return (
 		<div className='rpgui-container rpgui-draggable framed w-[350px] max-w-[350px]'>
 			<div className='text-center m-auto'>
 				<h1>Inventory</h1>
 				<hr />
 				{/* Top row - tooltips appear below */}
-				<ItemTooltip itemId={itemSlot1 || ''} position='bottom'>
+				<ItemTooltip itemId={validatedSlots[0] || ''} position='bottom'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot1 ? 'has-item' : ''
+							validatedSlots[0] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot1 || ''}></div>
+						data-item={validatedSlots[0] || ''}
+						onClick={() =>
+							validatedSlots[0] && onSlotClick && onSlotClick(0)
+						}></div>
 				</ItemTooltip>
-				<ItemTooltip itemId={itemSlot2 || ''} position='bottom'>
+				<ItemTooltip itemId={validatedSlots[1] || ''} position='bottom'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot2 ? 'has-item' : ''
+							validatedSlots[1] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot2 || ''}></div>
+						data-item={validatedSlots[1] || ''}
+						onClick={() =>
+							validatedSlots[1] && onSlotClick && onSlotClick(1)
+						}></div>
 				</ItemTooltip>
-				<ItemTooltip itemId={itemSlot3 || ''} position='bottom'>
+				<ItemTooltip itemId={validatedSlots[2] || ''} position='bottom'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot3 ? 'has-item' : ''
+							validatedSlots[2] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot3 || ''}></div>
+						data-item={validatedSlots[2] || ''}
+						onClick={() =>
+							validatedSlots[2] && onSlotClick && onSlotClick(2)
+						}></div>
 				</ItemTooltip>
-				<ItemTooltip itemId={itemSlot4 || ''} position='bottom'>
+				<ItemTooltip itemId={validatedSlots[3] || ''} position='bottom'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot4 ? 'has-item' : ''
+							validatedSlots[3] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot4 || ''}></div>
+						data-item={validatedSlots[3] || ''}
+						onClick={() =>
+							validatedSlots[3] && onSlotClick && onSlotClick(3)
+						}></div>
 				</ItemTooltip>
 				<br />
 				<br />
 				{/* Middle row - tooltips appear below */}
-				<ItemTooltip itemId={itemSlot5 || ''} position='bottom'>
+				<ItemTooltip itemId={validatedSlots[4] || ''} position='bottom'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot5 ? 'has-item' : ''
+							validatedSlots[4] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot5 || ''}></div>
+						data-item={validatedSlots[4] || ''}
+						onClick={() =>
+							validatedSlots[4] && onSlotClick && onSlotClick(4)
+						}></div>
 				</ItemTooltip>
-				<ItemTooltip itemId={itemSlot6 || ''} position='bottom'>
+				<ItemTooltip itemId={validatedSlots[5] || ''} position='bottom'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot6 ? 'has-item' : ''
+							validatedSlots[5] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot6 || ''}></div>
+						data-item={validatedSlots[5] || ''}
+						onClick={() =>
+							validatedSlots[5] && onSlotClick && onSlotClick(5)
+						}></div>
 				</ItemTooltip>
-				<ItemTooltip itemId={itemSlot7 || ''} position='bottom'>
+				<ItemTooltip itemId={validatedSlots[6] || ''} position='bottom'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot7 ? 'has-item' : ''
+							validatedSlots[6] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot7 || ''}></div>
+						data-item={validatedSlots[6] || ''}
+						onClick={() =>
+							validatedSlots[6] && onSlotClick && onSlotClick(6)
+						}></div>
 				</ItemTooltip>
-				<ItemTooltip itemId={itemSlot8 || ''} position='bottom'>
+				<ItemTooltip itemId={validatedSlots[7] || ''} position='bottom'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot8 ? 'has-item' : ''
+							validatedSlots[7] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot8 || ''}></div>
+						data-item={validatedSlots[7] || ''}
+						onClick={() =>
+							validatedSlots[7] && onSlotClick && onSlotClick(7)
+						}></div>
 				</ItemTooltip>
 				<br />
 				<br />
-				<ItemTooltip itemId={itemSlot9 || ''} position='top'>
+				<ItemTooltip itemId={validatedSlots[8] || ''} position='top'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot9 ? 'has-item' : ''
+							validatedSlots[8] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot9 || ''}></div>
+						data-item={validatedSlots[8] || ''}
+						onClick={() =>
+							validatedSlots[8] && onSlotClick && onSlotClick(8)
+						}></div>
 				</ItemTooltip>
-				<ItemTooltip itemId={itemSlot10 || ''} position='top'>
+				<ItemTooltip itemId={validatedSlots[9] || ''} position='top'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot10 ? 'has-item' : ''
+							validatedSlots[9] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot10 || ''}></div>
+						data-item={validatedSlots[9] || ''}
+						onClick={() =>
+							validatedSlots[9] && onSlotClick && onSlotClick(9)
+						}></div>
 				</ItemTooltip>
-				<ItemTooltip itemId={itemSlot11 || ''} position='top'>
+				<ItemTooltip itemId={validatedSlots[10] || ''} position='top'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot11 ? 'has-item' : ''
+							validatedSlots[10] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot11 || ''}></div>
+						data-item={validatedSlots[10] || ''}
+						onClick={() =>
+							validatedSlots[10] && onSlotClick && onSlotClick(10)
+						}></div>
 				</ItemTooltip>
-				<ItemTooltip itemId={itemSlot12 || ''} position='top'>
+				<ItemTooltip itemId={validatedSlots[11] || ''} position='top'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot12 ? 'has-item' : ''
+							validatedSlots[11] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot12 || ''}></div>
+						data-item={validatedSlots[11] || ''}
+						onClick={() =>
+							validatedSlots[11] && onSlotClick && onSlotClick(11)
+						}></div>
 				</ItemTooltip>
 				<br />
 				<br />
 				{/* Bottom row - tooltips appear above */}
-				<ItemTooltip itemId={itemSlot13 || ''} position='top'>
+				<ItemTooltip itemId={validatedSlots[12] || ''} position='top'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot13 ? 'has-item' : ''
+							validatedSlots[12] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot13 || ''}></div>
+						data-item={validatedSlots[12] || ''}
+						onClick={() =>
+							validatedSlots[12] && onSlotClick && onSlotClick(12)
+						}></div>
 				</ItemTooltip>
-				<ItemTooltip itemId={itemSlot14 || ''} position='top'>
+				<ItemTooltip itemId={validatedSlots[13] || ''} position='top'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot14 ? 'has-item' : ''
+							validatedSlots[13] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot14 || ''}></div>
+						data-item={validatedSlots[13] || ''}
+						onClick={() =>
+							validatedSlots[13] && onSlotClick && onSlotClick(13)
+						}></div>
 				</ItemTooltip>
-				<ItemTooltip itemId={itemSlot15 || ''} position='top'>
+				<ItemTooltip itemId={validatedSlots[14] || ''} position='top'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot15 ? 'has-item' : ''
+							validatedSlots[14] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot15 || ''}></div>
+						data-item={validatedSlots[14] || ''}
+						onClick={() =>
+							validatedSlots[14] && onSlotClick && onSlotClick(14)
+						}></div>
 				</ItemTooltip>
-				<ItemTooltip itemId={itemSlot16 || ''} position='top'>
+				<ItemTooltip itemId={validatedSlots[15] || ''} position='top'>
 					<div
 						className={`rpgui-icon rpgui-cursor-point empty-slot relative inline-block max-h-[80px] max-w-[80px] ${
-							itemSlot16 ? 'has-item' : ''
+							validatedSlots[15] ? 'has-item' : ''
 						}`}
-						data-item={itemSlot16 || ''}></div>
+						data-item={validatedSlots[15] || ''}
+						onClick={() =>
+							validatedSlots[15] && onSlotClick && onSlotClick(15)
+						}></div>
 				</ItemTooltip>
 			</div>
 		</div>
